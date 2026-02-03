@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_note_res">Neue Notiz</string>
+    <string name="new_folder_res">Neuer Ordner</string>
+    <string name="new_list_res">Neue Liste</string>
+</resources>
