@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="cancel_caps" tools:ignore="ButtonCase">CANCEL</string>
+
+    <!-- Lengths of Time -->
+    <string name="hour_1">1 hour</string>
+    <string name="hours_6">6 hours</string>
+    <string name="hours_24">24 hours</string>
+    <string name="hours_48">48 hours</string>
+    <string name="week_1">1 week</string>
+    <string name="never_reset">Never reset</string>
+
+    <!-- Password reset times -->
+    <plurals name="numberOfDaysApproximation">
+        <item quantity="one">approximately %d day</item>
+        <item quantity="other">approximately %d days</item>
+    </plurals>
+
+    <plurals name="numberOfHoursApproximation">
+        <item quantity="one">approximately %d hour</item>
+        <item quantity="other">approximately %d hours</item>
+    </plurals>
+
+    <plurals name="daysRemaining">
+        <item quantity="one">&lt;%d day</item>
+        <item quantity="other">&lt;%d days</item>
+    </plurals>
+
+    <plurals name="numberOfHours">
+        <item quantity="one">%d hour</item>
+        <item quantity="other">%d hours</item>
+    </plurals>
+
+    <plurals name="numberOfMinutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d minutes</item>
+    </plurals>
+
+    <plurals name="numberOfSeconds">
+        <item quantity="one">%d second</item>
+        <item quantity="other">%d seconds</item>
+    </plurals>
+
+    <!-- Custom Theme Resetting -->
+    <string name="reset_custom_theme_title">Reset Custom Theme</string>
+    <string name="reset_custom_theme_description">You may wish to reset your custom theme if you have accidentally set some colours which have made the app unreadable, or if you just want to start again!\n\nPlease note that this will reset ALL of the custom colours you have chosen for your theme.\n\nWould you like to reset your custom theme colours?</string>
+    <string name="reset_caps">RESET</string>
+
+    <!-- Password Entry  -->
+    <string name="password_never_resets_warning">Sorry, but you have set your password reset timer to \'never reset\'. This means that you cannot reset your password if you have forgotten it.\n\nIf you have exported your notes as a backup previously (and chose to enable re-importing), you can reinstall this app and import your notes from your backup file.\n\nOtherwise, if you remember your password you can enter it again.</string>
+    <string name="if_you_forget_password_length_wait">If you have forgotten your password and wish to reset it, you will have to wait %1$s for its removal. Would you like to start the removal timer now?</string>
+    <string name="ok_caps">OK</string>
+    <string name="yes_caps">YES</string>
+    <string name="authentication_res">Authentication</string>
+    <string name="auth_removal_banner_message">Your password has been requested for removal and will be removed in %s.  To cancel this removal, successfully pass authentication.</string>
+    <string name="please_confirm_password_to_remove_it">Please confirm your current password to remove it</string>
+    <string name="please_enter_your_password">Please enter your password to continue</string>
+    <string name="password">Password</string>
+    <string name="forgotten_your_password">Forgotten your password?</string>
+    <string name="continue_caps">CONTINUE</string>
+    <string name="forgotten_password">Forgotten Password</string>
+    <string name="fingerprint_for_offline_notepad">Fingerprint for Offline Notepad</string>
+    <string name="authenticate_to_access_your_notes">Authenticate to access your notes</string>
+    <string name="password_deleted_message">Your password has been deleted</string>
+    <string name="incorrect_password_entered">Incorrect password entered</string>
+    <string name="at_your_request_your_password_has_been_removed">At your request, your password has now been removed.</string>
+
+</resources>

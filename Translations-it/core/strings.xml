@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="cancel_caps" tools:ignore="ButtonCase">ANNULLA</string>
+
+    <!-- Lengths of Time -->
+    <string name="hour_1">1 ora</string>
+    <string name="hours_6">6 ore</string>
+    <string name="hours_24">24 ore</string>
+    <string name="hours_48">48 ore</string>
+    <string name="week_1">1 settimana</string>
+    <string name="never_reset">Non resettare mai</string>
+
+    <!-- Password reset times -->
+    <plurals name="numberOfDaysApproximation">
+        <item quantity="one">circa il %d giorno</item>
+        <item quantity="other">circa il %d giorni</item>
+    </plurals>
+
+    <plurals name="numberOfHoursApproximation">
+        <item quantity="one">circa il %d ora</item>
+        <item quantity="other">circa il %d ore</item>
+    </plurals>
+
+    <plurals name="daysRemaining">
+        <item quantity="one">&lt;%d giorno</item>
+        <item quantity="other">&lt;%d giorni</item>
+    </plurals>
+
+    <plurals name="numberOfHours">
+        <item quantity="one">%d ora</item>
+        <item quantity="other">%d ore</item>
+    </plurals>
+
+    <plurals name="numberOfMinutes">
+        <item quantity="one">%d minuti</item>
+        <item quantity="other">%d minuti</item>
+    </plurals>
+
+    <plurals name="numberOfSeconds">
+        <item quantity="one">%d secondo</item>
+        <item quantity="other">%d secondi</item>
+    </plurals>
+
+    <!-- Custom Theme Resetting -->
+    <string name="reset_custom_theme_title">Ripristina tema personalizzato</string>
+    <string name="reset_custom_theme_description">Potresti voler reimpostare il tuo tema personalizzato se hai accidentalmente impostato alcuni colori che hanno reso l\'app illeggibile, o se vuoi semplicemente ricominciare!\n\nTieni presente che questo ripristinerà TUTTI i colori personalizzati che hai scelto per il tuo tema.\n\nRipristinare i colori del tema personalizzato?</string>
+    <string name="reset_caps">RIPRISTINA</string>
+
+    <!-- Password Entry  -->
+    <string name="password_never_resets_warning">Spiacenti, hai impostato il timer per la reimpostazione della password su \'non reimpostare mai\'. Ciò significa che non puoi reimpostare la password se l\'hai dimenticata.\n\nSe hai precedentemente esportato le tue note come backup (e hai scelto di abilitare la reimportazione), puoi reinstallare questa app e importare le tue note dal tuo file di backup.\n\nAltrimenti, se ricordi la password, puoi inserirla di nuovo.</string>
+    <string name="if_you_forget_password_length_wait">Se hai dimenticato la password e desideri reimpostarla, dovrai attendere %1$s per la sua rimozione. Avviare ora il timer di rimozione?</string>
+    <string name="ok_caps">OK</string>
+    <string name="yes_caps">SÌ</string>
+    <string name="authentication_res">Autenticazione</string>
+    <string name="auth_removal_banner_message">La tua password è stata richiesta per la rimozione e verrà rimossa tra %s. Per annullare questa rimozione, passare con successo l\'autenticazione.</string>
+    <string name="please_confirm_password_to_remove_it">Conferma la tua password attuale per rimuoverla</string>
+    <string name="please_enter_your_password">Si prega di inserire la password per continuare</string>
+    <string name="password">Password</string>
+    <string name="forgotten_your_password">Hai dimenticato la tua password?</string>
+    <string name="continue_caps">CONTINUA</string>
+    <string name="forgotten_password">password dimenticata</string>
+    <string name="fingerprint_for_offline_notepad">Impronte digitali per Offline Notepad</string>
+    <string name="authenticate_to_access_your_notes">Autenticazione per l\' accedere ai tuoi appunti</string>
+    <string name="password_deleted_message">La tua password è stata cancellata</string>
+    <string name="incorrect_password_entered">È stata inserita una password errata</string>
+    <string name="at_your_request_your_password_has_been_removed">Su tua richiesta, la tua password è stata rimossa.</string>
+
+</resources>

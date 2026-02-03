@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="cancel_caps" tools:ignore="ButtonCase">ABBRECHEN</string>
+
+    <!-- Lengths of Time -->
+    <string name="hour_1">1 Stunde</string>
+    <string name="hours_6">6 Stunden</string>
+    <string name="hours_24">24 Stunden</string>
+    <string name="hours_48">48 Stunden</string>
+    <string name="week_1">1 Woche</string>
+    <string name="never_reset">Niemals zurücksetzen</string>
+
+    <!-- Password reset times -->
+    <plurals name="numberOfDaysApproximation">
+        <item quantity="one">ungefähr %d Tag</item>
+        <item quantity="other">ungefähr %d Tagen</item>
+    </plurals>
+
+    <plurals name="numberOfHoursApproximation">
+        <item quantity="one">ungefähr %d Stunden</item>
+        <item quantity="other">ungefähr %d Stunden</item>
+    </plurals>
+
+    <plurals name="daysRemaining">
+        <item quantity="one">&lt;%d tag</item>
+        <item quantity="other">&lt;%d tage</item>
+    </plurals>
+
+    <plurals name="numberOfHours">
+        <item quantity="one">%d Stunden</item>
+        <item quantity="other">%d Stunden</item>
+    </plurals>
+
+    <plurals name="numberOfMinutes">
+        <item quantity="one">%d minute</item>
+        <item quantity="other">%d Minuten</item>
+    </plurals>
+
+    <plurals name="numberOfSeconds">
+        <item quantity="one">%d Sekunde</item>
+        <item quantity="other">%d Sekunden</item>
+    </plurals>
+
+    <!-- Custom Theme Resetting -->
+    <string name="reset_custom_theme_title">Benutzerdefiniertes Design zurücksetzen</string>
+    <string name="reset_custom_theme_description">Möglicherweise möchten Sie Ihr benutzerdefiniertes Design zurücksetzen, wenn Sie versehentlich einige Farben eingestellt haben, die App unlesbar gemacht haben, oder wenn Sie einfach noch einmal von vorne beginnen möchten!\n\nBitte beachten Sie, dass dadurch ALLE benutzerdefinierten Farben zurückgesetzt werden, die Sie für Ihre App ausgewählt haben Thema.\n\nMöchten Sie Ihre benutzerdefinierten Designfarben zurücksetzen?</string>
+    <string name="reset_caps">ZURÜCKSETZEN</string>
+
+    <!-- Password Entry  -->
+    <string name="password_never_resets_warning">Entschuldigung, aber Sie haben den Timer zum Zurücksetzen des Passworts auf \'Nie zurücksetzen\' gesetzt. Dies bedeutet, dass Sie Ihr Kennwort nicht zurücksetzen können, wenn Sie es vergessen haben.\n\nWenn Sie Ihre Notizen zuvor als Sicherung exportiert haben (und den erneuten Import aktiviert haben), können Sie diese App neu installieren und Ihre Notizen aus Ihrer Sicherungsdatei importieren.\n\nWenn Sie sich an Ihr Passwort erinnern, können Sie es auch erneut eingeben.</string>
+    <string name="if_you_forget_password_length_wait">Wenn Sie Ihr Passwort vergessen haben und es zurücksetzen möchten, müssen Sie %1$s auf das Entfernen warten. Möchten Sie den Entfernungs-Timer jetzt starten?</string>
+    <string name="ok_caps">OK</string>
+    <string name="yes_caps">JA</string>
+    <string name="authentication_res">Authentifizierung</string>
+    <string name="auth_removal_banner_message">Ihr Passwort wurde zum Entfernen angefordert und wird in %s entfernt. Um diese Entfernung abzubrechen, führen Sie die Authentifizierung erfolgreich durch.</string>
+    <string name="please_confirm_password_to_remove_it">Bitte bestätigen Sie Ihr aktuelles Passwort, um es zu entfernen</string>
+    <string name="please_enter_your_password">Bitte geben Sie Ihr Passwort, um fortzufahren</string>
+    <string name="password">Passwort</string>
+    <string name="forgotten_your_password">Passwort vergessen?</string>
+    <string name="continue_caps">WEITER</string>
+    <string name="forgotten_password">Passwort vergessen</string>
+    <string name="fingerprint_for_offline_notepad">Fingerabdruck für Offline Notepad</string>
+    <string name="authenticate_to_access_your_notes">Authentifizieren greifen Sie auf Ihre Notizen</string>
+    <string name="password_deleted_message">Ihr Passwort wurde gelöscht</string>
+    <string name="incorrect_password_entered">Falsches Passwort eingegeben</string>
+    <string name="at_your_request_your_password_has_been_removed">Auf Ihren Wunsch wurde Ihr Passwort nun entfernt.</string>
+
+</resources>
