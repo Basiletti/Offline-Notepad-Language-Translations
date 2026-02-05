@@ -1,0 +1,551 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+    <!--  Actions -->
+    <string name="export_caps">ESPORTA</string>
+    <string name="continue_caps">CONTINUA</string>
+    <string name="import_caps">IMPORTA</string>
+    <string name="delete_caps">ELIMINA</string>
+    <string name="apply_caps">APPLICA</string>
+    <string name="set_caps">IMPOSTA</string>
+    <string name="update_caps">AGGIORNA</string>
+    <string name="rename_caps">RINOMINA</string>
+    <string name="move_selected_caps">SPOSTA SELEZIONATI</string>
+    <string name="move_caps">SPOSTA</string>
+    <string name="confirm_caps">CONFERMA</string>
+    <string name="edit_caps">MODIFICA</string>
+    <string name="yes_caps">SÌ</string>
+    <string name="create_caps">CREA</string>
+    <string name="dismiss_caps">IGNORA</string>
+    <string name="cancel_caps" tools:ignore="ButtonCase">ANNULLA</string>
+    <string name="rename_folder">Rinomina Cartella</string>
+    <string name="donate">Dona</string>
+    <string name="dismiss_text">Ignora</string>
+    <string name="email_res">Email</string>
+    <string name="warning_caps">ATTENZIONE</string>
+    <string name="load_caps">CARICA</string>
+    <string name="compose_email">Componi Email</string>
+    <string name="select_deselect_all">Seleziona / Deseleziona Tutti</string>
+    <string name="move_selected">Sposta Selezionati</string>
+    <string name="ok_caps">OK</string>
+    <string name="no_thanks">No Grazie</string>
+    <string name="backup_caps">BACKUP</string>
+    <string name="snooze_caps">RIMANDA</string>
+    <string name="settings_caps">IMPOSTAZIONI</string>
+    <string name="duplicate_caps">DUPLICA</string>
+    <string name="recover_caps">RECUPERA</string>
+    <!--  Actions -->
+
+
+    <!-- App Updates / About This App -->
+    <string name="whats_new_paragraph">Questa app riceve regolarmente aggiornamenti per migliorare le funzionalità esistenti o aggiungerne di nuove in base ai feedback e ai suggerimenti degli utenti. Puoi controllare i dettagli degli ultimi aggiornamenti qui sotto!\n\nNota: il contenuto di questa pagina non verrà tradotto in altre lingue.</string>
+    <string name="news_and_updates">Novità &amp; Aggiornamenti</string>
+    <string name="about_this_app_title">Informazioni sull\'app</string>
+    <string name="about_this_app_explanation_message">Questa app di blocco note offline è stata creata e viene mantenuta da me stesso; la persona che ha scritto questo messaggio: Gino Basiletti.\n\nA Natale 2018 mio padre utilizzava una delle tante app di blocco note disponibili su Google Play Store per tenere tutte le sue note, quando un giorno il server su cui l\'app effettuava il backup delle note è stato hackerato e di conseguenza ha perso tutte le sue note.\n\nAl giorno d’oggi è molto comune che le app abbiano una connessione al server per fare il backup dei dati e consentirne il recupero su più dispositivi. Tuttavia, questo approccio comporta ovviamente il rischio che lo sviluppatore dell\'app possa vedere le tue note e, se il luogo in cui vengono salvate viene compromesso, c’è il rischio che anche gli hacker possano accedervi – e nessuno lo vuole!\n\nTenendo presente questo, ho deciso di creare questa app di blocco note che funziona completamente offline. Nessuna sincronizzazione con server né login; solo un semplice blocco notes (per così dire).\n\nDetto questo, ritengo importante che tu possa trasferire facilmente le tue note su altri dispositivi, ad esempio se cambi smartphone. Puoi farlo esportando le note (dall\'app) in un file, inviandotelo via email e poi importandole nuovamente dal tuo nuovo dispositivo.\n\nIl punto fondamentale è che hai il controllo totale delle tue note: questa app non le memorizza mai da nessun\'altra parte se non sul tuo dispositivo – e intendo mantenere le cose così. Spero che questo piccolo testo ti rassicuri in merito!\n\nSe hai suggerimenti su come migliorare l\'app (o semplicemente vuoi mandarmi un “grazie”), sentiti libero di inviarmi un\'email tramite il link qui sotto!</string>
+    <string name="best_wishes_and_happy_note_taking">Un caro saluto e buona scrittura di note!\n</string>
+    <string name="december_2018">Dicembre 2018</string>
+    <string name="about_this_app_version">Informazioni sull\'app\n(Versione %1$s)</string>
+    <string name="write_feedback_using_dots">Invia feedback tramite…</string>
+    <!-- App Updates / About This App -->
+
+
+    <string name="app_name" translatable="false">Notepad</string>
+
+
+    <!-- Lengths of Time -->
+    <string name="week_2">2 settimane</string>
+    <string name="month_1">1 mese</string>
+    <string name="month_2">Due mesi</string>
+    <string name="never">Mai</string>
+    <!-- Lengths of Time -->
+
+    <!-- Azioni Pulsanti / -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Azioni Pulsanti / -->
+
+
+    <!-- Passwords & Sicurezza -->
+
+    <string name="inactivity_timeout_length">Timeout di Inattività Lunghezza</string>
+
+    <string name="fingerprint_unlocking">Impronte digitali Sblocco</string>
+
+
+
+    <string name="please_choose_the_password">Scegli la password che desideri utilizzare per questa app. La lunghezza della password deve essere compresa tra 1 e 20 e può includere cifre.</string>
+    <string name="set_password">Impostare la password</string>
+    <string name="security_password">Password di sicurezza</string>
+    <string name="password_reset_timer">Timer di reimpostazione della password</string>
+    <string name="forgotten_password">password dimenticata</string>
+    <string name="never_reset_password_warning">Se imposti la password per non reimpostarla mai dopo averla dimenticata, potresti non essere mai più in grado di accedere alle tue note! Fai attenzione quando esegui questa operazione.\n\nPotresti voler eseguire il backup delle note tramite la sezione \'Trasferisci note\' nella schermata principale come precauzione di sicurezza, nel caso dovessi dimenticare la password.</string>
+    <string name="setting_up_a_password_information_message">L\'impostazione di una password per questa app ti aiuterà a garantire che le tue note non possano essere viste se qualcun altro si impossessa del tuo dispositivo.\n\nPoiché si tratta di un\'app di blocco note offline, NON sarai in grado di recuperare una password dimenticata tramite un link di ripristino dell\'email come potresti essere abituato nella maggior parte delle app moderne. Se dimentichi la password, potresti dover attendere un po \'di tempo affinché l\'app la rimuova per motivi di sicurezza.\n\nPiù a lungo imposti il timer di ripristino, più sicure saranno le tue note se il tuo dispositivo cade nelle mani sbagliate. Tuttavia, potrebbe anche causare un disagio maggiore se ti capita di dimenticare qual è la tua password.</string>
+    <string name="please_re_enter_password_to_confirm">Si prega di reinserire la password per confermarla</string>
+    <string name="your_entered_passwords_do_not_match">Le password inserite non corrispondono</string>
+    <string name="password_too_short">La tua password è troppo corta!</string>
+    <!-- Perni & Sicurezza -->
+
+
+    <!-- Donazioni -->
+
+    <string name="donations_res">Donazioni</string>
+
+    <string name="donations_explanation">Dal momento che esso\'s creazione in 2018, questa app ha ricevuto regolari aggiornamenti con nuove funzionalità e miglioramenti. Si è sviluppato e mantenuto da solo 1 persona (io), e io non sono in esecuzione un business di qualsiasi tipo. Questa app è completamente gratuito per uso &amp; non contiene ads - e intendo mantenere in questo modo!</string>
+
+    <string name="donations_desc_1">il Mio tempo a lavorare su questa app regolarmente viene speso:</string>
+
+    <string name="donations_desc_2">\u2022 Ascolto &amp; rispondere rapidamente alle vostre domande, feedback &amp; costruttivo critiche dato a me in email &amp; su Google Play Store</string>
+
+    <string name="donations_desc_3">\u2022 Monitoraggio log di crash, per la risoluzione di eventuali problemi imprevisti che si incontrano all\'interno di questa app &amp; di effettuare qualsiasi richiesta di correzioni di bug il più rapidamente possibile</string>
+
+    <string name="donations_desc_4">\u2022 di Pianificazione, progettazione &amp; l\'implementazione di nuove caratteristiche come le cartelle, le liste, i Perni, di sicurezza biometrica &amp; app temi (per citarne alcuni)!!!</string>
+
+    <string name="donations_desc_5">\u2022 Rivisitazione &amp; miglioramenti per le parti esistenti dell\'applicazione in modo che i esperienza tutto è sempre come senza soluzione di continuità &amp; naturale possibile</string>
+
+    <string name="donations_desc_6">\u2022 Continuamente aggiornati aggiornato con la nuova versione di Android rilascia &amp; il supporto alle vecchie quelli come lontano come Android KitKat; così come tutti i dispositivi con bassa specifiche tecniche &amp; capacità</string>
+
+    <string name="donations_desc_7">ho modo di apprezzare la messaggi di cortesia che ricevo da tutti voi! Si dà per me un grande piacere sapere che ho contribuito a fare la differenza in la vostra vita, non importa quanto grande o piccolo che differenza può essere! Io sono anche molto grato per tutti quelli che vogliono manifestare la loro apprezzamento la donazione di seguito.</string>
+
+    <string name="buy_me_a_coffee_1_99">comprarmi un caffè: £1.99</string>
+
+    <string name="buy_me_a_beer_3_99">comprarmi una birra: £3.99</string>
+
+    <string name="buy_me_a_nice_meal_9_99">comprarmi un buon pasto: £9.99</string>
+
+    <string name="help_pay_my_bills_19_99">Contribuire a pagare le mie bollette: Di 19,99 € </string>
+
+    <string name="help_pay_my_rent">Contribuire a pagare il mio affitto (un ragazzo può sogno, giusto?): £299.99</string>
+
+    <!-- Donazioni -->
+
+
+    <!-- Lunghezze Tempo -->
+
+    <string name="seconds_5">5 secondi</string>
+
+    <string name="minutes_5">5 minuti</string>
+
+    <string name="minutes_10">10 minuti</string>
+
+    <string name="minutes_30">30 minuti</string>
+
+
+    <!-- Lunghezze Tempo -->
+
+    <string name="untitled_note_brackets">(Untitled nota)</string>
+    <string name="untitled_list_brackets">(Untitled elenco)</string>
+
+    <string name="empty_folder_text">Questa cartella è attualmente vuoto.\nTap il + in basso a destra per aggiungere contenuti ad esso!</string>
+
+    <string name="empty_notes_text">attualmente Si dispone di nessuna note.\nTap il + in basso a destra per iniziare ad aggiungere il contenuto!</string>
+
+    <string name="empty_search_results_text">la ricerca ha restituito 0 risultati</string>
+
+
+
+    <string name="settings_text">Impostazioni</string>
+
+    <string name="notes_text">Note</string>
+
+    <string name="lock_this_app_to_portrait_only">Bloccare questa app solo verticale</string>
+
+    <string name="lock_this_app_to_landscape_only">Bloccare questa app solo orizzontale</string>
+
+    <string name="app_colour_themes">App Temi di Colore</string>
+
+    <string name="please_choose_your_preferred_reset_timer_below">si Prega di scegli il tuo preferito azzerare il timer di seguito:</string>
+
+    <string name="offline_notepad">non in linea Notepad</string>
+
+
+    <string name="what_would_you_like_to_name_the_new_folder">Cosa vuoi per il nome della nuova cartella?</string>
+
+    <string name="enter_folder_name">Inserire il nome della cartella</string>
+
+    <string name="note_title">Titolo della Nota</string>
+
+    <string name="note_content">Nota di Contenuto</string>
+
+    <string name="list_title">Elenco Titolo</string>
+
+    <string name="note_revisions">Nota Revisioni</string>
+
+
+
+
+
+    <string name="move_to_root_folder">Sposta in cartella principale</string>
+
+    <string name="please_select_a_folder">si Prega di selezionare un cartella</string>
+
+    <string name="currently_selected">Attualmente Selezionato</string>
+
+    <string name="theme_name_dark_mode">Dark Mode</string>
+
+    <string name="theme_name_default_theme">Tema di Default</string>
+
+    <string name="theme_name_rich_red">Ricco Rosso</string>
+
+    <string name="theme_name_panda_white">Panda Bianco</string>
+
+    <string name="theme_name_happy_halloween">Felice Halloween!</string>
+
+    <string name="theme_name_christmas_2019">Natale 2019</string>
+
+    <string name="include_previous_saves_note_list_histories">Includi precedente salva</string>
+
+    <string name="display_progress_bar">Display indicatore di avanzamento sopra elementi di una lista</string>
+
+    <string name="display_progress_indicator_as_a_percentage">Display indicatore di avanzamento in percentuale</string>
+
+    <string name="duplicate_list_information_text">Se si desidera utilizzare questo elenco come un modello, è possibile creare una copia di esso per mantenere questo un inedito.</string>
+
+    <string name="include_past_saves_text">Includi precedente salva</string>
+
+    <string name="make_notes_span_multiple_lines">Consenti i titoli del mio note, elenchi e le cartelle che si estendono su più righe</string>
+
+    <string name="general_text_res">Generale</string>
+
+    <string name="save_note_revisions_text">Salva copie di revisione il mio note/liste di quando ho apportare modifiche</string>
+
+    <string name="item_icons">Icone di Elemento</string>
+
+    <string name="other_text_res">Altro</string>
+
+    <string name="folders_show_icon_and_amount_of_items_inside">Cartelle: mostra icona e la quantità di elementi all\'interno di</string>
+
+    <string name="lists_show_icon_and_progress_overview">Elenchi: visualizza icona e il progresso panoramica</string>
+
+    <string name="notes_show_icon">Note: mostra icona</string>
+
+    <string name="item_revisions">Elemento Revisioni</string>
+
+    <string name="delete_all_of_my_saved_revisions">Elimina tutti i miei salvato revisioni</string>
+
+    <string name="delete_item_revisions">Elimina Elemento Revisioni</string>
+
+    <string name="delete_revisions_information">Quando si apportano modifiche per le note o elenchi, l\'app salva una copia di esso in quel momento in modo da poter ripristinare le versioni precedenti, se si desidera.\n\nvolete eliminare tutti i tuoi salvato revisioni? Questo sarà solo cancellare il vecchio salva e non note e liste stesse.</string>
+
+    <string name="stop_saving_revisions_from_now_on">Smettere di risparmio revisioni da ora in poi</string>
+
+    <string name="list_items_show">Voci di Elenco - Show...</string>
+
+    <string name="screen_orientation">Orientamento dello Schermo</string>
+
+    <string name="display_text_res">Display</string>
+
+    <string name="prevent_my_device_from_locking">Impedire che il mio dispositivo bloccaggio a causa di inattività quando l\'app è aperta</string>
+
+    <string name="text_size">Dimensione Testo</string>
+    <string name="x_small_text_res">X Piccolo</string>
+    <string name="small_text_res">Piccolo</string>
+
+    <string name="regular_default">Normale (default)</string>
+
+    <string name="x_large">X Grande</string>
+
+    <string name="xx_large">XX-Large</string>
+
+    <string name="large_text_res">Grande</string>
+
+    <string name="thank_you_so_much">Grazie mille!</string>
+
+    <string name="your_donation_is_appreciated">le Vostre donazioni molto apprezzata! Ti piacerebbe email me circa la vostra donazione troppo?</string>
+
+
+    <string name="billing_setup_error">Fatturazione Errore di Installazione</string>
+
+    <string name="billing_setup_error_message">mi Dispiace, ma non c\'era un errore di impostazione della fatturazione per la vostra donazione. È possibile che si desidera verificare che i pagamenti sul vostro Google Play Store account.\n\nse il problema persiste, si prega di lasciare un messaggio e lasciare mi conoscono!</string>
+
+    <string name="add_text">Aggiungi Testo...</string>
+
+    <string name="create_a_new_note_for_this_text">Crea una nuova nota per questo testo</string>
+
+    <string name="create_a_new_list_for_this_text">Creare un nuovo elenco per questo testo</string>
+
+    <string name="add_this_text_to_an_existing_note_list">Aggiungi questo il testo di una nota esistente/list</string>
+
+    <string name="adding_to_tap_to_change">Aggiungendo: nessuno selezionata\n(toccare per cambiare)</string>
+
+    <string name="please_select_an_item">si Prega di selezionare un l\'elemento</string>
+
+    <string name="item_ordering">Voce di Ordinazione</string>
+
+    <string name="order_alphabetically_description">Per il mio note, le liste e le cartelle in ordine alfabetico</string>
+
+    <string name="drag_reordering_description">mi permette di trascinare &amp; riordinare i miei appunti, elenchi e le cartelle che voglio</string>
+
+    <string name="add_to">Aggiungi</string>
+
+    <string name="currently_in_folder_change_name_to">Si sono attualmente l \'%s\' cartella. Cosa vorresti cambiare nome?</string>
+
+
+    <string name="adding_to_item_name">Aggiunta di a: %1$s\n(toccare per modificare)</string>
+
+    <string name="please_select_an_option">si Prega di selezionare un opzione</string>
+
+    <string name="your_note_body_is_empty">il Tuo corpo è nota vuoto.</string>
+
+    <string name="note_too_large_to_copy">Spiacente, la tua nota è troppo grande per copiare negli appunti.</string>
+
+    <string name="note_content_copied">Nota il contenuto copiato</string>
+
+    <string name="revision_deleted">Revisione eliminato</string>
+
+    <string name="note_no_previous_saves_yet">Questa nota non ha precedente salva di sicurezza</string>
+
+    <string name="revision_saved_at_time">Revisione salvato %1$s</string>
+
+    <string name="revisions_deleted">Revisioni eliminato</string>
+
+
+    <string name="fingerprint_unlocking_disabled">Impronte digitali sblocco disabili</string>
+
+    <string name="fingerprint_unlocking_enabled">Impronte digitali sblocco abilitata!</string>
+
+    <string name="enable_fingerprint_unlocking">Abilita di Impronte digitali Sblocco</string>
+
+    <string name="authenticate_with_your_fingerprint_to_enable">Autenticazione con le impronte digitali per consentire le impronte digitali sblocco per questo app</string>
+
+
+    <string name="seconds_30">30 secondi</string>
+
+    <string name="minute_1">1 minuto</string>
+
+
+    <string name="you_have_not_selected_any_items">non selezionato eventuali elementi</string>
+
+    <string name="this_list_has_no_previous_saves">Questo elenco non precedente salva di sicurezza</string>
+
+    <string name="list_copy_created">Elenco copia creata!</string>
+
+    <string name="all_items">Tutti gli articoli</string>
+
+    <string name="only_completed_items">Solo completato gli elementi</string>
+
+    <string name="only_incomplete_items">Solo incompleta gli elementi</string>
+
+    <string name="transfer_your_notes">Trasferimento di Note</string>
+
+    <string name="transfer_notes">Note di Trasferimento</string>
+
+    <string name="transfer_type">Tipo di Trasferimento</string>
+
+    <string name="select_file">Selezionare il File</string>
+
+    <string name="select_file_to_import_description">Selezionare il file si desidera importare.\n\nOffline Notepad tenterà di distinguere se il file è stato esportato in precedenza da questa applicazione o meno.\n\nper favore nota: È necessario scegliere di rendere il vostro file ri-verifica durante il processo di esportazione; in caso contrario l\'importatore si pensare che sono solo l\'importazione di testo normale e l\'importazione di tutti come un elemento, invece.</string>
+
+    <string name="choose_file">Scegli il file...</string>
+
+    <string name="export_type">Tipo di Esportazione</string>
+
+    <string name="exporting_notes_type_description">Se si sono esportare le note in seguito re-importarli in questa applicazione, quindi è necessario scegliere di attivare re-importazione di seguito. Per massimizzare il la sicurezza, la ri-file importabili sono anche criptati.\n\nse si desidera solo per esportare le note di leggere altrove, allora si può scegliere di li rendono di facile lettura, invece. Questo renderà il file esportato facile da leggere, ma l\'app non riconoscere il file se si tenta di re-importare in un secondo momento.</string>
+
+    <string name="enable_re_importing_title">Tipo di Esportazione: Attiva Re-Importazione</string>
+
+    <string name="reader_friendly_title">Esporta Tipo: Lettore di Amichevole</string>
+
+    <string name="enable_re_importing">Abilita re-importazione</string>
+
+    <string name="just_make_my_notes_reader_friendly">Solo a fare il mio note di facile lettura</string>
+
+    <string name="transfer_type_import">Tipo di Trasferimento: Importazione</string>
+
+    <string name="transfer_type_export">Tipo di Trasferimento: Esportazione</string>
+
+    <string name="select_items">Selezionare gli Elementi</string>
+
+    <string name="no_notes_to_export">non Avete appunti, elenchi o cartelle per esportare</string>
+
+    <string name="transfer_broken_message">Qualcosa sembra essere rotto. Si prega di provare ad alternare il tipo di trasferimento o ricaricare la schermo.</string>
+
+    <string name="export_error_message_choose_type">si Prega di scegliere un tipo di esportazione.</string>
+
+    <string name="include_previous_saves_description">Puoi anche includere i 10 salvataggi/revisioni più recenti di ciascuna delle tue note nel file esportato. Ciò potrebbe rendere il file di esportazione molto più grande.\n\nSe si sceglie di rendere il tipo di esportazione leggibile in modo da poter leggere le note altrove, si consiglia di NON includere salvataggi precedenti nell\'esportazione perché potrebbero rendere il file esportato file difficile da leggere.</string>
+
+    <string name="previous_saves">Precedente Salva</string>
+
+    <string name="export_file_to">Esporta file…</string>
+
+    <string name="failed_to_create_export_file">Impossibile creare file di esportazione. Si prega di ricaricare questa pagina e riprova.</string>
+
+    <string name="couldnt_find_data_error">impossibile trovare i dati dal tuo file scelto. Si prega di riprovare.</string>
+
+    <string name="file_selected_name">il File Selezionato: %1$s</string>
+
+    <string name="couldnt_import_content_message">impossibile trovare qualsiasi verifica del contenuto. Si prega di provare con un altro file.</string>
+
+    <string name="import_successful">Importare con successo!</string>
+
+    <string name="previewing_reader_friendly_file">Anteprima il contenuto del file di seguito. Il file verrà importato in una nuova nota.</string>
+
+    <string name="previewing_reader_friendly_file_1000">Anteprima il contenuto del file di seguito. Il file verrà importato in una nuova nota.\n\nper favore, nota: solo i primi 1.000 caratteri del file sono previste di seguito. Il resto del file sarà ancora imported.</string>
+
+    <string name="preview_file">File di Anteprima</string>
+
+    <string name="show_item_previews">Mostra una piccola anteprima del mio elenchi e note sotto i loro titoli</string>
+
+    <string name="empty_note">(nota Vuota)</string>
+
+    <string name="empty_list">(lista Vuota)</string>
+
+    <string name="import_your_notes_lower">Importare i note</string>
+
+    <string name="export_your_notes_lower">Esporta i tuoi note</string>
+
+    <string name="empty_string" />
+
+    <string name="folder_lowercase">cartella</string>
+
+    <string name="folders_lowercase">cartelle</string>
+
+
+    <string name="delete_x_item">%d elemento?</string>
+
+    <string name="delete_x_items">%d elementi?</string>
+
+    <string name="delete_items">Eliminare gli Elementi</string>
+
+    <string name="item_lowercase">articolo</string>
+
+    <string name="items_lowercase">elementi</string>
+
+    <string name="about_to_delete_items_check">Si sta per eliminare questi elementi; sei sicuro?</string>
+
+    <string name="about_to_move_items_to_root">Si sta per spostare gli elementi selezionati per il livello superiore / \'cartella principale\'</string>
+
+    <string name="about_to_move_items_to_folder_name">Si sta per spostare gli elementi selezionati nella cartella \'%s\'</string>
+
+    <string name="donation_issue_subject">Donazione problema - offline blocco note</string>
+
+    <string name="x_selected">%d Selezionata</string>
+
+    <string name="empty_list_bracketed">(lista Vuota)</string>
+
+    <string name="empty_title_bracketed">(Vuoto Titolo)</string>
+
+    <string name="empty_note_bracketed">(nota Vuota)</string>
+
+    <string name="empty_body_bracketed">(Corpo Vuoto)</string>
+
+    <string name="search_notes">Cerca note</string>
+
+    <string name="language">linguaggio</string>
+    <string name="set_to_the_primary_language_on_my_device">Impostato sulla lingua principale sul mio dispositivo (le traduzioni non inglesi potrebbero non essere accurate)</string>
+    <string name="set_to_english">Imposta su inglese (la lingua parlata del creatore dell\'app)</string>
+    <string name="lists">elenchi</string>
+    <string name="localisation">Localizzazione</string>
+    <string name="date_format">Formato data</string>
+    <string name="set_dates_throughout_the_app_to_dd_mm_yyyy">Formato date a DD/MM/YYYY</string>
+    <string name="set_dates_throughout_the_app_to_mm_dd_yyyy">Formato date a MM/DD/YYYY</string>
+    <string name="set_dates_throughout_the_app_to_yyyy_mm_dd">Formato date a YYYY/MM/DD</string>
+    <string name="override_navigation_colour_description">Imposta la barra di navigazione (area dei pulsanti Indietro / Home / Panoramica) in modo che corrisponda al colore di sfondo dell\'app (Nota: è richiesto Android Lollipop o superiore!)</string>
+    <string name="search_note">Cerca note</string>
+
+    <string name="export_successful">Esportazione riuscita!</string>
+    <string name="export_notes_via">Esporta note tramite…</string>
+    <string name="send_notes_to_another_app">Invia a un\'altra app</string>
+    <string name="save_notes_to_device">Salva sul dispositivo</string>
+
+    <string name="backup_scheduling">Pianificazione del backup</string>
+    <string name="backup_frequency">Frequenza di backup:</string>
+    <string name="scheduled_backup">Backup programmato</string>
+    <string name="scheduled_backup_dialog_text">È passato più di %s dall\'ultima volta che hai eseguito il backup delle tue note. Vuoi eseguirne il backup adesso?\n\nPuoi posticipare questo promemoria di 6 ore, se lo desideri. In alternativa, puoi modificare questa funzione nelle impostazioni.</string>
+    <string name="backup_prompt_has_been_snoozed">La richiesta di backup è stata posticipata di 6 ore</string>
+
+    <string name="instantly">Istantaneamente</string>
+    <string name="days_3">3 giorni</string>
+    <string name="month_1_recommended">1 mese (consigliato)</string>
+
+    <string name="delete_item_string">%1$s %2$s</string>
+    <string name="delete_items_strings">%1$s %2$d %3$s?</string>
+    <string name="delete_items_and_items_and_items">%1$s %2$d %3$s e %4$s</string>
+
+
+    <string name="permanently_delete_items">Elimina elementi in modo permanente</string>
+    <string name="delete">Elimina</string>
+    <string name="permanently_delete">Elimina definitivamente</string>
+    <string name="deleted_lower">cancellato</string>
+    <string name="permanently_deleted_lower">cancellato in modo permanente</string>
+
+    <string name="action_cannot_be_reversed_information">Questa azione non può essere annullata. Puoi modificarlo in modo che gli elementi eliminati possano essere resi recuperabili nelle impostazioni.</string>
+    <string name="can_make_items_recoverable_in_settings">Puoi cambiarlo in modo che gli elementi eliminati possano essere ripristinati nelle impostazioni.</string>
+    <string name="items_recoverable_for_length">Gli elementi eliminati sono recuperabili per %s. Puoi vedere gli elementi eliminati nelle impostazioni.</string>
+    <string name="folders_have_x_items_inside_of_them">ATTENZIONE: le cartelle selezionate hanno %1$d %2$s al loro interno! Anche questo contenuto sarà %3$s.\n\n%4$s\n\nSei sicuro?</string>
+
+
+    <string name="scheduled_backup_information">-La pianificazione del backup ti consente di salvare copie di backup regolari delle tue note sul tuo dispositivo. Puoi anche eseguire il backup delle tue note manualmente in qualsiasi momento tramite l\'opzione \'Trasferisci note\' che si trova nel riquadro di navigazione nella schermata principale.\n\n-Puoi scegliere la frequenza con cui desideri che questi backup siano sotto. L\'app ti chiederà di eseguire il backup quando apri di nuovo l\'app dopo che è trascorso tale periodo di tempo (se hai note).\n\n-Ultimo backup: %s</string>
+
+    <string name="deleted_items">Elementi eliminati</string>
+    <string name="permanently_delete_x_items">Eliminare definitivamente %d elementi?</string>
+    <string name="permanently_delete_x_items_description">Sei sicuro di voler eliminare %d elementi? Questi elementi non saranno recuperabili!</string>
+    <string name="recover_x_items">Recuperare %d elementi?</string>
+    <string name="recover_x_items_description">Vuoi recuperare questi elementi? Tieni presente che anche tutti gli elementi che erano precedentemente nelle sottocartelle verranno spostati nella cartella principale.</string>
+
+    <string name="there_are_currently_no_items_marked_for_deletion">Al momento non ci sono elementi contrassegnati per l\'eliminazione!</string>
+    <string name="imminent_exclamation">Imminente!</string>
+    <string name="sort_by_dots">Ordina per…</string>
+    <string name="deletion_time">Tempo di cancellazione</string>
+
+    <string name="alphabetically">In ordine alfabetico</string>
+
+    <string name="split_notes_setting">Offriti di dividere una banconota estremamente grande in parti più piccole quando la apri</string>
+    <string name="part_upper">Parte</string>
+    <string name="long_note_title">Avviso sulla lunghezza della nota</string>
+    <string name="dont_show_again">Non chiedermelo di nuovo</string>
+    <string name="long_note_description">La tua nota è attualmente più lunga della lunghezza consigliata di 25.000 caratteri o meno. Avere una nota di grandi dimensioni può causare instabilità e lentezza dell\'app durante la modifica.\n\nPer evitare che ciò accada, la tua nota potrebbe essere suddivisa in %1$d parti e inserita in una nuova cartella, se lo desideri. La tua nota corrente verrà quindi contrassegnata per l\'eliminazione in seguito.\n\nVuoi suddividere questa nota in parti più piccole ora?</string>
+
+
+    <!-- Formatting Tools Strings -->
+    <string name="copy_tool_title">copia</string>
+    <string name="copy_tool_description">Copia il contenuto del tuo %s negli appunti.</string>
+
+    <string name="search_tool_title">Ricerca</string>
+
+    <string name="insert_datetime_tool_title">Inserisci data/ora</string>
+    <string name="insert_datetime_tool_description">Inserisce la data corrente &amp; tempo ovunque si trovi il cursore.</string>
+
+    <string name="show_revisions_tool_title">Visualizza revisioni</string>
+
+    <string name="add_item_tool_title">Aggiungi articolo</string>
+    <string name="add_item_tool_description">Aggiunge un nuovo elemento vuoto alla tua lista. L\'elemento viene aggiunto dopo l\'elemento attivo corrente. Se nessun elemento è attualmente attivo, l\'elemento viene aggiunto in cima all\'elenco per impostazione predefinita.</string>
+
+    <string name="select_visibility_tool_title">Visibilità dell\'oggetto</string>
+    <string name="select_visibility_tool_description">Consente di filtrare gli elementi dell\'elenco in base al loro stato selezionato. Questo può essere impostato in modo da visualizzare tutti gli elementi, gli elementi completi o gli elementi incompleti.</string>
+
+    <string name="duplicate_list_tool_title">Elenco Duplicato</string>
+    <string name="duplicate_list_tool_description">Visualizza una finestra di dialogo che consente di creare una copia dell\'elenco. Ti permette di dargli un titolo e di scegliere se desideri duplicare anche i salvataggi precedenti dell\'elenco corrente.</string>
+
+    <string name="check_uncheck_all_tool_title">Seleziona / Deseleziona Tutte</string>
+    <string name="check_uncheck_all_tool_description">Seleziona o deseleziona tutti gli elementi nell\'elenco. La prima volta che viene premuto, deseleziona tutti gli elementi, quindi si capovolge ogni volta che lo si preme di nuovo (torna a deselezionare se si ricarica l\'elenco).</string>
+    <!-- Formatting Tools Strings -->
+
+
+    <!-- Generale plurali -->
+
+    <plurals name="numberOfItems">
+
+        <item quantity="one">%d elemento</item>
+
+        <item quantity="other">%d elementi</item>
+
+    </plurals>
+
+    <!-- Generale plurali -->
+
+
+
+</resources>
