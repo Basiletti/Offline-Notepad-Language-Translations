@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="new_note_res">Nuova Nota</string>
-    <string name="new_folder_res">Nuova Cartella</string>
     <string name="new_list_res">Nuovo Elenco</string>
+    <string name="new_folder_res">Nuova Cartella</string>
 </resources>
