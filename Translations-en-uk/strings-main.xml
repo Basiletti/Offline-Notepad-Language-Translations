@@ -91,6 +91,7 @@
     <string name="lists">Lists</string>
     <string name="search_note">Search note</string>
     <string name="search_list">Search list</string>
+    <string name="word_count_letter_count">Word count: %1$d / Letter count: %2$d</string>
     <!-- Content Creation - General -->
 
 
@@ -244,6 +245,7 @@
     <string name="billing_setup_error">Billing Setup Error</string>
     <string name="billing_setup_error_message">Sorry, but there was an error setting up the billing for your donation. You may want to check that you have payments set up on your Google Play Store account.\n\nIf this problem persists, please drop me an email and let me know!</string>
     <string name="donation_issue_subject">Donation issue - offline notepad</string>
+    <string name="failed_to_set_up_billing_please_try_again_later">Failed to set up billing, please try again later</string>
     <!-- Donations -->
 
 

@@ -91,6 +91,7 @@
     <string name="lists">Listen</string>
     <string name="search_note">Notiz durchsuchen</string>
     <string name="search_list">Liste durchsuchen</string>
+    <string name="word_count_letter_count">Wortanzahl: %1$d / Buchstabenanzahl: %2$d</string>
     <!-- Content Creation - General -->
 
 
@@ -244,6 +245,7 @@
     <string name="billing_setup_error">Fehler beim Einrichten der Zahlung</string>
     <string name="billing_setup_error_message">Entschuldigung, beim Einrichten der Zahlung für deine Spende ist ein Fehler aufgetreten. Überprüfe bitte, ob du Zahlungsmethoden in deinem Google Play Store-Konto eingerichtet hast.\n\nFalls das Problem weiterhin besteht, schreib mir einfach eine E-Mail – ich helfe dir gerne!</string>
     <string name="donation_issue_subject">Problem mit Spende – Offline Notepad</string>
+    <string name="failed_to_set_up_billing_please_try_again_later">Fehler beim Einrichten der Abrechnung, bitte versuchen Sie es später erneut</string>
     <!-- Donations -->
 
 
