@@ -21,7 +21,7 @@
     <string name="rename_folder">Renommer le dossier</string>
     <string name="donate">Faire un don</string>
     <string name="dismiss_text">Rejeter</string>
-    <string name="email_res">Email</string>
+    <string name="email_res">E-mail</string>
     <string name="warning_caps">ATTENTION</string>
     <string name="load_caps">CHARGEMENT</string>
     <string name="compose_email">Ecrire un e-mail</string>
@@ -41,7 +41,7 @@
     <string name="whats_new_paragraph">Cette application est régulièrement mise à jour à fin d\'améliorer les fonctionnalités existantes ou d\'en ajouter de nouvelles, en fonction de vos commentaires et suggestions. Vous trouverez ci-dessous des détails concernant les dernières mises à jour!\n\nAttention: le contenu de cette page n\'est pas traduit dans d\'autres langues.</string>
     <string name="news_and_updates">Nouveautés &amp; Mises à jour</string>
     <string name="about_this_app_title">A propos de cette application</string>
-    <string name="about_this_app_explanation_message">Cette application offline notepad a été créée et est maintenue par moi-même, la personne qui a écrit ce message: Gino Basiletti.\n\nA Noël 2018, mon père utilisait l\'une des nombreuses applications bloc-notes disponibles sur Google Play Store, avec laquelle il stockait l\'ensemble de ses notes. Un jour, le serveur sur lequel l\'application sauvegardait les notes a été piraté et mon père a perdu toutes ses notes.\n\nIl est très courant aujourd\'hui que les applications se connectent à un serveur pour sauvegarder vos données et vous permettent ainsi de les récupérer sur divers appareils. Cependant, cette approche a le risque que le développeur de l\'application puisse voir vos notes et, si le serveur sur lequel les notes sont sauvegardées est compromis, que vos notes soient vues par des pirates ce que personne ne souhaite. Ainsi, j\'ai décidé de créer cette application bloc-notes qui fonctionne complètement hors connexion. Aucune synchronisation à un server ni de login, il s\'agit juste d\'un bon vieux bloc de papier (façon de parler).\n\nQuoi qu\'il en soit, j\'ai aussi l\'impression qu\'il est important pour vous de pouvoir transférer vos notes sur d\'autres appareils, par exemple si vous changez de téléphone. Pour ce faire, vous pouvez exporter les notes (au sein de cette application) dans un fichier, vous envoyer ce fichier par courrier électronique à vous-même, puis l\'importer à nouveau à partir de votre e-mail sur votre nouvel appareil.\n\nVous avez donc le contrôle complet sur vos notes. Cette application ne stockera jamais vos notes ailleurs que dans votre appareil et j\'ai l\'intention de conserver cette manière de faire. J\'espère que cela vous rassurera!\n\nSi vous avez des suggestions pour améliorer encore cette application  (ou si vous voulez simplement m\'envoyer un \'merci\'), n\'hésitez pas à m\'envoyer un mail ou un tweet ci-dessous…</string>
+    <string name="about_this_app_explanation_message">Cette application offline notepad a été créée et est maintenue par moi-même, la personne qui a écrit ce message: Gino Basiletti.\n\nA Noël 2018, mon père utilisait l\'une des nombreuses applications bloc-notes disponibles sur Google Play Store, avec laquelle il stockait l\'ensemble de ses notes. Un jour, le serveur sur lequel l\'application sauvegardait les notes a été piraté et mon père a perdu toutes ses notes.\n\nIl est très courant aujourd\'hui que les applications se connectent à un serveur pour sauvegarder vos données et vous permettent ainsi de les récupérer sur divers appareils. Cependant, cette approche a le risque que le développeur de l\'application puisse voir vos notes et, si le serveur sur lequel les notes sont sauvegardées est compromis, que vos notes soient vues par des pirates ce que personne ne souhaite. Ainsi, j\'ai décidé de créer cette application bloc-notes qui fonctionne complètement hors connexion. Aucune synchronisation à un serveur ni de login, il s\'agit juste d\'un bon vieux bloc de papier (façon de parler).\n\nQuoi qu\'il en soit, j\'ai aussi l\'impression qu\'il est important pour vous de pouvoir transférer vos notes sur d\'autres appareils, par exemple si vous changez de téléphone. Pour ce faire, vous pouvez exporter les notes (au sein de cette application) dans un fichier, vous envoyer ce fichier par courrier électronique à vous-même, puis l\'importer à nouveau à partir de votre e-mail sur votre nouvel appareil.\n\nVous avez donc le contrôle complet sur vos notes. Cette application ne stockera jamais vos notes ailleurs que dans votre appareil et j\'ai l\'intention de conserver cette manière de faire. J\'espère que cela vous rassurera!\n\nSi vous avez des suggestions pour améliorer encore cette application  (ou si vous voulez simplement m\'envoyer un \'merci\'), n\'hésitez pas à m\'envoyer un mail ou un tweet ci-dessous…</string>
     <string name="best_wishes_and_happy_note_taking">Meilleurs voeux de bonheur pour vos prises de notes!\n</string>
     <string name="december_2018">Décembre 2018</string>
     <string name="about_this_app_version">A propos de cette application\n(Version %1$s)</string>
@@ -72,7 +72,7 @@
     <string name="empty_title_bracketed">(Sans titre)</string>
     <string name="empty_note_bracketed">(Note vide)</string>
     <string name="empty_body_bracketed">(Corps vide)</string>
-    <string name="note_inaccessible_text">Cette note n\'est pas accessible - vous l\'avez peut-être effacée. Pressez l\'icone des paramètres sur le widget de l\'écran d\'accueil pour en choisir une nouvelle.</string>
+    <string name="note_inaccessible_text">Cette note n\'est pas accessible - vous l\'avez peut-être effacée. Pressez l\'icône des paramètres sur le widget de l\'écran d\'accueil pour en choisir une nouvelle.</string>
     <string name="your_note_body_is_empty">Le corps de votre note est vide.</string>
     <string name="note_too_large_to_copy">Désolé, votre note est trop grande pour être copiée dans le presse-papiers.</string>
     <string name="note_content_copied">Le contenu de la note a été copié</string>
@@ -80,17 +80,17 @@
     <string name="note_no_previous_saves_yet">Cette note n\'a pas d\' enregistrement précédent</string>
     <string name="revision_saved_at_time">Révision enregistrée à %1$s</string>
     <string name="revisions_deleted">Révisions supprimées</string>
-    <string name="clipboard_only_supports_text">Cette application ne prend actuellement en charge que le collage de texte dans tes notes.</string>
+    <string name="clipboard_only_supports_text">Cette application ne prend actuellement en charge que le collage de texte dans les notes.</string>
     <string name="list_tap_padlock_icon_to_enable_editing">Appuyez sur l\'icône du cadenas en haut pour activer l\'édition</string>
     <string name="default_widget_description_text">Tapez sur l\'icône en haut à droite pour placer l\'une de vos note ici!</string>
     <string name="empty_clipboard">Votre presse papier est vide.</string>
-    <string name="delete_revisions_information">Lorsque vous apportez des modifications à une note ou à une liste, l\'application va enregistrer une copie de celle-ci, de sorte que vous pouvez revenir à une ancienne version si vous le souhaitez.\n\nVoulez vous supprimer toutes les révisions sauvegardées? Cela ne supprimera que les anciens enregistrements et pas les notes/listes elles-mêmes.</string>
+    <string name="delete_revisions_information">Lorsque vous apportez des modifications à une note ou à une liste, l\'application va enregistrer une copie de celle-ci, de sorte que vous pouvez revenir à une ancienne version si vous le souhaitez.\n\nVoulez-vous supprimer toutes les révisions sauvegardées? Cela ne supprimera que les anciens enregistrements et pas les notes/listes elles-mêmes.</string>
     <string name="stop_saving_revisions_from_now_on">Arrêter l\'enregistrement des révisions à partir de maintenant</string>
     <string name="x_selected">%d Sélectionné</string>
     <string name="search_notes">Rechercher parmi les notes</string>
     <string name="lists">Listes</string>
-    <string name="search_note">Rechercher cette note</string>
-    <string name="search_list">Liste de recherche</string>
+    <string name="search_note">Rechercher dans la note</string>
+    <string name="search_list">Rechercher dans la liste</string>
     <string name="word_count_letter_count">Nombre de mots: %1$d / Nombre de lettres: %2$d</string>
     <!-- Content Creation - General -->
 
@@ -107,16 +107,16 @@
 
 
     <!-- Content Creation - Long Notes -->
-    <string name="split_notes_setting">Offrez de diviser une note extrêmement grande en parties plus petites lors de son ouverture</string>
+    <string name="split_notes_setting">Proposer de partager une note extrêmement grande en parties plus petites lors de son ouverture</string>
     <string name="part_upper">Partie</string>
     <string name="long_note_title">Avertissement de longueur de note</string>
-    <string name="dont_show_again">Ne me demande plus ça</string>
-    <string name="long_note_description">Votre note dépasse actuellement la longueur recommandée de 25 000 caractères ou moins. Une note volumineuse peut entraîner une instabilité et une lenteur de l\'application lors de la modification.\n\nPour éviter cela, votre note peut être divisée en %1$d parties et placée dans un nouveau dossier si vous le souhaitez. Votre note actuelle sera ensuite signalée pour suppression.\n\nVoulez-vous diviser cette note en parties plus petites maintenant?</string>
+    <string name="dont_show_again">Ne plus me demander</string>
+    <string name="long_note_description">Votre note dépasse actuellement la longueur recommandée de 25 000 caractères ou moins. Une note volumineuse peut entraîner une instabilité et une lenteur de l\'application lors de la modification.\n\nPour éviter cela, votre note peut être divisée en %1$d parties et placée dans un nouveau dossier si vous le souhaitez. Votre note actuelle sera ensuite signalée pour suppression.\n\nVoulez-vous partager cette note en parties plus petites maintenant?</string>
     <!-- Content Creation - Long Notes -->
 
 
     <!-- Content Creation - Sharing Content -->
-    <string name="add_text">Ajouter du Texte…</string>
+    <string name="add_text">Ajouter du texte…</string>
     <string name="create_a_new_note_for_this_text">Créer une nouvelle note pour ce texte</string>
     <string name="create_a_new_list_for_this_text">Créer une nouvelle liste pour ce texte</string>
     <string name="add_this_text_to_an_existing_note_list">Ajouter ce texte à une note ou une liste existante</string>
@@ -139,26 +139,26 @@
     <string name="undo_tool_description">Annule la dernière modification si des changements ont été effectués depuis l’ouverture de cet écran.</string>
 
     <string name="redo_tool_title">Rétablir</string>
-    <string name="redo_tool_description">Rétablit la dernière annulation. Remarque : cela ne fonctionnera pas si tu as modifié manuellement le contenu depuis la dernière annulation.</string>
+    <string name="redo_tool_description">Rétablit la dernière annulation. Remarque : cela ne fonctionnera pas si vous avez modifié manuellement le contenu depuis la dernière annulation.</string>
 
     <string name="copy_tool_title">Copier</string>
     <string name="copy_tool_description">Copie le contenu de votre %s dans le presse papier.</string>
 
     <string name="paste_tool_title">Coller</string>
-    <string name="paste_tool_description">Colle le contenu du presse-papiers à la position actuelle du curseur dans les notes, ou à la fin de l’élément sélectionné dans les listes. Remarque : seul du texte peut être collé dans cette app.</string>
+    <string name="paste_tool_description">Colle le contenu du presse-papiers à la position actuelle du curseur dans les notes, ou à la fin de l’élément sélectionné dans les listes. Remarque : seul du texte peut être collé dans cette application.</string>
 
     <string name="search_tool_title">Chercher</string>
-    <string name="search_note_description">Recherche dans la note les occurrences de tes critères et les met en surbrillance. Affiche le nombre d’occurrences et te permet de naviguer entre elles.</string>
-    <string name="search_list_description">Recherche dans la liste les occurrences de tes critères et les met en surbrillance. Affiche le nombre d’occurrences et te permet de naviguer entre elles.</string>
+    <string name="search_note_description">Recherche dans la note les occurrences de vos critères et les met en surbrillance. Affiche le nombre d’occurrences et vous permet de naviguer entre elles.</string>
+    <string name="search_list_description">Recherche dans la liste les occurrences de vos critères et les met en surbrillance. Affiche le nombre d’occurrences et vous permet de naviguer entre elles.</string>
 
     <string name="insert_datetime_tool_title">Insérer la date et l\'heure</string>
     <string name="insert_datetime_tool_description">Insère la date et l\'heure courants à l\'endroit de la note où se trouve le curseur ou à la fin de l\'élément sélectionné de votre liste.</string>
 
     <string name="share_note_title">Partager la note</string>
-    <string name="share_note_description">Te permet de partager le contenu de ta note avec une autre application.</string>
+    <string name="share_note_description">Vous permet de partager le contenu de votre note avec une autre application.</string>
 
     <string name="share_list_title">Partager la liste</string>
-    <string name="share_list_description">Te permet de partager le contenu de ta liste avec une autre application.</string>
+    <string name="share_list_description">Vous permet de partager le contenu de votre liste avec une autre application.</string>
 
     <string name="insert_tab_tool_title">Insérer un tabulateur</string>
     <string name="insert_tab_tool_description">Insère un tabulateur au début de l\'élément sélectionné. Les éléments peuvent être tabulés ou mis en retrait jusqu\'à 5 fois.</string>
@@ -167,8 +167,8 @@
     <string name="remove_tab_tool_description">Efface un éventuel tabulateur au début de l\'élément sélectionné.</string>
 
     <string name="show_revisions_tool_title">Afficher les révisions</string>
-    <string name="show_note_revisions_tool_description">Affiche toutes les versions précédentes/enregistrements de cette note. Te permet de charger une ancienne version ou de la supprimer.</string>
-    <string name="show_list_revisions_tool_description">Affiche toutes les versions précédentes/enregistrements de cette liste. Te permet de charger une ancienne version ou de la supprimer.</string>
+    <string name="show_note_revisions_tool_description">Affiche toutes les versions précédentes/enregistrements de cette note. Vous permet de charger une ancienne version ou de la supprimer.</string>
+    <string name="show_list_revisions_tool_description">Affiche toutes les versions précédentes/enregistrements de cette liste. Vous permet de charger une ancienne version ou de la supprimer.</string>
 
     <string name="word_letter_count_tool_title">Nombre de mots et de lettres</string>
     <string name="word_letter_count_tool_description">Affiche le nombre de mots et de lettres du corps de votre note.</string>
@@ -189,7 +189,7 @@
     <string name="delete_item_tool_description">Efface l\'élément sélectionné de votre liste. Si votre liste ne contient qu\'un élément ou si aucun élément n\'est sélectionné, rien ne sera effacé.</string>
 
     <string name="select_visibility_tool_title">Visibilité des éléments</string>
-    <string name="select_visibility_tool_description">Permet de filtrer votre liste selon si les éléments sont cochés ou non. Vous pouvez ainsi afficher tous les éléments, les éléments terminés ou bien les éléments incomplets.</string>
+    <string name="select_visibility_tool_description">Permet de filtrer votre liste selon si les critères sont cochés ou non. Vous pouvez ainsi afficher tous les éléments, les éléments terminés ou bien les éléments incomplets.</string>
 
     <string name="duplicate_list_tool_title">Dupliquer la liste</string>
     <string name="duplicate_list_tool_description">Affiche un dialogue permettant de créer une copie de votre liste. Permet de lui donner un titre et de choisir si vous voulez dupliquer aussi les sauvegardes de cette liste.</string>
@@ -215,7 +215,7 @@
     <string name="permanently_deleted_lower">effacé définitivement</string>
     <string name="item_lowercase">élément</string>
     <string name="items_lowercase">éléments</string>
-    <string name="about_to_delete_items_check">Vous êtes sur le point de supprimez ces éléments; êtes-vous sûr?</string>
+    <string name="about_to_delete_items_check">Vous êtes sur le point de supprimer ces éléments; êtes-vous sûr?</string>
     <string name="action_cannot_be_reversed_information">Cette action ne peut pas être inversée. Vous pouvez modifier ce comportement et faire en sorte que les éléments effacés puissent être récupérés, en allant dans les réglages.</string>
     <string name="can_make_items_recoverable_in_settings">Vous pouvez modifier ce comportement et faire en sorte que les éléments effacés puissent être récupérés, en allant dans les réglages.</string>
     <string name="items_recoverable_for_length">Les éléments effacés peuvent être récupérés pendant %s. Vous pouvez afficher les éléments effacés en allant dans les réglages.</string>
@@ -241,9 +241,9 @@
     <string name="help_pay_my_bills_19_99">M\'aider à payer mes factures: £19.99</string>
     <string name="help_pay_my_rent">M\'aider à payer mon loyer (on peut rêver, non?): £299.99</string>
     <string name="thank_you_so_much">Merci beaucoup!</string>
-    <string name="your_donation_is_appreciated">Votre don est très apprécié! Désirez-vous aussi m\'envoyer un email au sujet de votre don?</string>
+    <string name="your_donation_is_appreciated">Votre don est très apprécié! Désirez-vous aussi m\'envoyer un e-mail au sujet de votre don?</string>
     <string name="billing_setup_error">Erreur de configuration de la facturation</string>
-    <string name="billing_setup_error_message">Désolé, mais une erreur de configuration de la facturation de votre don s\'est produite. Veuillez vérifier que les paiements sur votre compte Google Play Store soient bien configurés.\n\nSi ce problème persiste, envoyez-moi un email pour m\'en avertir!</string>
+    <string name="billing_setup_error_message">Désolé, mais une erreur de configuration de la facturation de votre don s\'est produite. Veuillez vérifier que les paiements sur votre compte Google Play Store soient bien configurés.\n\nSi ce problème persiste, envoyez-moi un e-mail pour m\'en avertir!</string>
     <string name="donation_issue_subject">Problème avec votre don - Offline Notepad</string>
     <string name="failed_to_set_up_billing_please_try_again_later">Impossible de configurer la facturation, veuillez réessayer plus tard</string>
     <!-- Donations -->
@@ -346,7 +346,7 @@
     <string name="transfer_notes">Transférer les notes</string>
     <string name="transfer_type">Type de transfert</string>
     <string name="select_file">Sélectionnez le fichier</string>
-    <string name="select_file_to_import_description">Sélectionnez le fichier que vous souhaitez importer.\n\nOffline Notepad va tenter de voir si votre fichier a été précédemment exporté depuis cette application ou pas.\n\nVeuillez noter: durant l\'exportation, vous devez choisir l\'option de fichiers réimportables, sinon l\'importateur supposera que vous êtes en train d\'importer du texte normal et l\'importera comme un seul élément.</string>
+    <string name="select_file_to_import_description">Sélectionnez le fichier que vous souhaitez importer.\n\nOffline Notepad va tenter de voir si votre fichier a été précédemment exporté depuis cette application ou pas.\n\nVeuillez noter: durant l\'exportation, vous devez choisir l\'option de fichiers réimportables, sinon l\'application supposera que vous êtes en train d\'importer du texte normal et l\'importera comme un seul élément.</string>
     <string name="choose_file">Choisir un fichier…</string>
     <string name="export_type">Type d\'exportation > Type</string>
     <string name="exporting_notes_type_description">Si vous exportez vos notes pour les réimporter plus tard dans cette application, vous devez choisir ci-dessous d\'activer la ré-importation. Afin de maximiser la sécurité, les fichiers re-importables sont également chiffrés.\n\nSi vous désirez juste exporter vos notes pour les lire ailleurs, vous pouvez alors choisir de les sauvegarder en format facile à lire, mais l\'application ne reconnaîtra pas correctement le fichier si vous tentez de l\'importer à nouveau.</string>
@@ -360,7 +360,7 @@
     <string name="no_notes_to_export">Vous n\'avez pas de notes, de listes ou de dossiers à exporter</string>
     <string name="transfer_broken_message">Quelque chose semble n\'avoir pas fonctionné. Merci d\'essayer de changer de type de transfert ou de recharger cette page.</string>
     <string name="export_error_message_choose_type">Veuillez choisir un type d\'exportation.</string>
-    <string name="include_previous_saves_description">Vous pouvez également inclure les 10 sauvegardes/révisions les plus récentes de chacune de vos notes dans le fichier exporté. Cela peut rendre le fichier d\'exportation beaucoup plus volumineux.\n\nSi vous choisissez de rendre votre type d\'exportation facile à lire afin de pouvoir lire vos notes ailleurs, il est recommandé de ne PAS inclure les sauvegardes précédentes dans l\'exportation car elles peuvent rendre l\'exportation fichier difficile à lire.</string>
+    <string name="include_previous_saves_description">Vous pouvez également inclure les 10 sauvegardes/révisions les plus récentes de chacune de vos notes dans le fichier exporté. Cela peut rendre le fichier d\'exportation beaucoup plus volumineux.\n\nSi vous choisissez de rendre votre type d\'exportation facile à lire afin de pouvoir lire vos notes ailleurs, il est recommandé de ne PAS inclure les sauvegardes précédentes dans l\'exportation car elles peuvent rendre le fichier exporté difficile à lire.</string>
     <string name="previous_saves">Sauvegarde précédente</string>
     <string name="export_file_to">Exporter le fichier vers…</string>
     <string name="failed_to_create_export_file">La création du fichier d\'exportation a échoué. Veuillez recharger cette page et essayer à nouveau.</string>
@@ -379,13 +379,13 @@
     <!-- Transferring Content - Backups -->
     <string name="backup_scheduling">Planification des sauvegardes</string>
     <string name="data_management">Gestion des données</string>
-    <string name="scheduled_backup_information">-La planification des sauvegardes vous permet de faire régulièrement des copies de sauvegarde de vos notes sur votre appareil. Vous pouvez aussi sauvegarder vos notes manuellement à tout moment à l\'aide de l\'option \'Transférer vos notes\' que vous trouvez dans le tiroir de navigation de l\'écran principal.\n\n-Vous pouvez choisir ci-dessous à quelle fréquence vous voulez faire ces sauvegardes. L\'application vous rappellera de faire votre sauvegarde lorsque vous l\'ouvrirez, si le temps sélectionné est écoulé (et si vous avez des notes).\n\n-Dernière sauvegarde:%s</string>
+    <string name="scheduled_backup_information">-La planification des sauvegardes vous permet de faire régulièrement des copies de sauvegarde de vos notes sur votre appareil. Vous pouvez aussi sauvegarder vos notes manuellement à tout moment à l\'aide de l\'option \'Transférer vos notes\' que vous trouvez dans le menu de navigation de l\'écran principal.\n\n-Vous pouvez choisir ci-dessous à quelle fréquence vous voulez faire ces sauvegardes. L\'application vous rappellera de faire votre sauvegarde lorsque vous l\'ouvrirez, si le temps sélectionné est écoulé (et si vous avez des notes).\n\n-Dernière sauvegarde:%s</string>
     <string name="backup_frequency">Fréquence des sauvegardes</string>
     <string name="backup_frequency_time">Fréquence des sauvegardes: %s</string>
     <string name="scheduled_backup">Sauvegarde planifiée</string>
     <string name="scheduled_backup_dialog_text">Cela fait plus de %s que vous avez effectué votre dernière sauvegarde. Voulez-vous faire une sauvegarde maintenant?\n\nVous pouvez répéter ce message dans 6 heures si vous le désirez. Vous pouvez aussi modifier cette fonctionnalité dans la configuration.</string>
     <string name="backup_prompt_has_been_snoozed">Le rappel pour la sauvegarde sera répété dans 6 heures</string>
-    <string name="include_past_saves_text">Include les enregistrements précédents</string>
+    <string name="include_past_saves_text">Inclure les enregistrements précédents</string>
     <string name="deleted_items">Eléments effacés</string>
     <string name="permanently_delete_after_title">Effacer définitivement après :</string>
     <string name="permanently_delete_after_time">Effacer définitivement les éléments après : %s</string>
@@ -415,7 +415,7 @@
     <!-- Themes - Custom Theme Options -->
     <string name="backgrounds">Arrière-plans</string>
     <string name="text_colours">Couleurs de texte</string>
-    <string name="icon_tinting">Teinte des icones</string>
+    <string name="icon_tinting">Teinte des icônes</string>
     <string name="select_colour">Sélectionner la couleur</string>
     <string name="picker">Sélecteur</string>
     <string name="manual">Manuellement</string>
@@ -491,7 +491,7 @@
     <string name="custom_colour_title_searched_focused_background">Recherche : Occurrence ciblée</string>
     <string name="custom_colour_description_searched_focused_background">La couleur du surlignage du critère de recherche trouvé et actuellement mis en évidence, lors de recherche dans les notes et les listes.</string>
 
-    <string name="custom_colour_title_searched_unfocused_background">Recherche : Occurrence non  ciblée</string>
+    <string name="custom_colour_title_searched_unfocused_background">Recherche : Occurrence non ciblée</string>
     <string name="custom_colour_description_searched_unfocused_background">La couleur du surlignage des critères de recherche trouvés actuellement non mis en évidence, lors de recherche dans les notes et les listes.</string>
 
     <string name="custom_colour_title_widget_background">Arrière-plans de widget de l\'écran d\'accueil</string>
@@ -531,8 +531,8 @@
 
     <!-- General plurals -->
     <plurals name="numberOfItems">
-        <item quantity="one">%d élément</item>
-        <item quantity="other">%d éléments</item>
+        <item quantity="one">%d\'élément</item>
+        <item quantity="other">%d\'éléments</item>
     </plurals>
     <!-- General plurals -->
 
