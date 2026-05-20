@@ -91,6 +91,7 @@
     <string name="lists">Listes</string>
     <string name="search_note">Rechercher cette note</string>
     <string name="search_list">Liste de recherche</string>
+    <string name="word_count_letter_count">Nombre de mots: %1$d / Nombre de lettres: %2$d</string>
     <!-- Content Creation - General -->
 
 
@@ -244,6 +245,7 @@
     <string name="billing_setup_error">Erreur de configuration de la facturation</string>
     <string name="billing_setup_error_message">Désolé, mais une erreur de configuration de la facturation de votre don s\'est produite. Veuillez vérifier que les paiements sur votre compte Google Play Store soient bien configurés.\n\nSi ce problème persiste, envoyez-moi un email pour m\'en avertir!</string>
     <string name="donation_issue_subject">Problème avec votre don - Offline Notepad</string>
+    <string name="failed_to_set_up_billing_please_try_again_later">Impossible de configurer la facturation, veuillez réessayer plus tard</string>
     <!-- Donations -->
 
 

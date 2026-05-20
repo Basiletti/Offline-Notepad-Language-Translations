@@ -91,6 +91,7 @@
     <string name="lists">Liste</string>
     <string name="search_note">Cerca nella nota</string>
     <string name="search_list">Cerca nella lista</string>
+    <string name="word_count_letter_count">Numero di parole: %1$d / Numero di lettere: %2$d</string>
     <!-- Content Creation - General -->
 
 
@@ -244,6 +245,7 @@
     <string name="billing_setup_error">Errore di configurazione pagamento</string>
     <string name="billing_setup_error_message">Spiacente, si è verificato un errore durante la configurazione del pagamento per la tua donazione. Controlla di avere un metodo di pagamento impostato nel tuo account Google Play Store.\n\nSe il problema persiste, scrivimi pure un’email – sarò felice di aiutarti!</string>
     <string name="donation_issue_subject">Problema con donazione - offline notepad</string>
+    <string name="failed_to_set_up_billing_please_try_again_later">Impossibile configurare la fatturazione, riprova più tardi</string>
     <!-- Donations -->
 
 

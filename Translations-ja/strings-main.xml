@@ -91,6 +91,7 @@
     <string name="lists">チェックリスト</string>
     <string name="search_note">メモを検索</string>
     <string name="search_list">リスト内を検索</string>
+    <string name="word_count_letter_count">単語数: %1$d / 文字数: %2$d</string>
     <!-- Content Creation - General -->
 
 
@@ -244,6 +245,7 @@
     <string name="billing_setup_error">請求設定エラー</string>
     <string name="billing_setup_error_message">申し訳ありません。ご寄付についての請求設定にてエラーが発生しました。ご使用のGoogle Playストアアカウントにおいて、お支払い方法が設定されているかどうかご確認をお願いします。\n\nもし問題が解決しない場合、製作者までメールでご連絡をお願いします！</string>
     <string name="donation_issue_subject">寄付の処理で問題が発生しました - Offline Notepad</string>
+    <string name="failed_to_set_up_billing_please_try_again_later">請求の設定に失敗しました。後ほどもう一度お試しください</string>
     <!-- Donations -->
 
 
