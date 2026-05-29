@@ -222,6 +222,10 @@
     <string name="folders_have_x_items_inside_of_them">ATTENTION: Le ou les répertoires sélectionnés contiennent %1$d %2$s ! Ce contenu sera %3$s.\n\n%4$s\n\nEtes-vous sûr?</string>
     <string name="about_to_move_items_to_root">Vous êtes sur le point de déplacer les éléments sélectionnés vers le niveau supérieur / \'dossier racine\'</string>
     <string name="about_to_move_items_to_folder_name">Vous êtes sur le point de déplacer les éléments sélectionnés vers le dossier \'%s\'</string>
+    <string name="search_settings">Paramètres de recherche</string>
+    <string name="search_navigation_description">Lorsque vous appuyez sur un élément recherché…</string>
+    <string name="search_navigation_option_go_to_location">Accéder simplement à l\'emplacement de l\'élément</string>
+    <string name="search_navigation_option_open_the_item">Ouvrir l\'élément</string>
     <!-- Content Moving & Deletion -->
 
 
