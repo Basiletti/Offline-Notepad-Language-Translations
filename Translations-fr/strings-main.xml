@@ -224,7 +224,7 @@
     <string name="about_to_move_items_to_folder_name">Vous êtes sur le point de déplacer les éléments sélectionnés vers le dossier \'%s\'</string>
     <string name="search_settings">Paramètres de recherche</string>
     <string name="search_navigation_description">Lorsque vous appuyez sur un élément recherché…</string>
-    <string name="search_navigation_option_go_to_location">Accéder simplement à l\'emplacement de l\'élément</string>
+    <string name="search_navigation_option_go_to_location">Accéder à l\'élément</string>
     <string name="search_navigation_option_open_the_item">Ouvrir l\'élément</string>
     <!-- Content Moving & Deletion -->
 
