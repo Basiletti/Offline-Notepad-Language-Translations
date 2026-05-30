@@ -222,6 +222,10 @@
     <string name="folders_have_x_items_inside_of_them">WARNUNG: Dein(e) ausgewählter Ordner enthält %1$d %2$s! Dieser Inhalt wird ebenfalls %3$s.\n\n%4$s\n\nBist du sicher?</string>
     <string name="about_to_move_items_to_root">Du bist dabei, deine ausgewählten Elemente in die oberste Ebene / den \'Root-Ordner\' zu verschieben</string>
     <string name="about_to_move_items_to_folder_name">Du bist dabei, deine ausgewählten Elemente in den Ordner \'%s\' zu verschieben</string>
+    <string name="search_settings">Sucheinstellungen</string>
+    <string name="search_navigation_description">Beim Tippen auf ein gesuchtes Element…</string>
+    <string name="search_navigation_option_go_to_location">Nur zum Standort des Elements navigieren</string>
+    <string name="search_navigation_option_open_the_item">Das Element öffnen</string>
     <!-- Content Moving & Deletion -->
 
 

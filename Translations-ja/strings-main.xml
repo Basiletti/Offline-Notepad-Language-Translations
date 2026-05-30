@@ -222,6 +222,10 @@
     <string name="folders_have_x_items_inside_of_them">警告: 選択されているフォルダーには%1$d個の%2$sが含まれています。これらの項目についても%3$sされます。\n\n%4$s\n\nよろしいですか？</string>
     <string name="about_to_move_items_to_root">項目を最上位フォルダーである「Root」に移動しようとしています</string>
     <string name="about_to_move_items_to_folder_name">項目を「%s」フォルダーに移動しようとしています</string>
+    <string name="search_settings">検索設定</string>
+    <string name="search_navigation_description">検索した項目をタップしたとき…</string>
+    <string name="search_navigation_option_go_to_location">項目の場所に移動するだけ</string>
+    <string name="search_navigation_option_open_the_item">項目を開く</string>
     <!-- Content Moving & Deletion -->
 
 
