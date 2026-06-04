@@ -340,6 +340,8 @@
 
 
     <!-- Transferring Content - General -->
+    <string name="import_notes_title">ノートをインポート</string>
+    <string name="export_notes_title">ノートをエクスポート</string>
     <string name="import_your_notes_lower">メモをインポート</string>
     <string name="export_your_notes_lower">メモをエクスポート</string>
     <string name="import_successful">インポートに成功しました！</string>
@@ -350,10 +352,10 @@
     <string name="transfer_notes">インポート&amp;エクスポート</string>
     <string name="transfer_type">処理を選択してください</string>
     <string name="select_file">ファイルを選択してください</string>
-    <string name="select_file_to_import_description">インポートしたいファイルを選択してください。\n\nOffline Notepadは、このアプリによりエクスポートされたファイルであるかどうかを識別しようとします。\n\nお知らせ: 再インポート用としてエクスポートされたファイルではない場合、インポートするテキストは一つの大きなメモであるとして処理されます。</string>
+    <string name="select_file_to_import_description">このアプリにインポートするテキストファイルを選択してください。</string>
     <string name="choose_file">ファイルを選択…</string>
     <string name="export_type">エクスポートタイプを選択してください</string>
-    <string name="exporting_notes_type_description">メモをエクスポートする目的が後にこのアプリで再インポートするためのものである場合（バックアップ目的である場合）、必ず「このアプリで再インポート用」を選択してください。セキュリティを最大限に高めるため、再インポート用のファイルは暗号化されます。\n\nエクスポートの目的が他のアプリで読み込むことである場合、「他のアプリで再利用しやすい形式」を選択してください。これにより他のアプリがファイルを読み込みやすくなります。ただしそのファイルをOffline Notepadでインポートする場合、以前の状態を復元させることはできないことにご注意ください。</string>
+    <string name="exporting_notes_type_description">ノートを別のデバイスのこのアプリに再インポートしたい場合は、以下の「再インポートを有効にする」を選択してください。セキュリティのため、再インポート用のファイルは暗号化されます。\n\nこのアプリへの再インポートを想定せず、他の場所で内容を確認したいだけの場合は、代わりに「読みやすい形式にする」を選択してください。</string>
     <string name="enable_re_importing_title">エクスポートタイプ: 再インポート用</string>
     <string name="reader_friendly_title">エクスポートタイプ: 他のアプリで再利用</string>
     <string name="enable_re_importing">このアプリで再インポート用（バックアップ用）</string>
@@ -364,7 +366,6 @@
     <string name="no_notes_to_export">エクスポートするためのメモ、チェックリスト、フォルダーがありません</string>
     <string name="transfer_broken_message">予期しない選択状態になっています。処理タイプを変更するか、一度画面を閉じてからもう一度お試しください。</string>
     <string name="export_error_message_choose_type">エクスポートタイプを選択してください。</string>
-    <string name="include_previous_saves_description">エクスポートされたファイルには、各ノートの最新 10 件の保存/改訂を含めることもできます。これにより、エクスポート ファイルが大幅に大きくなる可能性があります。\n\n他の場所でメモを読めるようにエクスポート タイプを読みやすいものにする場合は、以前の保存内容をエクスポートに含めないことをお勧めします。ファイルが読みにくい。</string>
     <string name="previous_saves">変更履歴を含めますか</string>
     <string name="export_file_to">ファイルのエクスポート先…</string>
     <string name="failed_to_create_export_file">エクスポートファイルの作成に失敗しました。一度画面を閉じてからもう一度お試しください。</string>
@@ -377,18 +378,42 @@
     <string name="include_previous_saves_note_list_histories">変更履歴を含める</string>
     <string name="you_have_not_selected_any_items">項目が選択されていません</string>
     <string name="transfer_your_notes">インポート&amp;エクスポート</string>
+    <string name="end_of_file_preview">----\n\nファイルプレビューの終了</string>
+    <string name="exported_file_name_title">エクスポートされたファイル名</string>
+    <string name="exported_file_name_description">ファイルをエクスポートする際、生成されるファイル名は次の形式になります：\'%s\'</string>
+    <string name="exported_file_name_dialog_description">ここで、生成されるエクスポートファイルの名前を編集できます。日付と時刻はエクスポート時に自動的に生成されます（以下の例を参照）。\n\n日付・時刻形式の設定は、設定 > アプリのカスタマイズ > ローカライゼーションで更新できます。</string>
+    <string name="exported_file_name_dialog_description_2">生成されるファイル名のプレフィックス（接頭辞）とサフィックス（接尾辞）を以下で編集できます。\n\n日付と時刻はエクスポート時に自動的に生成されます（以下の例を参照）。\n\n日付・時刻形式の設定は、設定 > アプリのカスタマイズ > ローカライゼーションで更新できます。</string>
+    <string name="exported_file_name_example">ファイル名の例：\n%s.txt</string>
+    <string name="prefix">プレフィックス</string>
+    <string name="suffix">サフィックス</string>
     <!-- Transferring Content - General -->
 
 
     <!-- Transferring Content - Backups -->
+    <string name="tranferring_notes">ノートを転送中</string>
+    <string name="include_previous_saves_description">このアプリでノートを編集するたびに、リビジョン（履歴）が保存されます（これは 設定 > 全般 > アイテムのリビジョン でオン/オフを切り替えられます）。\n\nノートをエクスポートする際、各ノートの最新10件のリビジョンをエクスポートファイルに含めることもできます。これを行うと、エクスポートファイルのサイズが大幅に大きくなる可能性があります。</string>
     <string name="backup_scheduling">定期バックアップ</string>
     <string name="data_management">データ管理</string>
-    <string name="scheduled_backup_information">・定期バックアップにより、メモの内容をデバイス内に定期的にバックアップすることができます。メモを手動でバックアップしたい場合は、メイン画面のナビゲーションドロワーにある「インポート＆エクスポート」を実行してください。\n\n・定期バックアップの頻度はすぐ下にある項目にて指定することができます。指定の期間が経過している（かつメモが存在する）場合、アプリの起動時にバックアップをするかどうかの問合せが表示されます。\n\n・前回のバックアップ: %s</string>
+    <string name="scheduled_backup_information">定期バックアップ設定では、ノートがバックアップされる頻度を調整できます。また、ホーム画面のナビゲーションドロワーにある「ノートをエクスポート」オプションから、いつでも手動でバックアップを行うことができます。\n\n前回のバックアップ: %s</string>
     <string name="backup_frequency">バックアップの頻度</string>
     <string name="backup_frequency_time">バックアップ頻度：%s</string>
+    <string name="storage_permissions_required_title">ストレージへのアクセス許可が必要です！</string>
+    <string name="storage_permissions_required_description">現在、Offline Notepadはデバイスにノートの自動バックアップを保存できません。タップして権限を許可してください。\n\nタップしても反応がない場合は、デバイスの設定（アプリの外）から、Offline Notepadのストレージ権限を手動で有効にする必要があります。</string>
+    <string name="backup_log_title">バックアップ履歴</string>
+    <string name="backup_logs_description">現在、%d件の定期バックアップが記録されています。</string>
+    <string name="no_backup_logs">定期バックアップの記録はありません。アプリによって定期バックアップが作成されると、ここにログが表示されます。</string>
+    <string name="backup_log_successful_description">定期バックアップが正常に完了しました。</string>
+    <string name="backup_log_failure_description">定期バックアップに失敗しました。原因は不明です。</string>
+    <string name="backup_success_status">成功</string>
+    <string name="backup_failure_status">失敗</string>
+    <string name="item_save_histories_included">変更履歴：含む</string>
+    <string name="item_save_histories_excluded">変更履歴：含まない</string>
+    <string name="exported_items">エクスポート済み\nアイテム</string>
+    <string name="backup_creation_time">バックアップ作成日時</string>
+    <string name="export_file_save_location">エクスポートファイルの保存場所</string>
+    <string name="location_unknown">場所不明</string>
+    <string name="export_file_can_be_reimported">エクスポートされたファイルは、別のデバイスのOffline Notepadに再インポートできます。</string>
     <string name="scheduled_backup">定期バックアップ</string>
-    <string name="scheduled_backup_dialog_text">前回のメモ内容のバックアップから%s経過しています。バックアップを実行しますか？\n\nこの問合せは6時間延期することもできます。また必要であれば設定画面で機能を変更することもできます。</string>
-    <string name="backup_prompt_has_been_snoozed">バックアップの問合せを6時間延期しました</string>
     <string name="include_past_saves_text">変更履歴を含める</string>
     <string name="deleted_items">削除済み項目</string>
     <string name="permanently_delete_after_title">完全に削除するまでの期間：</string>
@@ -537,8 +562,13 @@
     <plurals name="numberOfItems">
         <item quantity="other">%d 項目</item>
     </plurals>
-    <!-- General plurals -->
 
+    <plurals name="numberOfItemsInside">
+        <item quantity="other">中に合計 %d 個のアイテムがあります</item>
+    </plurals>
+
+
+    <!-- General plurals -->
 
 
 </resources>

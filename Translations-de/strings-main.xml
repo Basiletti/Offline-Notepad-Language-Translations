@@ -340,6 +340,8 @@
 
 
     <!-- Transferring Content - General -->
+    <string name="import_notes_title">Notizen importieren</string>
+    <string name="export_notes_title">Notizen exportieren</string>
     <string name="import_your_notes_lower">Notizen importieren</string>
     <string name="export_your_notes_lower">Notizen exportieren</string>
     <string name="import_successful">Import erfolgreich!</string>
@@ -350,10 +352,10 @@
     <string name="transfer_notes">Notizen übertragen</string>
     <string name="transfer_type">Übertragungsart</string>
     <string name="select_file">Datei auswählen</string>
-    <string name="select_file_to_import_description">Wählen Sie die Datei aus, die Sie importieren möchten.\n\nOffline Notepad versucht zu erkennen, ob die Datei zuvor aus dieser App exportiert wurde.\n\nHinweis: Sie müssen beim Exportieren die Option „wieder importierbar“ aktivieren; andernfalls erkennt der Importer nur normalen Text und importiert alles als eine einzige Notiz.</string>
+    <string name="select_file_to_import_description">Wählen Sie die Textdatei aus, die Sie in diese App importieren möchten.</string>
     <string name="choose_file">Datei auswählen…</string>
     <string name="export_type">Export-Typ</string>
-    <string name="exporting_notes_type_description">Wenn Sie Ihre Notizen später wieder in diese App importieren möchten, müssen Sie unten „Wiederimport erlauben“ aktivieren. Zur maximalen Sicherheit werden wiederimportierbare Dateien zusätzlich verschlüsselt.\n\nWenn Sie die Notizen nur anderswo lesen möchten, wählen Sie „Lesefreundlich“. Die exportierte Datei ist dann einfacher lesbar, kann aber später nicht korrekt wieder importiert werden.</string>
+    <string name="exporting_notes_type_description">Wenn Sie Ihre Notizen auf einem anderen Gerät wieder in diese App importieren möchten, müssen Sie unten \"Wiederimportieren ermöglichen\" wählen. Dateien für den Wiederimport werden zu Ihrer Sicherheit verschlüsselt.\n\nWenn Sie die Notizen nicht in diese App importieren möchten, sondern sie lediglich an einem anderen Ort lesen wollen, können Sie stattdessen \"leserfreundlich exportieren\" wählen.</string>
     <string name="enable_re_importing_title">Export-Typ: Wiederimport erlauben</string>
     <string name="reader_friendly_title">Export-Typ: Lesefreundlich</string>
     <string name="enable_re_importing">Wiederimport erlauben</string>
@@ -364,7 +366,6 @@
     <string name="no_notes_to_export">Sie haben keine Notizen, Listen oder Ordner zum Exportieren</string>
     <string name="transfer_broken_message">Es scheint ein Problem aufgetreten zu sein. Bitte wechseln Sie die Übertragungsart oder laden Sie den Bildschirm neu.</string>
     <string name="export_error_message_choose_type">Bitte wählen Sie einen Export-Typ aus.</string>
-    <string name="include_previous_saves_description">Sie können auch die 10 neuesten Speicherstände/Revisionen jeder Notiz in die exportierte Datei aufnehmen. Dadurch wird die Export-Datei deutlich größer.\n\nWenn Sie „lesefreundlich“ wählen, um die Notizen woanders zu lesen, wird empfohlen, frühere Speicherstände **nicht** einzuschließen, da sie die Datei schwer lesbar machen können.</string>
     <string name="previous_saves">Frühere Speicherstände</string>
     <string name="export_file_to">Datei exportieren nach…</string>
     <string name="failed_to_create_export_file">Export-Datei konnte nicht erstellt werden. Bitte laden Sie diesen Bildschirm neu und versuchen Sie es erneut.</string>
@@ -377,18 +378,42 @@
     <string name="include_previous_saves_note_list_histories">Frühere Speicherstände einschließen</string>
     <string name="you_have_not_selected_any_items">Sie haben keine Elemente ausgewählt</string>
     <string name="transfer_your_notes">Ihre Notizen übertragen</string>
+    <string name="end_of_file_preview">----\n\nEnde der Dateivorschau</string>
+    <string name="exported_file_name_title">Name der exportierten Datei</string>
+    <string name="exported_file_name_description">Beim Exportieren von Dateien hat der erzeugte Dateiname das Format: „%s“</string>
+    <string name="exported_file_name_dialog_description">Hier können Sie den Namen der erzeugten Exportdateien bearbeiten. Datum und Uhrzeit werden zum Zeitpunkt des Exports automatisch generiert (ein Beispiel siehe unten).\n\nSie können Ihr bevorzugtes Datums-/Uhrzeitformat in den Einstellungen > App-Anpassung > Lokalisierung ändern.</string>
+    <string name="exported_file_name_dialog_description_2">Hier können Sie das Präfix und das Suffix für den unten erzeugten Dateinamen bearbeiten.\n\nDatum und Uhrzeit werden zum Zeitpunkt des Exports automatisch generiert (ein Beispiel siehe unten).\n\nSie können Ihr bevorzugtes Datums-/Uhrzeitformat in den Einstellungen > App-Anpassung > Lokalisierung ändern.</string>
+    <string name="exported_file_name_example">Beispiel-Dateiname:\n%s.txt</string>
+    <string name="prefix">Präfix</string>
+    <string name="suffix">Suffix</string>
     <!-- Transferring Content - General -->
 
 
     <!-- Transferring Content - Backups -->
+    <string name="tranferring_notes">Notizen werden übertragen</string>
+    <string name="include_previous_saves_description">Jedes Mal, wenn Sie eine Notiz in dieser App bearbeiten, wird eine Revisionsspeicherung erstellt (dies kann in den Einstellungen > Allgemein > Element-Revisionen ein- oder ausgeschaltet werden).\n\nBeim Exportieren Ihrer Notizen können Sie auch die 10 neuesten Speicherungen/Revisionen jeder Ihrer Notizen in die exportierte Datei aufnehmen. Dies kann die Exportdatei deutlich vergrößern.</string>
     <string name="backup_scheduling">Backup-Planung</string>
     <string name="data_management">Datenverwaltung</string>
-    <string name="scheduled_backup_information">-Mit der Backup-Planung können Sie regelmäßig Sicherungskopien Ihrer Notizen auf Ihrem Gerät speichern. Sie können Ihre Notizen auch jederzeit manuell über die Option „Notizen übertragen“ in der Navigationsleiste auf dem Startbildschirm sichern.\n\n-Wählen Sie unten aus, wie oft diese Backups erfolgen sollen. Die App erinnert Sie beim nächsten Öffnen nach Ablauf der gewählten Zeitspanne (sofern Notizen vorhanden sind).\n\n-Letztes Backup: %s</string>
+    <string name="scheduled_backup_information">Die Backup-Planung ermöglicht es Ihnen, festzulegen, wie oft Ihre Notizen gesichert werden. Sie können Ihre Notizen auch jederzeit manuell über die Option „Notizen exportieren“ im Navigationsmenü auf dem Startbildschirm sichern.\n\nLetztes Backup: %s</string>
     <string name="backup_frequency">Backup-Häufigkeit</string>
     <string name="backup_frequency_time">Backup-Häufigkeit: %s</string>
+    <string name="storage_permissions_required_title">SPEICHERZUGRIFF ERFORDERLICH!</string>
+    <string name="storage_permissions_required_description">Offline Notepad kann derzeit keine automatischen Backups Ihrer Notizen auf Ihrem Gerät speichern! Tippen Sie hier, um die Erlaubnis zu erteilen.\n\nWenn das Tippen keine Reaktion zeigt, müssen Sie die Speicherberechtigungen für Offline Notepad manuell in den Geräteeinstellungen (außerhalb dieser App) aktivieren.</string>
+    <string name="backup_log_title">Backup-Protokoll</string>
+    <string name="backup_logs_description">Sie haben derzeit %d geplante(s) Backup(s) aufgezeichnet.</string>
+    <string name="no_backup_logs">Sie haben derzeit keine geplanten Backups aufgezeichnet. Wenn die App geplante Backups erstellt, können Sie hier ein Protokoll davon einsehen.</string>
+    <string name="backup_log_successful_description">Das geplante Backup wurde erfolgreich abgeschlossen.</string>
+    <string name="backup_log_failure_description">Das geplante Backup ist fehlgeschlagen. Die Ursache ist unbekannt.</string>
+    <string name="backup_success_status">Erfolgreich</string>
+    <string name="backup_failure_status">Fehlgeschlagen</string>
+    <string name="item_save_histories_included">Änderungsverläufe enthalten</string>
+    <string name="item_save_histories_excluded">Änderungsverläufe ausgeschlossen</string>
+    <string name="exported_items">Exportierte\nElemente</string>
+    <string name="backup_creation_time">Erstellungszeit des Backups</string>
+    <string name="export_file_save_location">Speicherort der exportierten Datei</string>
+    <string name="location_unknown">Ort unbekannt</string>
+    <string name="export_file_can_be_reimported">Die exportierte Datei kann auf einem anderen Gerät wieder in Offline Notepad importiert werden.</string>
     <string name="scheduled_backup">Geplantes Backup</string>
-    <string name="scheduled_backup_dialog_text">Es ist nun länger als %s her, seit Sie zuletzt Ihre Notizen gesichert haben. Möchten Sie jetzt ein Backup erstellen?\n\nSie können diese Erinnerung für 6 Stunden verschieben (snoozen). Alternativ können Sie diese Funktion in den Einstellungen anpassen.</string>
-    <string name="backup_prompt_has_been_snoozed">Die Backup-Erinnerung wurde für 6 Stunden verschoben</string>
     <string name="include_past_saves_text">Frühere Speicherstände einschließen</string>
     <string name="deleted_items">Gelöschte Elemente</string>
     <string name="permanently_delete_after_title">Endgültig löschen nach:</string>
@@ -537,6 +562,11 @@
     <plurals name="numberOfItems">
         <item quantity="one">%d Element</item>
         <item quantity="other">%d Elemente</item>
+    </plurals>
+
+    <plurals name="numberOfItemsInside">
+        <item quantity="one">Insgesamt %d Element enthalten</item>
+        <item quantity="other">Insgesamt %d Elemente enthalten</item>
     </plurals>
     <!-- General plurals -->
 
