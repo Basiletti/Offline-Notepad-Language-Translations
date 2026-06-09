@@ -340,6 +340,8 @@
 
 
     <!-- Transferring Content - General -->
+    <string name="import_notes_title">Import Notes</string>
+    <string name="export_notes_title">Export Notes</string>
     <string name="import_your_notes_lower">Import your notes</string>
     <string name="export_your_notes_lower">Export your notes</string>
     <string name="import_successful">Import successful!</string>
@@ -350,10 +352,10 @@
     <string name="transfer_notes">Transfer Notes</string>
     <string name="transfer_type">Transfer Type</string>
     <string name="select_file">Select File</string>
-    <string name="select_file_to_import_description">Select the file you wish to import.\n\nOffline Notepad will attempt to distinguish between whether your file was previously exported from this app or not.\n\nPlease note: You must choose to make your file re-importable during the export process; otherwise the importer will think that you are just importing regular text and import it all as one item instead.</string>
+    <string name="select_file_to_import_description">Select the text file you wish to import into this app.</string>
     <string name="choose_file">Choose file…</string>
     <string name="export_type">Export Type</string>
-    <string name="exporting_notes_type_description">If you are exporting your notes to later re-import them back into this app, then you must choose to enable re-importing below. To maximise your security, re-importable files are also encrypted.\n\nIf you just want to export your notes to read them elsewhere, then you can choose to make them reader friendly instead. This will make the exported file easier to read, but the app will not properly recognise the file if you attempt to re-import it at a later time.</string>
+    <string name="exporting_notes_type_description">If you want to re-import your notes into this app on another device, then you must choose to \'enable re-importing\' below. Re-importable files are encrypted for your security.\n\nIf you don\'t care about re-importing them into this app and just want to read them elsewhere, then you can choose to \'just make them reader friendly\' instead.</string>
     <string name="enable_re_importing_title">Export Type: Enable Re-Importing</string>
     <string name="reader_friendly_title">Export Type: Reader Friendly</string>
     <string name="enable_re_importing">Enable re-importing</string>
@@ -364,7 +366,6 @@
     <string name="no_notes_to_export">You have no notes, lists or folders to export</string>
     <string name="transfer_broken_message">Something appears to have broken. Please try toggling the transfer type or reloading the screen.</string>
     <string name="export_error_message_choose_type">Please choose an export type.</string>
-    <string name="include_previous_saves_description">You can also include the 10 most recent saves/revisions of each of your notes in the exported file. This may make the export file much larger.\n\nIf you are choosing to make your export type reader friendly so you can read your notes elsewhere, it is recommended that you do NOT include previous saves in the export because they may make the exported file difficult to read.</string>
     <string name="previous_saves">Previous Saves</string>
     <string name="export_file_to">Export file to…</string>
     <string name="failed_to_create_export_file">Failed to create export file. Please reload this screen and try again.</string>
@@ -377,18 +378,42 @@
     <string name="include_previous_saves_note_list_histories">Include previous saves</string>
     <string name="you_have_not_selected_any_items">You have not selected any items</string>
     <string name="transfer_your_notes">Transfer Your Notes</string>
+    <string name="end_of_file_preview">----\n\nEnd of file preview</string>
+    <string name="exported_file_name_title">Exported File Name</string>
+    <string name="exported_file_name_description">When exporting files, your produced file name will be in the format: \'%s\'</string>
+    <string name="exported_file_name_dialog_description">You can edit the name of produced exported files here. The date and time will be automatically generated at the time of export (an example is below).\n\nYou can update your date-time format preference in Settings > App Customisation > Localisation.</string>
+    <string name="exported_file_name_dialog_description_2">You can edit the prefix and the suffix for the file name that gets produced below.\n\nThe date and time will be automatically generated at the time of export (an example is below).\n\nYou can update your date-time format preference in Settings > App Customisation > Localisation.</string>
+    <string name="exported_file_name_example">Example file name:\n%s.txt</string>
+    <string name="prefix">Prefix</string>
+    <string name="suffix">Suffix</string>
     <!-- Transferring Content - General -->
 
 
     <!-- Transferring Content - Backups -->
+    <string name="tranferring_notes">Transferring Notes</string>
+    <string name="include_previous_saves_description">Whenever you edit a note in this app, a revision save gets made (this can be turned on or off in Settings > General > Item Revisions).\n\nWhen exporting your notes you can also include the 10 most recent saves/revisions of each of your notes in the exported file. This may make the export file much larger.</string>
     <string name="backup_scheduling">Backup Scheduling</string>
     <string name="data_management">Data Management</string>
-    <string name="scheduled_backup_information">-Backup scheduling allows you to save regular backup copies of your notes to your device. You can also back your notes up manually at any time via the \'Transfer Notes\' option found in the navigation drawer on the home screen.\n\n-You may choose how often you want these backups to be below. The app will prompt you to backup when you open the app again after that length of time has elapsed (if you have notes).\n\n-Latest backup: %s</string>
+    <string name="scheduled_backup_information">Backup scheduling allows you to adjust how often your notes are backed up. You can also back your notes up manually at any time via the \'Export Notes\' option found in the navigation drawer on the home screen.\n\nLatest backup: %s</string>
     <string name="backup_frequency">Backup Frequency</string>
     <string name="backup_frequency_time">Backup Frequency: %s</string>
+    <string name="storage_permissions_required_title">STORAGE PERMISSION REQUIRED!</string>
+    <string name="storage_permissions_required_description">Offline Notepad cannot currently save automatic backups of your notes on your device! Tap to grant permission.\n\nIf tapping does nothing, then you need to manually enable storage permissions for Offline Notepad from your device settings (outside of this app).</string>
+    <string name="backup_log_title">Backup Log</string>
+    <string name="backup_logs_description">You currently have %d scheduled backup(s) recorded.</string>
+    <string name="no_backup_logs">You currently have no scheduled backups recorded. When the app creates scheduled backups, you will be able to see a log of them here.</string>
+    <string name="backup_log_successful_description">The scheduled backup completed successfully.</string>
+    <string name="backup_log_failure_description">The scheduled backup failed. The reason is unknown.</string>
+    <string name="backup_success_status">Success</string>
+    <string name="backup_failure_status">Failed</string>
+    <string name="item_save_histories_included">Save histories included</string>
+    <string name="item_save_histories_excluded">Save histories excluded</string>
+    <string name="exported_items">Exported\nitems</string>
+    <string name="backup_creation_time">Backup Creation Time</string>
+    <string name="export_file_save_location">Exported file location</string>
+    <string name="location_unknown">Location Unknown</string>
+    <string name="export_file_can_be_reimported">The exported file can be re-imported into Offline Notepad on another device.</string>
     <string name="scheduled_backup">Scheduled Backup</string>
-    <string name="scheduled_backup_dialog_text">It has now been longer than %s since you last backed up your notes. Would you like to back them up now?\n\nYou can snooze this reminder for 6 hours if you wish. Alternatively, you can edit this feature in settings.</string>
-    <string name="backup_prompt_has_been_snoozed">The backup prompt has been snoozed for 6 hours</string>
     <string name="include_past_saves_text">Include previous saves</string>
     <string name="deleted_items">Deleted Items</string>
     <string name="permanently_delete_after_title">Permanently Delete After:</string>
@@ -537,6 +562,11 @@
     <plurals name="numberOfItems">
         <item quantity="one">%d item</item>
         <item quantity="other">%d items</item>
+    </plurals>
+
+    <plurals name="numberOfItemsInside">
+        <item quantity="one">%d total item inside</item>
+        <item quantity="other">%d total items inside</item>
     </plurals>
     <!-- General plurals -->
 

@@ -340,6 +340,8 @@
 
 
     <!-- Transferring Content - General -->
+    <string name="import_notes_title">Importer des notes</string>
+    <string name="export_notes_title">Exporter des notes</string>
     <string name="import_your_notes_lower">Importer vos notes</string>
     <string name="export_your_notes_lower">Exporter vos notes</string>
     <string name="import_successful">L\'importation a réussi!</string>
@@ -350,21 +352,20 @@
     <string name="transfer_notes">Transférer les notes</string>
     <string name="transfer_type">Type de transfert</string>
     <string name="select_file">Sélectionnez le fichier</string>
-    <string name="select_file_to_import_description">Sélectionnez le fichier que vous souhaitez importer.\n\nOffline Notepad va tenter de voir si votre fichier a été précédemment exporté depuis cette application ou pas.\n\nVeuillez noter: durant l\'exportation, vous devez choisir l\'option de fichiers réimportables, sinon l\'application supposera que vous êtes en train d\'importer du texte normal et l\'importera comme un seul élément.</string>
+    <string name="select_file_to_import_description">Sélectionnez le fichier texte que vous souhaitez importer dans cette application.</string>
     <string name="choose_file">Choisir un fichier…</string>
     <string name="export_type">Type d\'exportation > Type</string>
-    <string name="exporting_notes_type_description">Si vous exportez vos notes pour les réimporter plus tard dans cette application, vous devez choisir ci-dessous d\'activer la ré-importation. Afin de maximiser la sécurité, les fichiers re-importables sont également chiffrés.\n\nSi vous désirez juste exporter vos notes pour les lire ailleurs, vous pouvez alors choisir de les sauvegarder en format facile à lire, mais l\'application ne reconnaîtra pas correctement le fichier si vous tentez de l\'importer à nouveau.</string>
-    <string name="enable_re_importing_title">Type d\'exportation: Activer la ré-importation</string>
+    <string name="exporting_notes_type_description">Si vous souhaitez réimporter vos notes dans cette application sur un autre appareil, vous devez choisir \"Activer la réimportation\" ci-dessous. Les fichiers réimportables sont cryptés pour votre sécurité.\n\nSi vous ne comptez pas les réimporter dans cette application et que vous souhaitez simplement les lire ailleurs, vous pouvez choisir l\'option \"Rendre mes notes faciles à lire\" à la place.</string>
+    <string name="enable_re_importing_title">Type d\'exportation: Activer la réimportation</string>
     <string name="reader_friendly_title">Type d\'exportation: Facile à lire</string>
     <string name="enable_re_importing">Activer la ré-importation</string>
-    <string name="just_make_my_notes_reader_friendly">Juste rendre mes notes faciles à lire</string>
+    <string name="just_make_my_notes_reader_friendly">Rendre mes notes faciles à lire</string>
     <string name="transfer_type_import">Type de Transfert: Importer</string>
     <string name="transfer_type_export">Type de Transfert: Exporter</string>
     <string name="select_items">Sélectionner les éléments</string>
     <string name="no_notes_to_export">Vous n\'avez pas de notes, de listes ou de dossiers à exporter</string>
     <string name="transfer_broken_message">Quelque chose semble n\'avoir pas fonctionné. Merci d\'essayer de changer de type de transfert ou de recharger cette page.</string>
     <string name="export_error_message_choose_type">Veuillez choisir un type d\'exportation.</string>
-    <string name="include_previous_saves_description">Vous pouvez également inclure les 10 sauvegardes/révisions les plus récentes de chacune de vos notes dans le fichier exporté. Cela peut rendre le fichier d\'exportation beaucoup plus volumineux.\n\nSi vous choisissez de rendre votre type d\'exportation facile à lire afin de pouvoir lire vos notes ailleurs, il est recommandé de ne PAS inclure les sauvegardes précédentes dans l\'exportation car elles peuvent rendre le fichier exporté difficile à lire.</string>
     <string name="previous_saves">Sauvegarde précédente</string>
     <string name="export_file_to">Exporter le fichier vers…</string>
     <string name="failed_to_create_export_file">La création du fichier d\'exportation a échoué. Veuillez recharger cette page et essayer à nouveau.</string>
@@ -377,18 +378,42 @@
     <string name="include_previous_saves_note_list_histories">Inclure les sauvegardes précédentes</string>
     <string name="you_have_not_selected_any_items">Vous n\'avez sélectionné aucun élément</string>
     <string name="transfer_your_notes">Transférer vos notes</string>
+    <string name="end_of_file_preview">----\n\nFin de l\'aperçu du fichier</string>
+    <string name="exported_file_name_title">Nom du fichier exporté</string>
+    <string name="exported_file_name_description">Lors de l\'exportation de fichiers, le nom du fichier produit sera au format : « %s »</string>
+    <string name="exported_file_name_dialog_description">Vous pouvez modifier ici le nom des fichiers exportés. La date et l\'heure seront générées automatiquement au moment de l\'exportation (un exemple est présenté ci-dessous).\n\nVous pouvez mettre à jour votre préférence de format date-heure dans Paramètres > Personnalisation de l\'application > Localisation.</string>
+    <string name="exported_file_name_dialog_description_2">Vous pouvez modifier ci-dessous le préfixe et le suffixe du nom de fichier généré.\n\nLa date et l\'heure seront générées automatiquement au moment de l\'exportation (un exemple est présenté ci-dessous).\n\nVous pouvez mettre à jour votre préférence de format date-heure dans Paramètres > Personnalisation de l\'application > Localisation.</string>
+    <string name="exported_file_name_example">Exemple de nom de fichier :\n%s.txt</string>
+    <string name="prefix">Préfixe</string>
+    <string name="suffix">Suffixe</string>
     <!-- Transferring Content - General -->
 
 
     <!-- Transferring Content - Backups -->
+    <string name="tranferring_notes">Transfert de notes</string>
+    <string name="include_previous_saves_description">Chaque fois que vous modifiez une note dans cette application, une sauvegarde de révision est effectuée (cela peut être activé ou désactivé dans Paramètres > Général > Révisions d\'éléments).\n\nLors de l\'exportation de vos notes, vous pouvez également inclure les 10 sauvegardes/révisions les plus récentes de chacune de vos notes dans le fichier exporté. Cela peut rendre le fichier d\'exportation beaucoup plus volumineux.</string>
     <string name="backup_scheduling">Planification des sauvegardes</string>
     <string name="data_management">Gestion des données</string>
-    <string name="scheduled_backup_information">-La planification des sauvegardes vous permet de faire régulièrement des copies de sauvegarde de vos notes sur votre appareil. Vous pouvez aussi sauvegarder vos notes manuellement à tout moment à l\'aide de l\'option \'Transférer vos notes\' que vous trouvez dans le menu de navigation de l\'écran principal.\n\n-Vous pouvez choisir ci-dessous à quelle fréquence vous voulez faire ces sauvegardes. L\'application vous rappellera de faire votre sauvegarde lorsque vous l\'ouvrirez, si le temps sélectionné est écoulé (et si vous avez des notes).\n\n-Dernière sauvegarde:%s</string>
+    <string name="scheduled_backup_information">La planification des sauvegardes vous permet de régler la fréquence de sauvegarde de vos notes. Vous pouvez également sauvegarder vos notes manuellement à tout moment via l\'option « Exporter des notes » située dans le menu de navigation de l\'écran d\'accueil.\n\nDernière sauvegarde : %s</string>
     <string name="backup_frequency">Fréquence des sauvegardes</string>
     <string name="backup_frequency_time">Fréquence des sauvegardes: %s</string>
+    <string name="storage_permissions_required_title">AUTORISATION DE STOCKAGE REQUISE !</string>
+    <string name="storage_permissions_required_description">Offline Notepad ne peut pas sauvegarder automatiquement vos notes sur votre appareil pour le moment! Appuyez pour accorder l\'autorisation.\n\nSi rien ne se passe, vous devez activer manuellement les autorisations de stockage pour Offline Notepad dans les paramètres de votre appareil (en dehors de cette application).</string>
+    <string name="backup_log_title">Journal des sauvegardes</string>
+    <string name="backup_logs_description">Vous avez actuellement %d sauvegarde(s) planifiée(s) enregistrée(s).</string>
+    <string name="no_backup_logs">Vous n\'avez actuellement aucune sauvegarde planifiée enregistrée. Lorsque l\'application créera des sauvegardes planifiées, vous pourrez en voir le journal ici.</string>
+    <string name="backup_log_successful_description">La sauvegarde planifiée s\'est terminée avec succès.</string>
+    <string name="backup_log_failure_description">La sauvegarde planifiée a échoué pour une raison inconnue.</string>
+    <string name="backup_success_status">Succès</string>
+    <string name="backup_failure_status">Échec</string>
+    <string name="item_save_histories_included">Historique de modification inclue</string>
+    <string name="item_save_histories_excluded">Historique de modification exclue</string>
+    <string name="exported_items">Éléments\nexportés</string>
+    <string name="backup_creation_time">Heure de création de la sauvegarde</string>
+    <string name="export_file_save_location">Emplacement du fichier exporté</string>
+    <string name="location_unknown">Emplacement inconnu</string>
+    <string name="export_file_can_be_reimported">Le fichier exporté peut être réimporté dans Offline Notepad sur un autre appareil.</string>
     <string name="scheduled_backup">Sauvegarde planifiée</string>
-    <string name="scheduled_backup_dialog_text">Cela fait plus de %s que vous avez effectué votre dernière sauvegarde. Voulez-vous faire une sauvegarde maintenant?\n\nVous pouvez répéter ce message dans 6 heures si vous le désirez. Vous pouvez aussi modifier cette fonctionnalité dans la configuration.</string>
-    <string name="backup_prompt_has_been_snoozed">Le rappel pour la sauvegarde sera répété dans 6 heures</string>
     <string name="include_past_saves_text">Inclure les enregistrements précédents</string>
     <string name="deleted_items">Eléments effacés</string>
     <string name="permanently_delete_after_title">Effacer définitivement après :</string>
@@ -537,6 +562,11 @@
     <plurals name="numberOfItems">
         <item quantity="one">%d\'élément</item>
         <item quantity="other">%d\'éléments</item>
+    </plurals>
+
+    <plurals name="numberOfItemsInside">
+        <item quantity="one">%d élément au total à l\'intérieur</item>
+        <item quantity="other">%d éléments au total à l\'intérieur</item>
     </plurals>
     <!-- General plurals -->
 
