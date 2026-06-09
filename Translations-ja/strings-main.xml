@@ -34,6 +34,7 @@
     <string name="settings_caps">設定画面表示</string>
     <string name="duplicate_caps">複製を作成</string>
     <string name="recover_caps">復元</string>
+    <string name="close_caps">閉じる</string>
     <!--  Actions -->
 
 

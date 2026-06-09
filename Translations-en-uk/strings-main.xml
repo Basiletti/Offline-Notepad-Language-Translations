@@ -34,6 +34,7 @@
     <string name="settings_caps">SETTINGS</string>
     <string name="duplicate_caps">DUPLICATE</string>
     <string name="recover_caps">RECOVER</string>
+    <string name="close_caps">CLOSE</string>
     <!--  Actions -->
 
 
