@@ -35,6 +35,7 @@
     <string name="duplicate_caps">DUPLICA</string>
     <string name="recover_caps">RECUPERA</string>
     <string name="close_caps">CHIUDI</string>
+    <string name="set_theme_caps">IMPOSTA TEMA</string>
     <!--  Actions -->
 
 
@@ -230,27 +231,46 @@
     <!-- Content Moving & Deletion -->
 
 
+    <!-- Subscriptions/Membership -->
+    <string name="premium_version">Versione Premium</string>
+    <string name="premium">Premium</string>
+    <string name="get_premium">Ottieni Premium</string>
+
+    <string name="premium_description_1">Ottieni l\'accesso a ogni singola funzione disponibile con Offline Notepad Premium oggi stesso!</string>
+    <string name="premium_description_custom_themes">Temi personalizzati</string>
+    <string name="premium_description_2">Personalizza Offline Notepad più che mai e crea il tuo tema personale che più ti si addice: le possibilità sono infinite!</string>
+    <string name="premium_description_3">Puoi regolare i colori di sfondi, pulsanti, icone, widget della schermata iniziale e quasi tutto ciò che ti viene in mente!</string>
+    <string name="premium_description_4">Colora i tuoi componenti con facilità utilizzando i selettori di colore integrati o prendi il controllo granulare inserendo i tuoi codici esadecimali!</string>
+
+    <string name="premium_description_more_coming_soon">Altre novità in arrivo!</string>
+    <string name="premium_description_5">Siamo ancora agli inizi per Offline Notepad Premium, con molte altre funzioni in arrivo nell\'app!\n\nAspettati di vedere presto altre funzioni premium, tra cui una maggiore sicurezza con la protezione tramite password delle singole note, una personalizzazione ancora maggiore con strumenti di editing e l\'accesso illimitato alle funzioni imminenti come le etichette per le categorie di note, le sveglie per le note e il supporto per le immagini!</string>
+
+    <string name="premium_description_support_the_developer">Supporta lo sviluppatore</string>
+    <string name="premium_description_6">Offline Notepad è stato sviluppato e mantenuto da un unico sviluppatore fin dalla sua uscita nel 2018.\n\nQuando sostieni questa app, aiuti a fare una vera differenza per la persona che vuole continuare a rendere questa app la migliore possibile per tutti noi!\n\nRingrazio personalmente tutti voi per il vostro supporto.</string>
+
+    <string name="welcome_to_premium">Benvenuto in Offline Notepad Premium!</string>
+    <string name="thanks_for_subscribing">Grazie per esserti abbonato!</string>
+    <string name="welcome_to_premium_description">Assicurati di creare un tema personalizzato! Puoi impostare il tuo tema ora qui sotto (o in qualsiasi altro momento in Impostazioni > Personalizzazione app > Temi colore app).</string>
+    <string name="enjoy_exclamation">Divertiti!</string>
+    <!-- Subscriptions/Membership -->
+
+
     <!-- Donations -->
     <string name="donations_res">Donazioni</string>
-    <string name="donations_explanation">Dal 2018, anno della sua creazione, questa app riceve aggiornamenti regolari con nuove funzionalità e miglioramenti. È sviluppata e mantenuta da una sola persona (io), e non gestisco alcuna attività commerciale. L’app è completamente gratuita &amp; priva di pubblicità – e intendo mantenerla così!</string>
+    <string name="donations_explanation">Dalla sua creazione nel 2018, questa app ha ricevuto aggiornamenti regolari contenenti nuove funzioni e miglioramenti. È sviluppata e gestita da una sola persona (io stesso) e non gestisco attività di alcun tipo. Qualsiasi abbonamento premium o donazione sosterrà direttamente me e la mia famiglia. Grazie.</string>
     <string name="donations_desc_1">Il mio tempo dedicato all’app viene regolarmente impiegato per:</string>
     <string name="donations_desc_2">\u2022 Ascoltare &amp; rispondere rapidamente alle tue domande, feedback &amp; critiche costruttive che mi invii via email o sul Google Play Store</string>
     <string name="donations_desc_3">\u2022 Monitorare i log di crash, risolvere problemi imprevisti che incontri nell’app &amp; applicare le correzioni necessarie il più velocemente possibile</string>
     <string name="donations_desc_4">\u2022 Pianificare, progettare &amp; implementare funzionalità completamente nuove come cartelle, liste, PIN, sicurezza biometrica &amp; temi dell’app (per citarne alcune!)</string>
     <string name="donations_desc_5">\u2022 Rivedere &amp; migliorare le parti esistenti dell’app affinché la tua esperienza sia sempre fluida &amp; naturale in ogni punto</string>
     <string name="donations_desc_6">\u2022 Tenermi costantemente aggiornato con le nuove versioni di Android &amp; supportare quelle più vecchie fino ad Android KitKat; oltre a dispositivi con specifiche &amp; prestazioni più limitate</string>
-    <string name="donations_desc_7">Apprezzo tantissimo i messaggi gentili che ricevo regolarmente da voi! Mi rende davvero felice sapere di aver portato – grande o piccolo che sia – un po’ di differenza positiva nella vostra vita! Sono anche molto grato a chi desidera dimostrare il proprio apprezzamento con una donazione qui sotto.</string>
-    <string name="buy_me_a_coffee_1_99">Offrimi un caffè: 1,99 €</string>
-    <string name="buy_me_a_beer_3_99">Offrimi una birra: 3,99 €</string>
-    <string name="buy_me_a_nice_meal_9_99">Offrimi un bel pasto: 9,99 €</string>
-    <string name="help_pay_my_bills_19_99">Aiutami con le bollette: 19,99 €</string>
-    <string name="help_pay_my_rent">Aiutami con l’affitto (posso sognare, no?): 299,99 €</string>
+    <string name="donations_desc_7">Apprezzo profondamente i messaggi di gentilezza che ricevo regolarmente da tutti voi! Mi dà un grande piacere sapere di aver aiutato a fare la differenza nelle vostre vite, non importa quanto grande o piccola possa essere! Sono anche molto grato a tutti coloro che desiderano mostrare il loro apprezzamento con una donazione qui sotto.\n\nNota bene: le donazioni effettuate qui sono completamente volontarie e non garantiscono alcun privilegio in-app offerto da Offline Notepad Premium.</string>
     <string name="thank_you_so_much">Grazie di cuore!</string>
     <string name="your_donation_is_appreciated">La tua donazione significa tantissimo per me! Vuoi scrivermi anche una email riguardo alla tua donazione?</string>
     <string name="billing_setup_error">Errore di configurazione pagamento</string>
     <string name="billing_setup_error_message">Spiacente, si è verificato un errore durante la configurazione del pagamento per la tua donazione. Controlla di avere un metodo di pagamento impostato nel tuo account Google Play Store.\n\nSe il problema persiste, scrivimi pure un’email – sarò felice di aiutarti!</string>
     <string name="donation_issue_subject">Problema con donazione - offline notepad</string>
-    <string name="failed_to_set_up_billing_please_try_again_later">Impossibile configurare la fatturazione, riprova più tardi</string>
+    <string name="failed_to_set_up_billing">Impossibile configurare la fatturazione, riprova più tardi</string>
     <!-- Donations -->
 
 

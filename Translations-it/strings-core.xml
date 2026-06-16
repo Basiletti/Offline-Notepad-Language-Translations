@@ -64,5 +64,17 @@
     <string name="password_deleted_message">La tua password è stata cancellata</string>
     <string name="incorrect_password_entered">È stata inserita una password errata</string>
     <string name="at_your_request_your_password_has_been_removed">Su tua richiesta, la tua password è stata rimossa.</string>
+    <!-- Password Entry  -->
+
+    <!--  Purchases  -->
+    <string name="offline_notepad_premium">Offline Notepad Premium</string>
+    <string name="buy_me_a_coffee_1_99">Offrimi un caffè: 1,99 €</string>
+    <string name="buy_me_a_beer_3_99">Offrimi una birra: 3,99 €</string>
+    <string name="buy_me_a_nice_meal_9_99">Offrimi un bel pasto: 9,99 €</string>
+    <string name="help_pay_my_bills_19_99">Aiutami con le bollette: 19,99 €</string>
+    <string name="help_pay_my_rent">Aiutami con l’affitto (posso sognare, no?): 299,99 €</string>
+    <string name="premium_feature_description">Questa funzione è accessibile solo con Offline Notepad Premium. Vorresti provarla?</string>
+    <!--  Purchases  -->
+
 
 </resources>

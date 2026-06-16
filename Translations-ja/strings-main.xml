@@ -35,6 +35,7 @@
     <string name="duplicate_caps">複製を作成</string>
     <string name="recover_caps">復元</string>
     <string name="close_caps">閉じる</string>
+    <string name="set_theme_caps">テーマを設定</string>
     <!--  Actions -->
 
 
@@ -230,27 +231,46 @@
     <!-- Content Moving & Deletion -->
 
 
+    <!-- Subscriptions/Membership -->
+    <string name="premium_version">プレミアムバージョン</string>
+    <string name="premium">プレミアム</string>
+    <string name="get_premium">プレミアムを入手</string>
+
+    <string name="premium_description_1">Offline Notepad プレミアムで、現在利用可能なすべての機能に今すぐアクセスしましょう！</string>
+    <string name="premium_description_custom_themes">カスタムテーマ</string>
+    <string name="premium_description_2">Offline Notepad をこれまで以上にパーソナライズして、自分に合った独自のテーマを作成しましょう。可能性は無限大です！</string>
+    <string name="premium_description_3">背景、ボタン、アイコン、ホーム画面のウィジェットなど、思いつく限りのあらゆるものの色を調整できます！</string>
+    <string name="premium_description_4">内蔵のカラーピッカーを使用してコンポーネントを簡単に色付けしたり、独自のヘックスコードを入力して細かく制御したりできます！</string>
+
+    <string name="premium_description_more_coming_soon">さらなる機能が近日公開予定！</string>
+    <string name="premium_description_5">Offline Notepad プレミアムはまだ始まったばかりで、今後も多くの機能が追加される予定です！\n\n個別のメモのパスワード保護によるセキュリティの強化、編集ツールによるさらなるカスタマイズ、メモのカテゴリラベル、メモのアラーム、画像対応などの今後の機能への無制限のアクセスなど、さらなるプレミアム機能にご期待ください！</string>
+
+    <string name="premium_description_support_the_developer">開発者をサポート</string>
+    <string name="premium_description_6">Offline Notepad は、2018年のリリース以来、一人の開発者によって開発・維持されています。\n\nこのアプリをサポートすることは、アプリを最高の状態に保ち続けたいと考えている開発者に真の変化をもたらす手助けとなります！\n\n皆様のご支援に心より感謝いたします。</string>
+
+    <string name="welcome_to_premium">Offline Notepad プレミアムへようこそ！</string>
+    <string name="thanks_for_subscribing">定期購入ありがとうございます！</string>
+    <string name="welcome_to_premium_description">ぜひカスタムテーマを作成してみてください！今すぐ以下で設定することも、後で [設定 > アプリのカスタマイズ > アプリのカラーテーマ] から設定することもできます。</string>
+    <string name="enjoy_exclamation">お楽しみください！</string>
+    <!-- Subscriptions/Membership -->
+
+
     <!-- Donations -->
     <string name="donations_res">寄付</string>
-    <string name="donations_explanation">2018年にこのアプリを制作して以降、新しい機能の追加や改善点を含む定期的なアップデートが実施されてきました。このアプリは1人の開発者（筆者自身です）により開発、管理されています。開発者はいかなる種類の事業も営んでいません。このアプリの使用は完全に無料であり、また広告等は一切含まれていません。そしてこの状態を保ちたいと考えています！</string>
+    <string name="donations_explanation">2018年のリリース以来、このアプリは新機能や改善を含む定期的なアップデートを行ってきました。このアプリは私一人の手によって開発・維持されており、いかなるビジネスも行っておりません。プレミアムサブスクリプションや寄付は、私と私の家族を直接サポートすることにつながります。ありがとうございます。</string>
     <string name="donations_desc_1">このアプリの開発時、開発者はこのように時間を費やしています：</string>
     <string name="donations_desc_2">\u2022 ユーザーの皆様からのメールやGoogle Playストアのレビューによる質問、フィードバック、建設的な批判等を聞き、迅速に返答するようにしています。</string>
     <string name="donations_desc_3">\u2022 クラッシュログを監視し、ユーザーの皆様がアプリを使用する際に遭遇した予期せぬ不具合の解決、そして必要なバグ修正を可能な限り速く実施するようにしています。</string>
     <string name="donations_desc_4">\u2022 完全に新しい機能の計画、設計、実装をしています。いくつかこれまでの例を挙げると、フォルダー、チェックリスト、PINコード、指紋認証、テーマカラー等です。</string>
     <string name="donations_desc_5">\u2022 アプリ全体を通して、ユーザーの皆様の体験が常に可能な限りシームレスかつ自然なものとなるように、既存機能の再確認や改善を実施しています。</string>
     <string name="donations_desc_6">\u2022 継続的に新しいAndroidバージョンに対応しつつ、同時に古くはKitKatバージョンまでの対応を続けています。また低スペック、低容量のデバイスでも動作するように気を配っています。</string>
-    <string name="donations_desc_7">皆様から定期的にいただいている親切なメッセージに心から感謝しています！ 皆様の生活の改善に役立ったという話を聞くのは、それがどんなに大きくても小さくても、開発者にとって大きな喜びとなっています！ また、寄付というかたちで感謝の意を表したいと思ってくださる方々にもとても感謝しています！</string>
-    <string name="buy_me_a_coffee_1_99">コーヒーを1杯いただけますか: £1.99（約275円、レートにより異なります（以下同様です））</string>
-    <string name="buy_me_a_beer_3_99">ビールを1杯いただけますか: £3.99（約550円）</string>
-    <string name="buy_me_a_nice_meal_9_99">素敵なお食事をいただけますか: £9.99（約1,400円）</string>
-    <string name="help_pay_my_bills_19_99">請求書の支払いを手伝っていただけますか: £19.99（約2,800円）</string>
-    <string name="help_pay_my_rent">家賃の支払いを手伝っていただけますか（少しくらい夢を見てもいいですよね？）: £299.99（約42,000円）</string>
+    <string name="donations_desc_7">皆様から定期的にいただく温かいメッセージに心から感謝しております！その変化がどんなに大きくても小さくても、皆様の生活に貢献できたと知ることは私にとって大きな喜びです！また、下の寄付を通じて感謝の気持ちを表してくださる方々にも、深く感謝いたします。\n\n注意：ここでの寄付は完全に任意であり、Offline Notepad プレミアムが提供するアプリ内特典が付与されることはありません。</string>
     <string name="thank_you_so_much">ありがとうございました！</string>
     <string name="your_donation_is_appreciated">ご寄付をいただき誠にありがとうございました！ この寄付について製作者にメール連絡しますか？</string>
     <string name="billing_setup_error">請求設定エラー</string>
     <string name="billing_setup_error_message">申し訳ありません。ご寄付についての請求設定にてエラーが発生しました。ご使用のGoogle Playストアアカウントにおいて、お支払い方法が設定されているかどうかご確認をお願いします。\n\nもし問題が解決しない場合、製作者までメールでご連絡をお願いします！</string>
     <string name="donation_issue_subject">寄付の処理で問題が発生しました - Offline Notepad</string>
-    <string name="failed_to_set_up_billing_please_try_again_later">請求の設定に失敗しました。後ほどもう一度お試しください</string>
+    <string name="failed_to_set_up_billing">請求の設定に失敗しました。後ほどもう一度お試しください</string>
     <!-- Donations -->
 
 

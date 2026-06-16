@@ -64,5 +64,17 @@
     <string name="password_deleted_message">Ihr Passwort wurde gelöscht</string>
     <string name="incorrect_password_entered">Falsches Passwort eingegeben</string>
     <string name="at_your_request_your_password_has_been_removed">Auf Ihren Wunsch wurde Ihr Passwort nun entfernt.</string>
+    <!-- Password Entry  -->
+
+    <!--  Purchases  -->
+    <string name="offline_notepad_premium">Offline Notepad Premium</string>
+    <string name="buy_me_a_coffee_1_99">Kauf mir einen Kaffee: 1,99 €</string>
+    <string name="buy_me_a_beer_3_99">Kauf mir ein Bier: 3,99 €</string>
+    <string name="buy_me_a_nice_meal_9_99">Kauf mir ein nettes Essen: 9,99 €</string>
+    <string name="help_pay_my_bills_19_99">Hilf mir bei den Rechnungen: 19,99 €</string>
+    <string name="help_pay_my_rent">Hilf mir bei der Miete (man darf ja träumen, oder?): 299,99 €</string>
+    <string name="premium_feature_description">Diese Funktion ist nur mit Offline Notepad Premium verfügbar. Möchten Sie sie sich ansehen?</string>
+    <!--  Purchases  -->
+
 
 </resources>
