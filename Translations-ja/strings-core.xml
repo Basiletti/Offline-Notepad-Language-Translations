@@ -64,5 +64,17 @@
     <string name="password_deleted_message">パスワードがリセットされました</string>
     <string name="incorrect_password_entered">パスワードが正しくありません</string>
     <string name="at_your_request_your_password_has_been_removed">要求に従い、パスワードはリセットされました。</string>
+    <!-- Password Entry  -->
+
+    <!--  Purchases  -->
+    <string name="offline_notepad_premium">Offline Notepad Premium</string>
+    <string name="buy_me_a_coffee_1_99">コーヒーを1杯いただけますか: £1.99（約275円、レートにより異なります（以下同様です））</string>
+    <string name="buy_me_a_beer_3_99">ビールを1杯いただけますか: £3.99（約550円）</string>
+    <string name="buy_me_a_nice_meal_9_99">素敵なお食事をいただけますか: £9.99（約1,400円）</string>
+    <string name="help_pay_my_bills_19_99">請求書の支払いを手伝っていただけますか: £19.99（約2,800円）</string>
+    <string name="help_pay_my_rent">家賃の支払いを手伝っていただけますか（少しくらい夢を見てもいいですよね？）: £299.99（約42,000円）</string>
+    <string name="premium_feature_description">この機能は Offline Notepad プレミアムでのみご利用いただけます。詳細を確認しますか？</string>
+    <!--  Purchases  -->
+
 
 </resources>

@@ -35,6 +35,7 @@
     <string name="duplicate_caps">DUPLICATE</string>
     <string name="recover_caps">RECOVER</string>
     <string name="close_caps">CLOSE</string>
+    <string name="set_theme_caps">SET THEME</string>
     <!--  Actions -->
 
 
@@ -230,27 +231,46 @@
     <!-- Content Moving & Deletion -->
 
 
+    <!-- Subscriptions/Membership -->
+    <string name="premium_version">Premium Version</string>
+    <string name="premium">Premium</string>
+    <string name="get_premium">Get Premium</string>
+
+    <string name="premium_description_1">Gain access to every single available feature with Offline Notepad Premium today!</string>
+    <string name="premium_description_custom_themes">Custom Themes</string>
+    <string name="premium_description_2">Personalise Offline Notepad more than ever before and create your very own theme that suits you - the possibilities are endless!</string>
+    <string name="premium_description_3">You can adjust the colours of backgrounds, buttons, icons, home screen widgets and just about anything else you can think of!</string>
+    <string name="premium_description_4">Colour your components with ease using built-in colour pickers or take granular control with entering your own hex codes!</string>
+
+    <string name="premium_description_more_coming_soon">More Coming soon!</string>
+    <string name="premium_description_5">It\'s still early days for Offline Notepad Premium with plenty more features making their way to the app soon!\n\nExpect to see more premium features coming soon including additional security with password protecting individual notes, even greater customisation with editing tools and unlimited access to upcoming features such as note category labels, note alarms and image support!</string>
+
+    <string name="premium_description_support_the_developer">Support the Developer</string>
+    <string name="premium_description_6">Offline Notepad has been developed and maintained by one developer ever since its release in 2018.\n\nWhen you support this app, you are helping to make a real difference to the person who wants to continue to make this app as good as it can be for all of us!\n\nI personally thank all of you for your support.</string>
+
+    <string name="welcome_to_premium">Welcome to Offline Notepad Premium!</string>
+    <string name="thanks_for_subscribing">Thanks for subscribing!</string>
+    <string name="welcome_to_premium_description">Be sure to make yourself a custom theme! You can set your theme now below (or at any other time in Settings > App Customisation > App Colour Themes).</string>
+    <string name="enjoy_exclamation">Enjoy!</string>
+    <!-- Subscriptions/Membership -->
+
+
     <!-- Donations -->
     <string name="donations_res">Donations</string>
-    <string name="donations_explanation">Since its creation in 2018, this app has received regular updates containing new features and improvements. It is developed and maintained by just 1 person (myself), and I am not running a business of any sort. This app is entirely free to use &amp; does not contain ads - and I intend on keeping it that way!</string>
+    <string name="donations_explanation">Since its creation in 2018, this app has received regular updates containing new features and improvements. It is developed and maintained by just 1 person (myself), and I am not running a business of any sort. Any premium subscriptions or donations will directly support me and my family. Thank you.</string>
     <string name="donations_desc_1">My time working on this app regularly gets spent:</string>
     <string name="donations_desc_2">\u2022 Listening &amp; quickly responding to your questions, feedback &amp; constructive criticism given to me in emails &amp; on the Google Play Store</string>
     <string name="donations_desc_3">\u2022 Monitoring crash logs, resolving any unexpected issues you encounter within this app &amp; making any required bug fixes as quickly as possible</string>
     <string name="donations_desc_4">\u2022 Planning, designing &amp; implementing brand new features such as folders, lists, PINs, biometric security &amp; app themes (to name a few!)</string>
     <string name="donations_desc_5">\u2022 Revisiting &amp; making improvements to existing parts of the app so that your experience throughout is always as seamless &amp; natural as possible</string>
     <string name="donations_desc_6">\u2022 Continuously keeping up to date with new Android version releases &amp; supporting older ones as far back as Android KitKat; as well as any devices with lower specs &amp; capabilities</string>
-    <string name="donations_desc_7">I thoroughly appreciate the messages of kindness which I regularly receive from you all! It gives me great pleasure to know that I have helped make a difference in your lives no matter how big or small that difference may be! I am also very grateful for any of those who wish to show their appreciation by donating below.</string>
-    <string name="buy_me_a_coffee_1_99">Buy me a coffee: £1.99</string>
-    <string name="buy_me_a_beer_3_99">Buy me a beer: £3.99</string>
-    <string name="buy_me_a_nice_meal_9_99">Buy me a nice meal: £9.99</string>
-    <string name="help_pay_my_bills_19_99">Help pay my bills: £19.99</string>
-    <string name="help_pay_my_rent">Help pay my rent (a guy can dream, right?): £299.99</string>
+    <string name="donations_desc_7">I thoroughly appreciate the messages of kindness which I regularly receive from you all! It gives me great pleasure to know that I have helped make a difference in your lives no matter how big or small that difference may be! I am also very grateful for any of those who wish to show their appreciation by donating below.\n\nPlease note: donations made here are completely voluntary and will not grant you any in-app privileges that Offline Notepad Premium offers.</string>
     <string name="thank_you_so_much">Thank you so much!</string>
     <string name="your_donation_is_appreciated">Your donation is hugely appreciated! Would you like to email me about your donation too?</string>
     <string name="billing_setup_error">Billing Setup Error</string>
     <string name="billing_setup_error_message">Sorry, but there was an error setting up the billing for your donation. You may want to check that you have payments set up on your Google Play Store account.\n\nIf this problem persists, please drop me an email and let me know!</string>
     <string name="donation_issue_subject">Donation issue - offline notepad</string>
-    <string name="failed_to_set_up_billing_please_try_again_later">Failed to set up billing, please try again later</string>
+    <string name="failed_to_set_up_billing">Failed to set up billing, please try again later</string>
     <!-- Donations -->
 
 
@@ -566,7 +586,7 @@
     </plurals>
 
     <plurals name="numberOfItemsInside">
-        <item quantity="one">%d total item inside</item>
+        <item quantity="one">%d total items inside</item>
         <item quantity="other">%d total items inside</item>
     </plurals>
     <!-- General plurals -->

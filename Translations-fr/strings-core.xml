@@ -64,5 +64,17 @@
     <string name="password_deleted_message">Votre mot de passe a été supprimé</string>
     <string name="incorrect_password_entered">Mot de passe incorrect</string>
     <string name="at_your_request_your_password_has_been_removed">À votre demande, votre mot de passe a été supprimé.</string>
+    <!-- Password Entry  -->
+
+    <!--  Purchases  -->
+    <string name="offline_notepad_premium">Offline Notepad Premium</string>
+    <string name="buy_me_a_coffee_1_99">Me payer un café: £1.99</string>
+    <string name="buy_me_a_beer_3_99">Me payer une bière: £3.99</string>
+    <string name="buy_me_a_nice_meal_9_99">Me payer un bon repas: £9.99</string>
+    <string name="help_pay_my_bills_19_99">M\'aider à payer mes factures: £19.99</string>
+    <string name="help_pay_my_rent">M\'aider à payer mon loyer (on peut rêver, non?): £299.99</string>
+    <string name="premium_feature_description">Cette fonctionnalité n\'est accessible qu\'avec Offline Notepad Premium. Souhaitez-vous y jeter un œil?</string>
+    <!--  Purchases  -->
+
 
 </resources>
