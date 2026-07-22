@@ -248,6 +248,8 @@
     <string name="premium_description_support_the_developer">Den Entwickler unterstützen</string>
     <string name="premium_description_6">Offline Notepad wird seit seiner Veröffentlichung im Jahr 2018 von einem einzigen Entwickler entwickelt und gepflegt.\n\nWenn Sie diese App unterstützen, helfen Sie dabei, einen echten Unterschied für die Person zu machen, die diese App weiterhin so gut wie möglich für uns alle gestalten möchte!\n\nIch danke Ihnen allen persönlich für Ihre Unterstützung.</string>
 
+    <string name="premium_price_approx_description">Offline Notepad Premium kostet ca. 0,99 £/Monat oder den Gegenwert, abhängig von Ihrer lokalen Währung und Steuer.</string>
+
     <string name="welcome_to_premium">Willkommen bei Offline Notepad Premium!</string>
     <string name="thanks_for_subscribing">Vielen Dank für das Abonnement!</string>
     <string name="welcome_to_premium_description">Erstellen Sie unbedingt Ihr eigenes Design! Sie können Ihr Design jetzt unten festlegen (oder zu jedem anderen Zeitpunkt in Einstellungen > App-Anpassung > App-Farbe-Designs).</string>
@@ -357,6 +359,9 @@
     <string name="deletion_time">Löschzeitpunkt</string>
     <string name="alphabetically">Alphabetisch</string>
     <string name="hide_app_content_when_backgrounded">App-Inhalte ausblenden, wenn die App im Hintergrund ist</string>
+    <string name="title_capitalisation">Titel-Großschreibung</string>
+    <string name="title_caps_words">Jedes Wort in Titelfeldern großschreiben</string>
+    <string name="title_caps_sentences">Jeden Satz in Titelfeldern großschreiben</string>
     <!-- Settings -->
 
 
@@ -412,7 +417,7 @@
 
     <!-- Transferring Content - Backups -->
     <string name="tranferring_notes">Notizen werden übertragen</string>
-    <string name="include_previous_saves_description">Jedes Mal, wenn Sie eine Notiz in dieser App bearbeiten, wird eine Revisionsspeicherung erstellt (dies kann in den Einstellungen > Allgemein > Element-Revisionen ein- oder ausgeschaltet werden).\n\nBeim Exportieren Ihrer Notizen können Sie auch die 10 neuesten Speicherungen/Revisionen jeder Ihrer Notizen in die exportierte Datei aufnehmen. Dies kann die Exportdatei deutlich vergrößern.</string>
+    <string name="include_previous_saves_description">Jedes Mal, wenn Sie eine Notiz in dieser App bearbeiten, wird eine Revisionsspeicherung erstellt (dies kann in den Einstellungen > Allgemein > Element-Revisionen ein- oder ausgeschaltet werden).\n\nBeim Exportieren Ihrer Notizen können Sie auch alle diese Speicherungen/Revisionen jeder Ihrer Notizen in die exportierte Datei aufnehmen. Dies kann die Exportdatei deutlich vergrößern.</string>
     <string name="backup_scheduling">Backup-Planung</string>
     <string name="data_management">Datenverwaltung</string>
     <string name="scheduled_backup_information">Die Backup-Planung ermöglicht es Ihnen, festzulegen, wie oft Ihre Notizen gesichert werden. Sie können Ihre Notizen auch jederzeit manuell über die Option „Notizen exportieren“ im Navigationsmenü auf dem Startbildschirm sichern.\n\nLetztes Backup: %s</string>

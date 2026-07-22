@@ -57,7 +57,7 @@
     <string name="untitled_folder_brackets">(Répertoire sans nom)</string>
     <string name="empty_folder_text">Ce dossier est actuellement vide.\nAppuyez sur le + en bas à droite pour lui ajouter du contenu!</string>
     <string name="empty_notes_text">Vous n\'avez actuellement pas de notes.\nAppuyez sur le + en bas à droite pour commencer à ajouter du contenu!</string>
-    <string name="start_searching_text">Commencez à taper du texte pour rechercher parmi toutes vos notes!</string>
+    <string name="start_searching_text">Commencez à taper du texte pour rechercher parmi toutes vos notes !</string>
     <string name="empty_search_results_text">Votre recherche n\'a donné aucun résultat</string>
     <string name="notes_text">Notes</string>
     <string name="what_would_you_like_to_name_the_new_folder">Comment aimeriez-vous nommer votre nouveau répertoire?</string>
@@ -69,7 +69,7 @@
     <string name="move_to_root_folder">Déplacer vers le dossier racine</string>
     <string name="please_select_a_folder">Veuillez sélectionner un dossier</string>
     <string name="currently_selected">Actuellement sélectionné</string>
-    <string name="currently_in_folder_change_name_to">Vous êtes actuellement dans le dossier \'%s\'. Comment aimeriez-vous changer son nom?</string>
+    <string name="currently_in_folder_change_name_to">Vous êtes actuellement dans le dossier \'%s\'. Comment aimeriez-vous changer son nom ?</string>
     <string name="empty_list_bracketed">(Liste vide)</string>
     <string name="empty_title_bracketed">(Sans titre)</string>
     <string name="empty_note_bracketed">(Note vide)</string>
@@ -248,6 +248,8 @@
     <string name="premium_description_support_the_developer">Soutenir le développeur</string>
     <string name="premium_description_6">Offline Notepad est développé et maintenu par un seul développeur depuis sa sortie en 2018.\n\nLorsque vous soutenez cette application, vous aidez à faire une réelle différence pour la personne qui souhaite continuer à rendre cette application aussi performante que possible pour nous tous !\n\nJe vous remercie personnellement pour votre soutien.</string>
 
+    <string name="premium_price_approx_description">Offline Notepad Premium coûte environ 0,99 £/mois ou l\'équivalent, selon votre devise locale et les taxes.</string>
+
     <string name="welcome_to_premium">Bienvenue sur Offline Notepad Premium !</string>
     <string name="thanks_for_subscribing">Merci pour votre abonnement !</string>
     <string name="welcome_to_premium_description">N\'oubliez pas de vous créer un thème personnalisé ! Vous pouvez définir votre thème maintenant ci-dessous (ou à tout autre moment dans Paramètres > Personnalisation de l\'application > Thèmes de couleur de l\'application).</string>
@@ -272,6 +274,7 @@
     <string name="donation_issue_subject">Problème avec votre don - Offline Notepad</string>
     <string name="failed_to_set_up_billing">Impossible de configurer la facturation, veuillez réessayer plus tard</string>
     <!-- Donations -->
+
 
     <!-- Passwords & Security -->
     <string name="inactivity_timeout_length">Longueur du temps maximum d\'inactivité </string>
@@ -336,9 +339,9 @@
     <string name="save_note_revisions_text">Sauvegarder les révisions de mes notes et de mes listes lorsque je fais des modifications</string>
     <string name="item_icons">Icônes d\'éléments</string>
     <string name="other_text_res">Autre</string>
-    <string name="folders_show_icon_and_amount_of_items_inside">Dossiers: afficher l\'icône et le nombre d\'éléments à l\'intérieur</string>
-    <string name="lists_show_icon_and_progress_overview">Listes: afficher l\'icône et un aperçu de la progression</string>
-    <string name="notes_show_icon">Notes: afficher l\'icône</string>
+    <string name="folders_show_icon_and_amount_of_items_inside">Dossiers : afficher l\'icône et le nombre d\'éléments à l\'intérieur</string>
+    <string name="lists_show_icon_and_progress_overview">Listes : afficher l\'icône et un aperçu de la progression</string>
+    <string name="notes_show_icon">Notes : afficher l\'icône</string>
     <string name="item_revisions">Révisions de l\'objet</string>
     <string name="delete_all_of_my_saved_revisions">Supprimer toutes les révisions enregistrées</string>
     <string name="delete_item_revisions">Supprimer les révisions de l\'objet</string>
@@ -356,6 +359,9 @@
     <string name="deletion_time">Temps de suppression</string>
     <string name="alphabetically">Alphabétiquement</string>
     <string name="hide_app_content_when_backgrounded">Masquer le contenu de l\'application quand elle est en arrière-plan</string>
+    <string name="title_capitalisation">Majuscules du titre</string>
+    <string name="title_caps_words">Mettre une majuscule à chaque mot dans les champs de titre</string>
+    <string name="title_caps_sentences">Mettre une majuscule à chaque phrase dans les champs de titre</string>
     <!-- Settings -->
 
 
@@ -411,7 +417,7 @@
 
     <!-- Transferring Content - Backups -->
     <string name="tranferring_notes">Transfert de notes</string>
-    <string name="include_previous_saves_description">Chaque fois que vous modifiez une note dans cette application, une sauvegarde de révision est effectuée (cela peut être activé ou désactivé dans Paramètres > Général > Révisions d\'éléments).\n\nLors de l\'exportation de vos notes, vous pouvez également inclure les 10 sauvegardes/révisions les plus récentes de chacune de vos notes dans le fichier exporté. Cela peut rendre le fichier d\'exportation beaucoup plus volumineux.</string>
+    <string name="include_previous_saves_description">Chaque fois que vous modifiez une note dans cette application, une sauvegarde de révision est effectuée (cela peut être activé ou désactivé dans Paramètres > Général > Révisions d\'éléments).\n\nLors de l\'exportation de vos notes, vous pouvez également inclure toutes ces sauvegardes/révisions de chacune de vos notes dans le fichier exporté. Cela peut rendre le fichier d\'exportation beaucoup plus volumineux.</string>
     <string name="backup_scheduling">Planification des sauvegardes</string>
     <string name="data_management">Gestion des données</string>
     <string name="scheduled_backup_information">La planification des sauvegardes vous permet de régler la fréquence de sauvegarde de vos notes. Vous pouvez également sauvegarder vos notes manuellement à tout moment via l\'option « Exporter des notes » située dans le menu de navigation de l\'écran d\'accueil.\n\nDernière sauvegarde : %s</string>
