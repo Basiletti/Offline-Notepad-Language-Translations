@@ -248,6 +248,8 @@
     <string name="premium_description_support_the_developer">Support the Developer</string>
     <string name="premium_description_6">Offline Notepad has been developed and maintained by one developer ever since its release in 2018.\n\nWhen you support this app, you are helping to make a real difference to the person who wants to continue to make this app as good as it can be for all of us!\n\nI personally thank all of you for your support.</string>
 
+    <string name="premium_price_approx_description">Offline Notepad Premium costs roughly £0.99/month or equivalent, depending on your local currency and tax.</string>
+
     <string name="welcome_to_premium">Welcome to Offline Notepad Premium!</string>
     <string name="thanks_for_subscribing">Thanks for subscribing!</string>
     <string name="welcome_to_premium_description">Be sure to make yourself a custom theme! You can set your theme now below (or at any other time in Settings > App Customisation > App Colour Themes).</string>
@@ -357,6 +359,9 @@
     <string name="deletion_time">Deletion time</string>
     <string name="alphabetically">Alphabetically</string>
     <string name="hide_app_content_when_backgrounded">Hide app content when backgrounded</string>
+    <string name="title_capitalisation">Title Capitalisation</string>
+    <string name="title_caps_words">Capitalise every new word in title fields</string>
+    <string name="title_caps_sentences">Capitalise every new sentence in title fields</string>
     <!-- Settings -->
 
 
@@ -412,7 +417,7 @@
 
     <!-- Transferring Content - Backups -->
     <string name="tranferring_notes">Transferring Notes</string>
-    <string name="include_previous_saves_description">Whenever you edit a note in this app, a revision save gets made (this can be turned on or off in Settings > General > Item Revisions).\n\nWhen exporting your notes you can also include the 10 most recent saves/revisions of each of your notes in the exported file. This may make the export file much larger.</string>
+    <string name="include_previous_saves_description">Whenever you edit a note in this app, a revision save gets made (this can be turned on or off in Settings > General > Item Revisions).\n\nWhen exporting your notes you can also include all of these saves/revisions of each of your notes in the exported file. This may make the export file much larger.</string>
     <string name="backup_scheduling">Backup Scheduling</string>
     <string name="data_management">Data Management</string>
     <string name="scheduled_backup_information">Backup scheduling allows you to adjust how often your notes are backed up. You can also back your notes up manually at any time via the \'Export Notes\' option found in the navigation drawer on the home screen.\n\nLatest backup: %s</string>

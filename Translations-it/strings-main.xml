@@ -248,6 +248,8 @@
     <string name="premium_description_support_the_developer">Supporta lo sviluppatore</string>
     <string name="premium_description_6">Offline Notepad è stato sviluppato e mantenuto da un unico sviluppatore fin dalla sua uscita nel 2018.\n\nQuando sostieni questa app, aiuti a fare una vera differenza per la persona che vuole continuare a rendere questa app la migliore possibile per tutti noi!\n\nRingrazio personalmente tutti voi per il vostro supporto.</string>
 
+    <string name="premium_price_approx_description">Offline Notepad Premium costa circa 0,99 £ al mese o equivalente, a seconda della valuta locale e delle tasse.</string>
+
     <string name="welcome_to_premium">Benvenuto in Offline Notepad Premium!</string>
     <string name="thanks_for_subscribing">Grazie per esserti abbonato!</string>
     <string name="welcome_to_premium_description">Assicurati di creare un tema personalizzato! Puoi impostare il tuo tema ora qui sotto (o in qualsiasi altro momento in Impostazioni > Personalizzazione app > Temi colore app).</string>
@@ -357,6 +359,9 @@
     <string name="deletion_time">Ora di eliminazione</string>
     <string name="alphabetically">Alfabetico</string>
     <string name="hide_app_content_when_backgrounded">Nascondi il contenuto dell\'app quando è in background</string>
+    <string name="title_capitalisation">Maiuscole nel titolo</string>
+    <string name="title_caps_words">Scrivi in maiuscolo ogni parola nei campi del titolo</string>
+    <string name="title_caps_sentences">Scrivi in maiuscolo ogni frase nei campi del titolo</string>
     <!-- Settings -->
 
 
@@ -412,7 +417,7 @@
 
     <!-- Transferring Content - Backups -->
     <string name="tranferring_notes">Trasferimento note</string>
-    <string name="include_previous_saves_description">Ogni volta che modifichi una nota in questa app, viene creata una copia di revisione (questa funzione può essere attivata o disattivata in Impostazioni > Generale > Revisioni elementi).\n\nQuando esporti le tue note, puoi anche includere le 10 versioni/revisioni più recenti di ciascuna nota nel file esportato. Questo potrebbe rendere il file di esportazione molto più grande.</string>
+    <string name="include_previous_saves_description">Ogni volta che modifichi una nota in questa app, viene creata una copia di revisione (questa funzione può essere attivata o disattivata in Impostazioni > Generale > Revisioni elementi).\n\nQuando esporti le tue note, puoi anche includere tutti questi salvataggi/revisioni di ciascuna nota nel file esportato. Questo potrebbe rendere il file di esportazione molto più grande.</string>
     <string name="backup_scheduling">Pianificazione backup</string>
     <string name="data_management">Gestione dati</string>
     <string name="scheduled_backup_information">La pianificazione del backup ti consente di regolare la frequenza con cui viene eseguito il backup delle note. Puoi anche eseguire il backup delle note manualmente in qualsiasi momento tramite l\'opzione \'Esporta note\' nel menu di navigazione della schermata principale.\n\nUltimo backup: %s</string>

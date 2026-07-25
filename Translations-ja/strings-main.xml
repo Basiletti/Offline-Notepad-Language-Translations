@@ -248,6 +248,8 @@
     <string name="premium_description_support_the_developer">開発者をサポート</string>
     <string name="premium_description_6">Offline Notepad は、2018年のリリース以来、一人の開発者によって開発・維持されています。\n\nこのアプリをサポートすることは、アプリを最高の状態に保ち続けたいと考えている開発者に真の変化をもたらす手助けとなります！\n\n皆様のご支援に心より感謝いたします。</string>
 
+    <string name="premium_price_approx_description">Offline Notepad Premiumの料金は、現地通貨や税金にもよりますが、月額約0.99ポンドまたはそれ相当です。</string>
+
     <string name="welcome_to_premium">Offline Notepad プレミアムへようこそ！</string>
     <string name="thanks_for_subscribing">定期購入ありがとうございます！</string>
     <string name="welcome_to_premium_description">ぜひカスタムテーマを作成してみてください！今すぐ以下で設定することも、後で [設定 > アプリのカスタマイズ > アプリのカラーテーマ] から設定することもできます。</string>
@@ -357,6 +359,9 @@
     <string name="deletion_time">削除日時順</string>
     <string name="alphabetically">アルファベット順</string>
     <string name="hide_app_content_when_backgrounded">アプリがバックグラウンドにあるときに内容を非表示にする</string>
+    <string name="title_capitalisation">タイトルの大文字設定</string>
+    <string name="title_caps_words">タイトル欄のすべての単語を大文字で始める</string>
+    <string name="title_caps_sentences">タイトル欄のすべての文を大文字で始める</string>
     <!-- Settings -->
 
 
@@ -412,7 +417,7 @@
 
     <!-- Transferring Content - Backups -->
     <string name="tranferring_notes">ノートを転送中</string>
-    <string name="include_previous_saves_description">このアプリでノートを編集するたびに、リビジョン（履歴）が保存されます（これは 設定 > 全般 > アイテムのリビジョン でオン/オフを切り替えられます）。\n\nノートをエクスポートする際、各ノートの最新10件のリビジョンをエクスポートファイルに含めることもできます。これを行うと、エクスポートファイルのサイズが大幅に大きくなる可能性があります。</string>
+    <string name="include_previous_saves_description">このアプリでノートを編集するたびに、リビジョン（履歴）が保存されます（これは 設定 > 全般 > アイテムのリビジョン でオン/オフを切り替えられます）。\n\nノートをエクスポートする際、各ノートのこれらすべての保存/リビジョンをエクスポートファイルに含めることもできます。これを行うと、エクスポートファイルのサイズが大幅に大きくなる可能性があります。</string>
     <string name="backup_scheduling">定期バックアップ</string>
     <string name="data_management">データ管理</string>
     <string name="scheduled_backup_information">定期バックアップ設定では、ノートがバックアップされる頻度を調整できます。また、ホーム画面のナビゲーションドロワーにある「ノートをエクスポート」オプションから、いつでも手動でバックアップを行うことができます。\n\n前回のバックアップ: %s</string>
