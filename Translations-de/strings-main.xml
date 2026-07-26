@@ -242,6 +242,9 @@
     <string name="premium_description_3">Sie können die Farben von Hintergründen, Schaltflächen, Symbolen, Startbildschirm-Widgets und fast alles andere anpassen, was Ihnen einfällt!</string>
     <string name="premium_description_4">Färben Sie Ihre Komponenten ganz einfach mit integrierten Farbauswählern oder übernehmen Sie die volle Kontrolle durch die Eingabe Ihrer eigenen Hex-Codes!</string>
 
+    <string name="fonts_galore">Schriftarten in Hülle und Fülle!</string>
+    <string name="fonts_description">Wählen Sie aus über 15 verschiedenen Schriftarten, um Ihre Notizen individuell zu gestalten. In Zukunft werden dieser Sammlung weitere Schriftarten hinzugefügt – teilen Sie uns gerne Ihre Lieblingsschriftart mit!</string>
+
     <string name="premium_description_more_coming_soon">Mehr in Kürze verfügbar!</string>
     <string name="premium_description_5">Es ist noch ein früher Zeitpunkt für Offline Notepad Premium, und viele weitere Funktionen werden bald in der App verfügbar sein!\n\nFreuen Sie sich auf weitere Premium-Funktionen, darunter zusätzliche Sicherheit durch passwortgeschützte einzelne Notizen, noch umfangreichere Anpassungsmöglichkeiten mit Bearbeitungswerkzeugen und unbegrenzten Zugriff auf kommende Funktionen wie Kategorien-Labels für Notizen, Notiz-Alarme und Bildunterstützung!</string>
 
@@ -347,6 +350,7 @@
     <string name="delete_item_revisions">Element-Revisionen löschen</string>
     <string name="preview">Vorschau</string>
     <string name="show_item_previews">Kleine Vorschau von Listen und Notizen unterhalb der Titel anzeigen</string>
+    <string name="show_last_modified_time">Letzte Änderungszeit der Elemente unter ihren Titeln anzeigen</string>
     <string name="language">Sprache</string>
     <string name="set_to_the_primary_language_on_my_device">Auf die primäre Gerätesprache setzen (nicht-englische Übersetzungen können ungenau sein)</string>
     <string name="set_to_english">Auf Englisch setzen (Sprache des App-Erstellers)</string>
@@ -354,7 +358,10 @@
     <string name="order_alphabetically_description">Notizen, Listen und Ordner alphabetisch sortieren</string>
     <string name="drag_reordering_description">Notizen, Listen und Ordner per Drag &amp; Drop frei neu anordnen</string>
     <string name="display_progress_bar">Fortschrittsbalken über Listenelementen anzeigen</string>
-    <string name="display_progress_indicator_as_a_percentage">Fortschrittsanzeige als Prozentsatz darstellen</string>
+    <string name="fractions_example">Bruch - Beispiel: 2/10</string>
+    <string name="percentage_example">Prozentsatz - Beispiel: 20 %</string>
+    <string name="both_fraction_first_example">Beides (Bruch zuerst) - Beispiel: 2/10 (20 %)</string>
+    <string name="both_percentage_first_example">Beides (Prozentsatz zuerst) - Beispiel: 20 % (2/10)</string>
     <string name="sort_by_dots">Sortieren nach…</string>
     <string name="deletion_time">Löschzeitpunkt</string>
     <string name="alphabetically">Alphabetisch</string>
@@ -362,7 +369,17 @@
     <string name="title_capitalisation">Titel-Großschreibung</string>
     <string name="title_caps_words">Jedes Wort in Titelfeldern großschreiben</string>
     <string name="title_caps_sentences">Jeden Satz in Titelfeldern großschreiben</string>
+    <string name="lists_progress_bars">Listen - Typ der Fortschrittsanzeige</string>
     <!-- Settings -->
+
+
+    <!-- Text Fonts -->
+    <string name="text_font">Text-Schriftart</string>
+    <string name="text_font_dashboard_description">Hier können Sie eine Schriftart für die Anzeige Ihrer Notizen auf dem Dashboard auswählen. Die Standardschriftart ist Roboto.</string>
+    <string name="text_font_input_field_description">Sie können eine Schriftart für Textfelder auswählen, in die Sie Text eingeben können, z. B. Notiztitel und -texte. Die Standardschriftart ist Roboto.</string>
+    <string name="text_font_input_fields">Eingabefeld-Schriftart</string>
+    <string name="text_font_dashboard">Dashboard-Schriftart</string>
+    <!-- Text Fonts -->
 
 
     <!-- Transferring Content - General -->
