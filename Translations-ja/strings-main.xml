@@ -228,6 +228,7 @@
     <string name="search_navigation_description">検索した項目をタップしたとき…</string>
     <string name="search_navigation_option_go_to_location">項目の場所に移動するだけ</string>
     <string name="search_navigation_option_open_the_item">項目を開く</string>
+    <string name="drag_handle_advice">ドラッグハンドルをもう少し素早く動かして、アイテムをドラッグしてください</string>
     <!-- Content Moving & Deletion -->
 
 
@@ -243,7 +244,7 @@
     <string name="premium_description_4">内蔵のカラーピッカーを使用してコンポーネントを簡単に色付けしたり、独自のヘックスコードを入力して細かく制御したりできます！</string>
 
     <string name="fonts_galore">フォントが盛りだくさん！</string>
-    <string name="fonts_description">15種類以上の異なるフォントから選択して、ノートの書き方をスタイリッシュに演出できます。今後もこのコレクションにはさらに追加される予定です。お気に入りのフォントがあればぜひリクエストしてください！</string>
+    <string name="fonts_description">15種類以上の異なるフォントから選択して、ノートの書き方をスタイリッシュに演出できます。今後もこのコレクションにはさらに追加される予定です。お気に入りのフォントがあればぜひリクエストしてください！\n\n注意：現時点では、この機能はノートごとに個別ではなく、アプリ全体でフォントのスタイルを設定します。ノートごとのスタイル設定は、将来のアップデートで計画されています。</string>
 
     <string name="premium_description_more_coming_soon">さらなる機能が近日公開予定！</string>
     <string name="premium_description_5">Offline Notepad プレミアムはまだ始まったばかりで、今後も多くの機能が追加される予定です！\n\n個別のメモのパスワード保護によるセキュリティの強化、編集ツールによるさらなるカスタマイズ、メモのカテゴリラベル、メモのアラーム、画像対応などの今後の機能への無制限のアクセスなど、さらなるプレミアム機能にご期待ください！</string>
@@ -375,6 +376,7 @@
 
     <!-- Text Fonts -->
     <string name="text_font">テキストフォント</string>
+    <string name="text_font_description">ここでは、アプリ全体で使用されるフォントを変更できます。フォントを変更しても、ノートに永続的な変更が残ることはありません。\n\nノートごとにフォントを変更する機能は、将来のアップデートで計画されています。</string>
     <string name="text_font_dashboard_description">ここでは、ダッシュボードでのノートの表示フォントを選択できます。デフォルトのフォントはRobotoです。</string>
     <string name="text_font_input_field_description">ノートのタイトルや本文など、テキストを入力できるテキストフィールドのフォントを選択できます。デフォルトのフォントはRobotoです。</string>
     <string name="text_font_input_fields">入力フィールドのフォント</string>

@@ -228,6 +228,7 @@
     <string name="search_navigation_description">Lorsque vous appuyez sur un élément recherché…</string>
     <string name="search_navigation_option_go_to_location">Accéder à l\'élément</string>
     <string name="search_navigation_option_open_the_item">Ouvrir l\'élément</string>
+    <string name="drag_handle_advice">Déplacez la poignée de déplacement un peu plus rapidement pour faire glisser un élément</string>
     <!-- Content Moving & Deletion -->
 
 
@@ -243,7 +244,7 @@
     <string name="premium_description_4">Colorez vos composants en toute simplicité à l\'aide des sélecteurs de couleurs intégrés ou prenez un contrôle granulaire en saisissant vos propres codes hexadécimaux !</string>
 
     <string name="fonts_galore">Polices à gogo !</string>
-    <string name="fonts_description">Choisissez parmi plus de 15 polices différentes pour styliser la façon dont vous écrivez vos notes. D\'autres seront ajoutées à cette collection à l\'avenir - n\'hésitez pas à demander votre police préférée !</string>
+    <string name="fonts_description">Choisissez parmi plus de 15 polices différentes pour personnaliser la façon dont vous écrivez vos notes. D\'autres seront ajoutées à cette collection à l\'avenir - n\'hésitez pas à demander votre police préférée !\n\nRemarque : pour l\'instant, cette fonctionnalité personnalise votre police globalement dans l\'ensemble de l\'application, plutôt que pour chaque note individuellement. La personnalisation de notes individuelles est actuellement prévue pour une future mise à jour.</string>
 
     <string name="premium_description_more_coming_soon">D\'autres nouveautés arrivent bientôt !</string>
     <string name="premium_description_5">Ce n\'est que le début pour Offline Notepad Premium, de nombreuses autres fonctionnalités feront bientôt leur apparition dans l\'application !\n\nAttendez-vous à voir bientôt plus de fonctions premium, notamment une sécurité accrue avec la protection par mot de passe des notes individuelles, une personnalisation encore plus grande avec des outils d\'édition et un accès illimité aux fonctionnalités à venir telles que les étiquettes de catégorie de notes, les alarmes de notes et le support des images !</string>
@@ -375,6 +376,7 @@
 
     <!-- Text Fonts -->
     <string name="text_font">Police de texte</string>
+    <string name="text_font_description">Vous pouvez modifier ici les polices utilisées globalement dans toute l\'application. La modification des polices ne laissera aucun changement permanent sur vos notes.\n\nLa possibilité de changer de police par note est prévue pour une future mise à jour.</string>
     <string name="text_font_dashboard_description">Vous pouvez sélectionner ici une police pour l\'affichage de vos notes sur le tableau de bord. La police par défaut est Roboto.</string>
     <string name="text_font_input_field_description">Vous pouvez sélectionner une police pour les champs de texte dans lesquels vous pouvez saisir du texte, comme les titres et le corps des notes. La police par défaut est Roboto.</string>
     <string name="text_font_input_fields">Police du champ de saisie</string>

@@ -228,6 +228,7 @@
     <string name="search_navigation_description">When tapping a searched item…</string>
     <string name="search_navigation_option_go_to_location">Just navigate to the item\'s location</string>
     <string name="search_navigation_option_open_the_item">Open the item</string>
+    <string name="drag_handle_advice">Move the drag handle a bit quicker to drag an item</string>
     <!-- Content Moving & Deletion -->
 
 
@@ -243,7 +244,7 @@
     <string name="premium_description_4">Colour your components with ease using built-in colour pickers or take granular control with entering your own hex codes!</string>
 
     <string name="fonts_galore">Fonts Galore!</string>
-    <string name="fonts_description">Choose from over 15 different fonts to stylise the way you write your notes. More will be added to this collection in the future - feel free to request your own favourite font!</string>
+    <string name="fonts_description">Choose from over 15 different fonts to stylise the way you write your notes. More will be added to this collection in the future - feel free to request your own favourite font!\n\nPlease note: For now, this feature styles your font globally across the app, rather than each note individually. Styling individual notes is currently planned for a future update.</string>
 
     <string name="premium_description_more_coming_soon">More Coming soon!</string>
     <string name="premium_description_5">It\'s still early days for Offline Notepad Premium with plenty more features making their way to the app soon!\n\nExpect to see more premium features coming soon including additional security with password protecting individual notes, even greater customisation with editing tools and unlimited access to upcoming features such as note category labels, note alarms and image support!</string>
@@ -375,6 +376,7 @@
 
     <!-- Text Fonts -->
     <string name="text_font">Text Font</string>
+    <string name="text_font_description">You can change the fonts used globally throughout the app here. Changing the fonts will not leave any permanent changes to your notes.\n\nThe ability to change fonts per-note is planned for a future update.</string>
     <string name="text_font_dashboard_description">You can select a font for how your notes appear on the dashboard here. The default font is Roboto.</string>
     <string name="text_font_input_field_description">You can select a font for text fields which you can enter text into; such as note titles and bodies. The default font is Roboto.</string>
     <string name="text_font_input_fields">Input Field Font</string>
