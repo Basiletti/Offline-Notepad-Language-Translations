@@ -228,6 +228,7 @@
     <string name="search_navigation_description">Quando tocchi un elemento cercato…</string>
     <string name="search_navigation_option_go_to_location">Vai semplicemente alla posizione dell\'elemento</string>
     <string name="search_navigation_option_open_the_item">Apri l\'elemento</string>
+    <string name="drag_handle_advice">Muovi l\'impugnatura di trascinamento un po\' più velocemente per trascinare un elemento</string>
     <!-- Content Moving & Deletion -->
 
 
@@ -241,6 +242,9 @@
     <string name="premium_description_2">Personalizza Offline Notepad più che mai e crea il tuo tema personale che più ti si addice: le possibilità sono infinite!</string>
     <string name="premium_description_3">Puoi regolare i colori di sfondi, pulsanti, icone, widget della schermata iniziale e quasi tutto ciò che ti viene in mente!</string>
     <string name="premium_description_4">Colora i tuoi componenti con facilità utilizzando i selettori di colore integrati o prendi il controllo granulare inserendo i tuoi codici esadecimali!</string>
+
+    <string name="fonts_galore">Caratteri a volontà!</string>
+    <string name="fonts_description">Scegli tra oltre 15 font diversi per personalizzare il modo in cui scrivi le tue note. Altri verranno aggiunti a questa collezione in futuro - non esitare a richiedere il tuo font preferito!\n\nNota bene: per ora, questa funzione applica lo stile del font a livello globale in tutta l\'app, piuttosto che a ogni singola nota. La personalizzazione delle singole note è attualmente prevista per un futuro aggiornamento.</string>
 
     <string name="premium_description_more_coming_soon">Altre novità in arrivo!</string>
     <string name="premium_description_5">Siamo ancora agli inizi per Offline Notepad Premium, con molte altre funzioni in arrivo nell\'app!\n\nAspettati di vedere presto altre funzioni premium, tra cui una maggiore sicurezza con la protezione tramite password delle singole note, una personalizzazione ancora maggiore con strumenti di editing e l\'accesso illimitato alle funzioni imminenti come le etichette per le categorie di note, le sveglie per le note e il supporto per le immagini!</string>
@@ -347,6 +351,7 @@
     <string name="delete_item_revisions">Elimina revisioni elementi</string>
     <string name="preview">Anteprima</string>
     <string name="show_item_previews">Mostra un\'anteprima ridotta di liste e note sotto i rispettivi titoli</string>
+    <string name="show_last_modified_time">Mostra l\'ora dell\'ultima modifica degli elementi sotto i loro titoli</string>
     <string name="language">Lingua</string>
     <string name="set_to_the_primary_language_on_my_device">Imposta sulla lingua principale del dispositivo (le traduzioni non in inglese potrebbero essere imprecise)</string>
     <string name="set_to_english">Imposta in inglese (lingua dell\'autore dell\'app)</string>
@@ -354,7 +359,10 @@
     <string name="order_alphabetically_description">Ordina note, liste e cartelle in ordine alfabetico</string>
     <string name="drag_reordering_description">Consenti di trascinare e riordinare liberamente note, liste e cartelle</string>
     <string name="display_progress_bar">Mostra indicatore di progresso sopra gli elementi delle liste</string>
-    <string name="display_progress_indicator_as_a_percentage">Mostra l\'indicatore di progresso in percentuale</string>
+    <string name="fractions_example">Frazione - Esempio: 2/10</string>
+    <string name="percentage_example">Percentuale - Esempio: 20%</string>
+    <string name="both_fraction_first_example">Entrambi (prima frazione) - Esempio: 2/10 (20%)</string>
+    <string name="both_percentage_first_example">Entrambi (prima percentuale) - Esempio: 20% (2/10)</string>
     <string name="sort_by_dots">Ordina per…</string>
     <string name="deletion_time">Ora di eliminazione</string>
     <string name="alphabetically">Alfabetico</string>
@@ -362,7 +370,18 @@
     <string name="title_capitalisation">Maiuscole nel titolo</string>
     <string name="title_caps_words">Scrivi in maiuscolo ogni parola nei campi del titolo</string>
     <string name="title_caps_sentences">Scrivi in maiuscolo ogni frase nei campi del titolo</string>
+    <string name="lists_progress_bars">Liste - Tipo di barra di avanzamento</string>
     <!-- Settings -->
+
+
+    <!-- Text Fonts -->
+    <string name="text_font">Carattere del testo</string>
+    <string name="text_font_description">Qui puoi cambiare i font utilizzati globalmente in tutta l\'app. La modifica dei font non lascerà alcun cambiamento permanente nelle tue note.\n\nLa possibilità di cambiare i font per singola nota è prevista per un futuro aggiornamento.</string>
+    <string name="text_font_dashboard_description">Qui puoi selezionare un carattere per il modo in cui le tue note appaiono nella dashboard. Il carattere predefinito è Roboto.</string>
+    <string name="text_font_input_field_description">Puoi selezionare un carattere per i campi di testo in cui puoi inserire testo, come i titoli e il corpo delle note. Il carattere predefinito è Roboto.</string>
+    <string name="text_font_input_fields">Carattere del campo di input</string>
+    <string name="text_font_dashboard">Carattere della dashboard</string>
+    <!-- Text Fonts -->
 
 
     <!-- Transferring Content - General -->

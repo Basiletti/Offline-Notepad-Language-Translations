@@ -228,6 +228,7 @@
     <string name="search_navigation_description">検索した項目をタップしたとき…</string>
     <string name="search_navigation_option_go_to_location">項目の場所に移動するだけ</string>
     <string name="search_navigation_option_open_the_item">項目を開く</string>
+    <string name="drag_handle_advice">ドラッグハンドルをもう少し素早く動かして、アイテムをドラッグしてください</string>
     <!-- Content Moving & Deletion -->
 
 
@@ -241,6 +242,9 @@
     <string name="premium_description_2">Offline Notepad をこれまで以上にパーソナライズして、自分に合った独自のテーマを作成しましょう。可能性は無限大です！</string>
     <string name="premium_description_3">背景、ボタン、アイコン、ホーム画面のウィジェットなど、思いつく限りのあらゆるものの色を調整できます！</string>
     <string name="premium_description_4">内蔵のカラーピッカーを使用してコンポーネントを簡単に色付けしたり、独自のヘックスコードを入力して細かく制御したりできます！</string>
+
+    <string name="fonts_galore">フォントが盛りだくさん！</string>
+    <string name="fonts_description">15種類以上の異なるフォントから選択して、ノートの書き方をスタイリッシュに演出できます。今後もこのコレクションにはさらに追加される予定です。お気に入りのフォントがあればぜひリクエストしてください！\n\n注意：現時点では、この機能はノートごとに個別ではなく、アプリ全体でフォントのスタイルを設定します。ノートごとのスタイル設定は、将来のアップデートで計画されています。</string>
 
     <string name="premium_description_more_coming_soon">さらなる機能が近日公開予定！</string>
     <string name="premium_description_5">Offline Notepad プレミアムはまだ始まったばかりで、今後も多くの機能が追加される予定です！\n\n個別のメモのパスワード保護によるセキュリティの強化、編集ツールによるさらなるカスタマイズ、メモのカテゴリラベル、メモのアラーム、画像対応などの今後の機能への無制限のアクセスなど、さらなるプレミアム機能にご期待ください！</string>
@@ -347,6 +351,7 @@
     <string name="delete_item_revisions">変更履歴を削除</string>
     <string name="preview">プレビュー</string>
     <string name="show_item_previews">メモ、チェックリストのタイトルの下に中身の簡易プレビューを表示する</string>
+    <string name="show_last_modified_time">アイテムのタイトルの下に最終更新日時を表示する</string>
     <string name="language">言語/Language</string>
     <string name="set_to_the_primary_language_on_my_device">デバイスの標準言語を使用する（英語以外の翻訳は正しくない可能性があります）</string>
     <string name="set_to_english">英語を使用する（アプリ開発者は英語話者です）（Set to English）</string>
@@ -354,7 +359,10 @@
     <string name="order_alphabetically_description">メモ、チェックリスト、フォルダーをアルファベット順に並べる</string>
     <string name="drag_reordering_description">メモ、チェックリスト、フォルダーをドラッグ&amp;ドロップで自由に並べ替えられるようにする</string>
     <string name="display_progress_bar">リストの進捗表示を項目の上に移動する</string>
-    <string name="display_progress_indicator_as_a_percentage">リストの進捗をパーセントで表示する</string>
+    <string name="fractions_example">分数 - 例: 2/10</string>
+    <string name="percentage_example">パーセンテージ - 例: 20%</string>
+    <string name="both_fraction_first_example">両方 (分数優先) - 例: 2/10 (20%)</string>
+    <string name="both_percentage_first_example">両方 (パーセンテージ優先) - 例: 20% (2/10)</string>
     <string name="sort_by_dots">並べ替え</string>
     <string name="deletion_time">削除日時順</string>
     <string name="alphabetically">アルファベット順</string>
@@ -362,7 +370,18 @@
     <string name="title_capitalisation">タイトルの大文字設定</string>
     <string name="title_caps_words">タイトル欄のすべての単語を大文字で始める</string>
     <string name="title_caps_sentences">タイトル欄のすべての文を大文字で始める</string>
+    <string name="lists_progress_bars">チェックリスト - 進捗バーの種類</string>
     <!-- Settings -->
+
+
+    <!-- Text Fonts -->
+    <string name="text_font">テキストフォント</string>
+    <string name="text_font_description">ここでは、アプリ全体で使用されるフォントを変更できます。フォントを変更しても、ノートに永続的な変更が残ることはありません。\n\nノートごとにフォントを変更する機能は、将来のアップデートで計画されています。</string>
+    <string name="text_font_dashboard_description">ここでは、ダッシュボードでのノートの表示フォントを選択できます。デフォルトのフォントはRobotoです。</string>
+    <string name="text_font_input_field_description">ノートのタイトルや本文など、テキストを入力できるテキストフィールドのフォントを選択できます。デフォルトのフォントはRobotoです。</string>
+    <string name="text_font_input_fields">入力フィールドのフォント</string>
+    <string name="text_font_dashboard">ダッシュボードのフォント</string>
+    <!-- Text Fonts -->
 
 
     <!-- Transferring Content - General -->
