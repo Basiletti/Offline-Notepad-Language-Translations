@@ -64,6 +64,7 @@
     <string name="password_deleted_message">Ihr Passwort wurde gelöscht</string>
     <string name="incorrect_password_entered">Falsches Passwort eingegeben</string>
     <string name="at_your_request_your_password_has_been_removed">Auf Ihren Wunsch wurde Ihr Passwort nun entfernt.</string>
+    <string name="tap_to_fingerprint_authenticate">Tippen Sie hier, um sich mit Ihrem Fingerabdruck zu authentifizieren</string>
     <!-- Password Entry  -->
 
     <!--  Purchases  -->

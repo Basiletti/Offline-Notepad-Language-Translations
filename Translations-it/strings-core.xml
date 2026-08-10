@@ -64,6 +64,7 @@
     <string name="password_deleted_message">La tua password è stata cancellata</string>
     <string name="incorrect_password_entered">È stata inserita una password errata</string>
     <string name="at_your_request_your_password_has_been_removed">Su tua richiesta, la tua password è stata rimossa.</string>
+    <string name="tap_to_fingerprint_authenticate">Tocca per autenticarti con la tua impronta digitale</string>
     <!-- Password Entry  -->
 
     <!--  Purchases  -->

@@ -64,6 +64,7 @@
     <string name="password_deleted_message">パスワードがリセットされました</string>
     <string name="incorrect_password_entered">パスワードが正しくありません</string>
     <string name="at_your_request_your_password_has_been_removed">要求に従い、パスワードはリセットされました。</string>
+    <string name="tap_to_fingerprint_authenticate">タップして指紋認証を行う</string>
     <!-- Password Entry  -->
 
     <!--  Purchases  -->
