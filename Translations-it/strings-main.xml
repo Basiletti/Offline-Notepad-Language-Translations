@@ -55,6 +55,7 @@
     <string name="untitled_note_brackets">(Nota senza titolo)</string>
     <string name="untitled_list_brackets">(Lista senza titolo)</string>
     <string name="untitled_folder_brackets">(Cartella senza nome)</string>
+    <string name="untitled_folder_brackets_path">> (Cartella senza nome)</string>
     <string name="empty_folder_text">Questa cartella è attualmente vuota.\nTocca il + in basso a destra per aggiungere contenuti!</string>
     <string name="empty_notes_text">Al momento non hai nessuna nota.\nTocca il + in basso a destra per iniziare ad aggiungere contenuti!</string>
     <string name="start_searching_text">Inizia a digitare per cercare in tutte le tue note!</string>
@@ -62,6 +63,7 @@
     <string name="notes_text">Note</string>
     <string name="what_would_you_like_to_name_the_new_folder">Come vuoi chiamare la nuova cartella?</string>
     <string name="enter_folder_name">Inserisci il nome della cartella</string>
+    <string name="enter_list_name">Inserisci il nome della lista</string>
     <string name="note_title">Titolo della nota</string>
     <string name="note_content">Contenuto della nota</string>
     <string name="list_title">Titolo della lista</string>
@@ -341,10 +343,12 @@
     <string name="general_text_res">Generale</string>
     <string name="app_customisation">Personalizzazione app</string>
     <string name="save_note_revisions_text">Salva copie delle revisioni di note/liste quando vengono modificate</string>
-    <string name="item_icons">Icone elementi</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="item_icons">Dashboard - Icone elementi</string>
     <string name="other_text_res">Altro</string>
     <string name="folders_show_icon_and_amount_of_items_inside">Cartelle: mostra icona e numero di elementi contenuti</string>
     <string name="lists_show_icon_and_progress_overview">Liste: mostra icona e panoramica dei progressi</string>
+    <string name="lists_show_coloured_chips">Liste: includi chip di progresso colorati sotto le percentuali</string>
     <string name="notes_show_icon">Note: mostra icona</string>
     <string name="item_revisions">Revisioni elementi</string>
     <string name="delete_all_of_my_saved_revisions">Elimina tutte le revisioni salvate</string>
@@ -352,12 +356,15 @@
     <string name="preview">Anteprima</string>
     <string name="show_item_previews">Mostra un\'anteprima ridotta di liste e note sotto i rispettivi titoli</string>
     <string name="show_last_modified_time">Mostra l\'ora dell\'ultima modifica degli elementi sotto i loro titoli</string>
+    <string name="show_last_modified_time_include_seconds">Includi i secondi quando viene mostrata l\'ora dell\'ultima modifica di un elemento nel dashboard</string>
     <string name="language">Lingua</string>
     <string name="set_to_the_primary_language_on_my_device">Imposta sulla lingua principale del dispositivo (le traduzioni non in inglese potrebbero essere imprecise)</string>
     <string name="set_to_english">Imposta in inglese (lingua dell\'autore dell\'app)</string>
-    <string name="item_ordering">Ordinamento elementi</string>
+    <string name="item_ordering">Dashboard - Ordinamento elementi</string>
     <string name="order_alphabetically_description">Ordina note, liste e cartelle in ordine alfabetico</string>
     <string name="drag_reordering_description">Consenti di trascinare e riordinare liberamente note, liste e cartelle</string>
+    <string name="move_checked_item_to_bottom">Sposta un elemento in fondo alla lista quando viene selezionato</string>
+    <string name="move_unchecked_item_to_top">Sposta un elemento in cima alla lista quando viene deselezionato</string>
     <string name="display_progress_bar">Mostra indicatore di progresso sopra gli elementi delle liste</string>
     <string name="fractions_example">Frazione - Esempio: 2/10</string>
     <string name="percentage_example">Percentuale - Esempio: 20%</string>
@@ -371,6 +378,9 @@
     <string name="title_caps_words">Scrivi in maiuscolo ogni parola nei campi del titolo</string>
     <string name="title_caps_sentences">Scrivi in maiuscolo ogni frase nei campi del titolo</string>
     <string name="lists_progress_bars">Liste - Tipo di barra di avanzamento</string>
+    <string name="sharing_text_title">Condivisione testo</string>
+    <string name="split_note_title_sharing">Quando condividi una nota o un elenco, includi il titolo nel corpo del testo condiviso</string>
+    <string name="sharing_set_subject">Tenta di impostare l\'oggetto dell\'e-mail sul titolo della nota/elenco durante la condivisione del testo</string>
     <!-- Settings -->
 
 
@@ -516,6 +526,9 @@
 
     <string name="custom_colour_title_highlighted_backgrounds">Sfondo evidenziato</string>
     <string name="custom_colour_description_highlighted_backgrounds">Il colore di sfondo quando un elemento è evidenziato. Esempi: note contrassegnate come preferite, notizie/aggiornamenti non letti.</string>
+
+    <string name="custom_colour_title_pulse_animation_backgrounds">Sfondi animazione a impulsi</string>
+    <string name="custom_colour_description_pulse_animation_backgrounds">Il colore dello sfondo quando viene animato a impulsi. Ad esempio, la ricerca di elementi nel dashboard con l\'opzione \'naviga solo verso la posizione dell\'elemento\' abilitata.</string>
 
     <string name="custom_colour_title_fab_backgrounds">Sfondo del pulsante di azione flottante</string>
     <string name="custom_colour_description_fab_backgrounds">Il colore di sfondo del pulsante di azione flottante (di solito il pulsante + per creare una nuova nota/lista/cartella).</string>

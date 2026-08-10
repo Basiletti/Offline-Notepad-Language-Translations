@@ -55,6 +55,7 @@
     <string name="untitled_note_brackets">(Note sans titre)</string>
     <string name="untitled_list_brackets">(Liste sans titre)</string>
     <string name="untitled_folder_brackets">(Répertoire sans nom)</string>
+    <string name="untitled_folder_brackets_path">> (Répertoire sans nom)</string>
     <string name="empty_folder_text">Ce dossier est actuellement vide.\nAppuyez sur le + en bas à droite pour lui ajouter du contenu!</string>
     <string name="empty_notes_text">Vous n\'avez actuellement pas de notes.\nAppuyez sur le + en bas à droite pour commencer à ajouter du contenu!</string>
     <string name="start_searching_text">Commencez à taper du texte pour rechercher parmi toutes vos notes !</string>
@@ -62,6 +63,7 @@
     <string name="notes_text">Notes</string>
     <string name="what_would_you_like_to_name_the_new_folder">Comment aimeriez-vous nommer votre nouveau répertoire?</string>
     <string name="enter_folder_name">Entrez le nom du dossier</string>
+    <string name="enter_list_name">Entrez le nom de la liste</string>
     <string name="note_title">Titre de la note</string>
     <string name="note_content">Contenu de la note</string>
     <string name="list_title">Titre de la liste</string>
@@ -244,7 +246,7 @@
     <string name="premium_description_4">Colorez vos composants en toute simplicité à l\'aide des sélecteurs de couleurs intégrés ou prenez un contrôle granulaire en saisissant vos propres codes hexadécimaux !</string>
 
     <string name="fonts_galore">Polices à gogo !</string>
-    <string name="fonts_description">Choisissez parmi plus de 15 polices différentes pour personnaliser la façon dont vous écrivez vos notes. D\'autres seront ajoutées à cette collection à l\'avenir - n\'hésitez pas à demander votre police préférée !\n\nRemarque : pour l\'instant, cette fonctionnalité personnalise votre police globalement dans l\'ensemble de l\'application, plutôt que pour chaque note individuellement. La personnalisation de notes individuelles est actuellement prévue pour une future mise à jour.</string>
+    <string name="fonts_description">Choisissez parmi plus de 15 polices différentes pour styliser la façon dont vous écrivez vos notes. D\'autres polices seront ajoutées à cette collection à l\'avenir. N\'hésitez pas à me demander votre police préférée !</string>
 
     <string name="premium_description_more_coming_soon">D\'autres nouveautés arrivent bientôt !</string>
     <string name="premium_description_5">Ce n\'est que le début pour Offline Notepad Premium, de nombreuses autres fonctionnalités feront bientôt leur apparition dans l\'application !\n\nAttendez-vous à voir bientôt plus de fonctions premium, notamment une sécurité accrue avec la protection par mot de passe des notes individuelles, une personnalisation encore plus grande avec des outils d\'édition et un accès illimité aux fonctionnalités à venir telles que les étiquettes de catégorie de notes, les alarmes de notes et le support des images !</string>
@@ -341,23 +343,28 @@
     <string name="general_text_res">Général</string>
     <string name="app_customisation">Personnalisation de l\'application</string>
     <string name="save_note_revisions_text">Sauvegarder les révisions de mes notes et de mes listes lorsque je fais des modifications</string>
-    <string name="item_icons">Icônes d\'éléments</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="item_icons">Dashboard - Icônes d\'éléments</string>
     <string name="other_text_res">Autre</string>
     <string name="folders_show_icon_and_amount_of_items_inside">Dossiers : afficher l\'icône et le nombre d\'éléments à l\'intérieur</string>
     <string name="lists_show_icon_and_progress_overview">Listes : afficher l\'icône et un aperçu de la progression</string>
+    <string name="lists_show_coloured_chips">Listes : inclure des puces de progression colorées sous les pourcentages</string>
     <string name="notes_show_icon">Notes : afficher l\'icône</string>
     <string name="item_revisions">Révisions de l\'objet</string>
     <string name="delete_all_of_my_saved_revisions">Supprimer toutes les révisions enregistrées</string>
     <string name="delete_item_revisions">Supprimer les révisions de l\'objet</string>
     <string name="preview">Visualisation</string>
     <string name="show_item_previews">Montrer un petit aperçu de mes listes et notes sous le titre</string>
-    <string name="show_last_modified_time">Afficher l\'heure de la dernière modification des éléments sous leurs titres</string>
+    <string name="show_last_modified_time">Afficher l\'heure de la dernière modification des éléments sous leur titre</string>
+    <string name="show_last_modified_time_include_seconds">Inclure les secondes lors de l\'affichage de l\'heure de la dernière modification d\'un élément sur le tableau de bord</string>
     <string name="language">Langue</string>
     <string name="set_to_the_primary_language_on_my_device">Utiliser la langue principale définie sur mon appareil (les traductions non anglaises peuvent être inexactes)</string>
     <string name="set_to_english">Utiliser l\'anglais (la langue parlée du créateur de l\'application)</string>
-    <string name="item_ordering">Tri des éléments</string>
+    <string name="item_ordering">Dashboard - Tri des éléments</string>
     <string name="order_alphabetically_description">Trier mes notes, listes et dossiers par ordre alphabétique</string>
     <string name="drag_reordering_description">Me permettre de glisser et réorganiser mes notes, listes et dossiers comme je le souhaite</string>
+    <string name="move_checked_item_to_bottom">Déplacer un élément en bas de la liste lorsque vous le cochez</string>
+    <string name="move_unchecked_item_to_top">Déplacer un élément en haut de la liste lorsque vous le décochez</string>
     <string name="display_progress_bar">Afficher l\'indicateur de progression au-dessus de la liste des éléments</string>
     <string name="fractions_example">Fraction - Exemple : 2/10</string>
     <string name="percentage_example">Pourcentage - Exemple : 20 %</string>
@@ -371,15 +378,18 @@
     <string name="title_caps_words">Mettre une majuscule à chaque mot dans les champs de titre</string>
     <string name="title_caps_sentences">Mettre une majuscule à chaque phrase dans les champs de titre</string>
     <string name="lists_progress_bars">Listes - Type de barre de progression</string>
+    <string name="sharing_text_title">Partage de texte</string>
+    <string name="split_note_title_sharing">Lors du partage d\'une note ou d\'une liste, inclure le titre dans le corps du texte partagé</string>
+    <string name="sharing_set_subject">Tenter de définir le champ objet de l\'e-mail sur le titre de la note/liste lors du partage de texte</string>
     <!-- Settings -->
 
 
     <!-- Text Fonts -->
-    <string name="text_font">Police de texte</string>
+    <string name="text_font">Polices de caractères</string>
     <string name="text_font_description">Vous pouvez modifier ici les polices utilisées globalement dans toute l\'application. La modification des polices ne laissera aucun changement permanent sur vos notes.\n\nLa possibilité de changer de police par note est prévue pour une future mise à jour.</string>
     <string name="text_font_dashboard_description">Vous pouvez sélectionner ici une police pour l\'affichage de vos notes sur le tableau de bord. La police par défaut est Roboto.</string>
-    <string name="text_font_input_field_description">Vous pouvez sélectionner une police pour les champs de texte dans lesquels vous pouvez saisir du texte, comme les titres et le corps des notes. La police par défaut est Roboto.</string>
-    <string name="text_font_input_fields">Police du champ de saisie</string>
+    <string name="text_font_input_field_description">Vous pouvez sélectionner une police pour les champs dans lesquels vous pouvez saisir du texte, comme les titres et le corps des notes. La police par défaut est Roboto.</string>
+    <string name="text_font_input_fields">Police des champs de saisie</string>
     <string name="text_font_dashboard">Police du tableau de bord</string>
     <!-- Text Fonts -->
 
@@ -516,6 +526,9 @@
 
     <string name="custom_colour_title_highlighted_backgrounds">Arrière-plans surlignés</string>
     <string name="custom_colour_description_highlighted_backgrounds">La couleur d\'arrière-plan lorsqu\'il est surligné. Exemples: les notes marquées comme favorites, les nouvelles et les mises à jour non lues.</string>
+
+    <string name="custom_colour_title_pulse_animation_backgrounds">Arrière-plans d\'animation d\'impulsion</string>
+    <string name="custom_colour_description_pulse_animation_backgrounds">La couleur de l\'arrière-plan lorsqu\'il est animé par impulsion. Par exemple, la recherche d\'éléments sur le tableau de bord avec l\'option \'juste naviguer vers l\'emplacement de l\'élément\' activée.</string>
 
     <string name="custom_colour_title_fab_backgrounds">Arrière-plans de boutons flottants</string>
     <string name="custom_colour_description_fab_backgrounds">La couleur d\'arrière-plan des boutons flottants (comme le bouton + pour créer une nouvelle note, liste ou répertoire)</string>

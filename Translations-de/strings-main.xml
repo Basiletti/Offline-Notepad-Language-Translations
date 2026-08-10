@@ -55,6 +55,7 @@
     <string name="untitled_note_brackets">(Unbenannte Notiz)</string>
     <string name="untitled_list_brackets">(Unbenannte Liste)</string>
     <string name="untitled_folder_brackets">(Unbenannter Ordner)</string>
+    <string name="untitled_folder_brackets_path">> (Unbenannter Ordner)</string>
     <string name="empty_folder_text">Dieser Ordner ist derzeit leer.\nTippe unten rechts auf das + Symbol, um Inhalte hinzuzufügen!</string>
     <string name="empty_notes_text">Du hast derzeit keine Notizen.\nTippe unten rechts auf das + Symbol, um Inhalte zu erstellen!</string>
     <string name="start_searching_text">Tippe etwas ein, um in allen deinen Notizen zu suchen!</string>
@@ -62,6 +63,7 @@
     <string name="notes_text">Notizen</string>
     <string name="what_would_you_like_to_name_the_new_folder">Wie möchtest du den neuen Ordner nennen?</string>
     <string name="enter_folder_name">Ordnernamen eingeben</string>
+    <string name="enter_list_name">Listenname eingeben</string>
     <string name="note_title">Notiztitel</string>
     <string name="note_content">Notizinhalt</string>
     <string name="list_title">Listenname</string>
@@ -341,10 +343,12 @@
     <string name="general_text_res">Allgemein</string>
     <string name="app_customisation">App-Anpassung</string>
     <string name="save_note_revisions_text">Bei Änderungen an Notizen/Listen Revisionen (Kopien) speichern</string>
-    <string name="item_icons">Element-Symbole</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="item_icons">Dashboard - Element-Symbole</string>
     <string name="other_text_res">Sonstiges</string>
     <string name="folders_show_icon_and_amount_of_items_inside">Ordner: Symbol und Anzahl der enthaltenen Elemente anzeigen</string>
     <string name="lists_show_icon_and_progress_overview">Listen: Symbol und Fortschrittsübersicht anzeigen</string>
+    <string name="lists_show_coloured_chips">Listen: farbige Fortschritts-Chips unter den Prozentangaben anzeigen</string>
     <string name="notes_show_icon">Notizen: Symbol anzeigen</string>
     <string name="item_revisions">Element-Revisionen</string>
     <string name="delete_all_of_my_saved_revisions">Alle gespeicherten Revisionen löschen</string>
@@ -352,12 +356,15 @@
     <string name="preview">Vorschau</string>
     <string name="show_item_previews">Kleine Vorschau von Listen und Notizen unterhalb der Titel anzeigen</string>
     <string name="show_last_modified_time">Letzte Änderungszeit der Elemente unter ihren Titeln anzeigen</string>
+    <string name="show_last_modified_time_include_seconds">Sekunden bei der Anzeige der letzten Änderungszeit eines Elements auf dem Dashboard einschließen</string>
     <string name="language">Sprache</string>
     <string name="set_to_the_primary_language_on_my_device">Auf die primäre Gerätesprache setzen (nicht-englische Übersetzungen können ungenau sein)</string>
     <string name="set_to_english">Auf Englisch setzen (Sprache des App-Erstellers)</string>
-    <string name="item_ordering">Element-Sortierung</string>
+    <string name="item_ordering">Dashboard - Element-Sortierung</string>
     <string name="order_alphabetically_description">Notizen, Listen und Ordner alphabetisch sortieren</string>
     <string name="drag_reordering_description">Notizen, Listen und Ordner per Drag &amp; Drop frei neu anordnen</string>
+    <string name="move_checked_item_to_bottom">Ein Element beim Abhängen an das Ende der Liste verschieben</string>
+    <string name="move_unchecked_item_to_top">Ein Element beim Aufheben der Markierung an den Anfang der Liste verschieben</string>
     <string name="display_progress_bar">Fortschrittsbalken über Listenelementen anzeigen</string>
     <string name="fractions_example">Bruch - Beispiel: 2/10</string>
     <string name="percentage_example">Prozentsatz - Beispiel: 20 %</string>
@@ -371,6 +378,9 @@
     <string name="title_caps_words">Jedes Wort in Titelfeldern großschreiben</string>
     <string name="title_caps_sentences">Jeden Satz in Titelfeldern großschreiben</string>
     <string name="lists_progress_bars">Listen - Typ der Fortschrittsanzeige</string>
+    <string name="sharing_text_title">Text teilen</string>
+    <string name="split_note_title_sharing">Beim Teilen einer Notiz oder Liste den Titel in den geteilten Text einbeziehen</string>
+    <string name="sharing_set_subject">Versuchen, das E-Mail-Betrefffeld beim Teilen von Text auf den Notiz-/Listentitel zu setzen</string>
     <!-- Settings -->
 
 
@@ -516,6 +526,9 @@
 
     <string name="custom_colour_title_highlighted_backgrounds">Hervorgehobene Hintergründe</string>
     <string name="custom_colour_description_highlighted_backgrounds">Die Hintergrundfarbe bei Hervorhebung. Beispiele: Als Favorit markierte Notizen, ungelesene Neuigkeiten/Updates.</string>
+
+    <string name="custom_colour_title_pulse_animation_backgrounds">Pulse-Animationshintergründe</string>
+    <string name="custom_colour_description_pulse_animation_backgrounds">Die Farbe des Hintergrunds während einer Pulse-Animation. Zum Beispiel beim Suchen von Elementen auf dem Dashboard mit der aktivierten Option \'nur zum Speicherort des Elements navigieren\'.</string>
 
     <string name="custom_colour_title_fab_backgrounds">Floating-Action-Button-Hintergründe</string>
     <string name="custom_colour_description_fab_backgrounds">Die Hintergrundfarbe des Floating-Action-Buttons (meist das + Symbol zum Erstellen einer neuen Notiz/Liste/Ordner).</string>
