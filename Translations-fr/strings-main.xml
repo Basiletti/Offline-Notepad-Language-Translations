@@ -343,33 +343,33 @@
     <string name="general_text_res">Général</string>
     <string name="app_customisation">Personnalisation de l\'application</string>
     <string name="save_note_revisions_text">Sauvegarder les révisions de mes notes et de mes listes lorsque je fais des modifications</string>
-    <string name="dashboard">Dashboard</string>
-    <string name="item_icons">Dashboard - Icônes d\'éléments</string>
+    <string name="dashboard">Tableau de bord</string>
+    <string name="item_icons">Tableau de bord - Icônes d\'éléments</string>
     <string name="other_text_res">Autre</string>
     <string name="folders_show_icon_and_amount_of_items_inside">Dossiers : afficher l\'icône et le nombre d\'éléments à l\'intérieur</string>
     <string name="lists_show_icon_and_progress_overview">Listes : afficher l\'icône et un aperçu de la progression</string>
-    <string name="lists_show_coloured_chips">Listes : inclure des puces de progression colorées sous les pourcentages</string>
+    <string name="lists_show_coloured_chips">Listes : afficher une pastille colorée en arrière-plan des pourcentages </string>
     <string name="notes_show_icon">Notes : afficher l\'icône</string>
     <string name="item_revisions">Révisions de l\'objet</string>
     <string name="delete_all_of_my_saved_revisions">Supprimer toutes les révisions enregistrées</string>
     <string name="delete_item_revisions">Supprimer les révisions de l\'objet</string>
     <string name="preview">Visualisation</string>
     <string name="show_item_previews">Montrer un petit aperçu de mes listes et notes sous le titre</string>
-    <string name="show_last_modified_time">Afficher l\'heure de la dernière modification des éléments sous leur titre</string>
+    <string name="show_last_modified_time">Afficher la date et l\'heure de la dernière modification des éléments sous leur titre</string>
     <string name="show_last_modified_time_include_seconds">Inclure les secondes lors de l\'affichage de l\'heure de la dernière modification d\'un élément sur le tableau de bord</string>
     <string name="language">Langue</string>
     <string name="set_to_the_primary_language_on_my_device">Utiliser la langue principale définie sur mon appareil (les traductions non anglaises peuvent être inexactes)</string>
     <string name="set_to_english">Utiliser l\'anglais (la langue parlée du créateur de l\'application)</string>
-    <string name="item_ordering">Dashboard - Tri des éléments</string>
+    <string name="item_ordering">Tableau de bord - Tri des éléments</string>
     <string name="order_alphabetically_description">Trier mes notes, listes et dossiers par ordre alphabétique</string>
     <string name="drag_reordering_description">Me permettre de glisser et réorganiser mes notes, listes et dossiers comme je le souhaite</string>
-    <string name="move_checked_item_to_bottom">Déplacer un élément en bas de la liste lorsque vous le cochez</string>
-    <string name="move_unchecked_item_to_top">Déplacer un élément en haut de la liste lorsque vous le décochez</string>
+    <string name="move_checked_item_to_bottom">Déplacer un élément tout en bas de la liste lorsque vous le cochez</string>
+    <string name="move_unchecked_item_to_top">Déplacer un élément tout en haut de la liste lorsque vous le décochez</string>
     <string name="display_progress_bar">Afficher l\'indicateur de progression au-dessus de la liste des éléments</string>
-    <string name="fractions_example">Fraction - Exemple : 2/10</string>
-    <string name="percentage_example">Pourcentage - Exemple : 20 %</string>
-    <string name="both_fraction_first_example">Les deux (fraction d\'abord) - Exemple : 2/10 (20 %)</string>
-    <string name="both_percentage_first_example">Les deux (pourcentage d\'abord) - Exemple : 20 % (2/10)</string>
+    <string name="fractions_example">Fraction - Exemple : 7/21</string>
+    <string name="percentage_example">Pourcentage - Exemple : 33.33 %</string>
+    <string name="both_fraction_first_example">Les deux (fraction d\'abord) - Exemple : 7/21 (33.33 %)</string>
+    <string name="both_percentage_first_example">Les deux (pourcentage d\'abord) - Exemple : 33.33 % (7/21)</string>
     <string name="sort_by_dots">Trier par…</string>
     <string name="deletion_time">Temps de suppression</string>
     <string name="alphabetically">Alphabétiquement</string>
@@ -380,7 +380,7 @@
     <string name="lists_progress_bars">Listes - Type de barre de progression</string>
     <string name="sharing_text_title">Partage de texte</string>
     <string name="split_note_title_sharing">Lors du partage d\'une note ou d\'une liste, inclure le titre dans le corps du texte partagé</string>
-    <string name="sharing_set_subject">Tenter de définir le champ objet de l\'e-mail sur le titre de la note/liste lors du partage de texte</string>
+    <string name="sharing_set_subject">Remplir le champ "objet" de l\'e-mail avec le titre de la note ou de la liste lors du partage de texte</string>
     <!-- Settings -->
 
 
@@ -527,8 +527,8 @@
     <string name="custom_colour_title_highlighted_backgrounds">Arrière-plans surlignés</string>
     <string name="custom_colour_description_highlighted_backgrounds">La couleur d\'arrière-plan lorsqu\'il est surligné. Exemples: les notes marquées comme favorites, les nouvelles et les mises à jour non lues.</string>
 
-    <string name="custom_colour_title_pulse_animation_backgrounds">Arrière-plans d\'animation d\'impulsion</string>
-    <string name="custom_colour_description_pulse_animation_backgrounds">La couleur de l\'arrière-plan lorsqu\'il est animé par impulsion. Par exemple, la recherche d\'éléments sur le tableau de bord avec l\'option \'juste naviguer vers l\'emplacement de l\'élément\' activée.</string>
+    <string name="custom_colour_title_pulse_animation_backgrounds">Arrière-plans d\'animation par pulsation</string>
+    <string name="custom_colour_description_pulse_animation_backgrounds">La couleur de l\'arrière-plan lorsqu\'il est animé par pulsation. Par exemple, la recherche d\'éléments sur le tableau de bord avec l\'option \'Accéder à l\'élément\' activée.</string>
 
     <string name="custom_colour_title_fab_backgrounds">Arrière-plans de boutons flottants</string>
     <string name="custom_colour_description_fab_backgrounds">La couleur d\'arrière-plan des boutons flottants (comme le bouton + pour créer une nouvelle note, liste ou répertoire)</string>

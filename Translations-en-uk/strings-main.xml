@@ -366,10 +366,10 @@
     <string name="move_checked_item_to_bottom">Move an item to the bottom of the list when you check it</string>
     <string name="move_unchecked_item_to_top">Move an item to the top of the list when you uncheck it</string>
     <string name="display_progress_bar">Display progress indicator above list items</string>
-    <string name="fractions_example">Fraction - Example: 2/10</string>
-    <string name="percentage_example">Percentage - Example: 20%</string>
-    <string name="both_fraction_first_example">Both (fraction first) - Example: 2/10 (20%)</string>
-    <string name="both_percentage_first_example">Both (percentage first) - Example: 20% (2/10)</string>
+    <string name="fractions_example">Fraction - Example: 7/21</string>
+    <string name="percentage_example">Percentage - Example: 33.33%</string>
+    <string name="both_fraction_first_example">Both (fraction first) - Example: 7/21 (33.33%)</string>
+    <string name="both_percentage_first_example">Both (percentage first) - Example: 33.33% (7/21)</string>
     <string name="sort_by_dots">Sort by…</string>
     <string name="deletion_time">Deletion time</string>
     <string name="alphabetically">Alphabetically</string>

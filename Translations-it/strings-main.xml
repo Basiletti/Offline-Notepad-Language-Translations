@@ -366,10 +366,10 @@
     <string name="move_checked_item_to_bottom">Sposta un elemento in fondo alla lista quando viene selezionato</string>
     <string name="move_unchecked_item_to_top">Sposta un elemento in cima alla lista quando viene deselezionato</string>
     <string name="display_progress_bar">Mostra indicatore di progresso sopra gli elementi delle liste</string>
-    <string name="fractions_example">Frazione - Esempio: 2/10</string>
-    <string name="percentage_example">Percentuale - Esempio: 20%</string>
-    <string name="both_fraction_first_example">Entrambi (prima frazione) - Esempio: 2/10 (20%)</string>
-    <string name="both_percentage_first_example">Entrambi (prima percentuale) - Esempio: 20% (2/10)</string>
+    <string name="fractions_example">Frazione - Esempio: 7/21</string>
+    <string name="percentage_example">Percentuale - Esempio: 33.33%</string>
+    <string name="both_fraction_first_example">Entrambi (prima frazione) - Esempio: 7/21 (33.33%)</string>
+    <string name="both_percentage_first_example">Entrambi (prima percentuale) - Esempio: 33.33% (7/21)</string>
     <string name="sort_by_dots">Ordina per…</string>
     <string name="deletion_time">Ora di eliminazione</string>
     <string name="alphabetically">Alfabetico</string>

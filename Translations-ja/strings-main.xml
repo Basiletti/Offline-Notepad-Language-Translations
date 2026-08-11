@@ -366,10 +366,10 @@
     <string name="move_checked_item_to_bottom">チェックを入れた項目をリストの一番下に移動する</string>
     <string name="move_unchecked_item_to_top">チェックを外した項目をリストの一番上に移動する</string>
     <string name="display_progress_bar">リストの進捗表示を項目の上に移動する</string>
-    <string name="fractions_example">分数 - 例: 2/10</string>
-    <string name="percentage_example">パーセンテージ - 例: 20%</string>
-    <string name="both_fraction_first_example">両方 (分数優先) - 例: 2/10 (20%)</string>
-    <string name="both_percentage_first_example">両方 (パーセンテージ優先) - 例: 20% (2/10)</string>
+    <string name="fractions_example">分数 - 例: 7/21</string>
+    <string name="percentage_example">パーセンテージ - 例: 33.33%</string>
+    <string name="both_fraction_first_example">両方 (分数優先) - 例: 7/21 (33.33%)</string>
+    <string name="both_percentage_first_example">両方 (パーセンテージ優先) - 例: 33.33% (7/21)</string>
     <string name="sort_by_dots">並べ替え</string>
     <string name="deletion_time">削除日時順</string>
     <string name="alphabetically">アルファベット順</string>
