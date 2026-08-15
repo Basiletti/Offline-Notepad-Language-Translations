@@ -55,6 +55,7 @@
     <string name="untitled_note_brackets">(Untitled note)</string>
     <string name="untitled_list_brackets">(Untitled list)</string>
     <string name="untitled_folder_brackets">(Untitled folder)</string>
+    <string name="untitled_folder_brackets_path">> (Untitled folder)</string>
     <string name="empty_folder_text">This folder is currently empty.\nTap the + at the bottom right to add content to it!</string>
     <string name="empty_notes_text">You currently have no notes.\nTap the + at the bottom right to start adding content!</string>
     <string name="start_searching_text">Start typing to search across all of your notes!</string>
@@ -62,6 +63,7 @@
     <string name="notes_text">Notes</string>
     <string name="what_would_you_like_to_name_the_new_folder">What would you like to name your new folder?</string>
     <string name="enter_folder_name">Enter folder name</string>
+    <string name="enter_list_name">Enter list name</string>
     <string name="note_title">Note Title</string>
     <string name="note_content">Note Content</string>
     <string name="list_title">List Title</string>
@@ -341,10 +343,12 @@
     <string name="general_text_res">General</string>
     <string name="app_customisation">App Customisation</string>
     <string name="save_note_revisions_text">Save revision copies of my notes/lists when I make changes to them</string>
-    <string name="item_icons">Item Icons</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="item_icons">Dashboard - Item Icons</string>
     <string name="other_text_res">Other</string>
     <string name="folders_show_icon_and_amount_of_items_inside">Folders: show icon and amount of items inside</string>
     <string name="lists_show_icon_and_progress_overview">Lists: show icon and progress overview</string>
+    <string name="lists_show_coloured_chips">Lists: include coloured progress chips beneath percentages</string>
     <string name="notes_show_icon">Notes: show icon</string>
     <string name="item_revisions">Item Revisions</string>
     <string name="delete_all_of_my_saved_revisions">Delete all of my saved revisions</string>
@@ -352,17 +356,20 @@
     <string name="preview">Preview</string>
     <string name="show_item_previews">Show a small preview of my lists and notes beneath their titles</string>
     <string name="show_last_modified_time">Show the last modified time of items beneath their titles</string>
+    <string name="show_last_modified_time_include_seconds">Include seconds when showing the last modified time of an item on the dashboard</string>
     <string name="language">Language</string>
     <string name="set_to_the_primary_language_on_my_device">Set to the primary language on my device (non-English translations may be inaccurate)</string>
     <string name="set_to_english">Set to English (the spoken language of the app creator)</string>
-    <string name="item_ordering">Item Ordering</string>
+    <string name="item_ordering">Dashboard - Item Ordering</string>
     <string name="order_alphabetically_description">Order my notes, lists and folders alphabetically</string>
     <string name="drag_reordering_description">Allow me to drag &amp; reorder my notes, lists and folders as I wish</string>
+    <string name="move_checked_item_to_bottom">Move an item to the bottom of the list when you check it</string>
+    <string name="move_unchecked_item_to_top">Move an item to the top of the list when you uncheck it</string>
     <string name="display_progress_bar">Display progress indicator above list items</string>
-    <string name="fractions_example">Fraction - Example: 2/10</string>
-    <string name="percentage_example">Percentage - Example: 20%</string>
-    <string name="both_fraction_first_example">Both (fraction first) - Example: 2/10 (20%)</string>
-    <string name="both_percentage_first_example">Both (percentage first) - Example: 20% (2/10)</string>
+    <string name="fractions_example">Fraction - Example: 7/21</string>
+    <string name="percentage_example">Percentage - Example: 33.33%</string>
+    <string name="both_fraction_first_example">Both (fraction first) - Example: 7/21 (33.33%)</string>
+    <string name="both_percentage_first_example">Both (percentage first) - Example: 33.33% (7/21)</string>
     <string name="sort_by_dots">Sort by…</string>
     <string name="deletion_time">Deletion time</string>
     <string name="alphabetically">Alphabetically</string>
@@ -371,6 +378,9 @@
     <string name="title_caps_words">Capitalise every new word in title fields</string>
     <string name="title_caps_sentences">Capitalise every new sentence in title fields</string>
     <string name="lists_progress_bars">Lists - Progress Bar Type</string>
+    <string name="sharing_text_title">Sharing Text</string>
+    <string name="split_note_title_sharing">When sharing a note or list, include the title in the shared text body</string>
+    <string name="sharing_set_subject">Attempt to set the email subject field to the note/list title when sharing text</string>
     <!-- Settings -->
 
 
@@ -516,6 +526,9 @@
 
     <string name="custom_colour_title_highlighted_backgrounds">Highlighted Backgrounds</string>
     <string name="custom_colour_description_highlighted_backgrounds">The colour of the background when it is highlighted. Examples: Notes marked as favourites, unread news/update posts.</string>
+
+    <string name="custom_colour_title_pulse_animation_backgrounds">Pulse Animation Backgrounds</string>
+    <string name="custom_colour_description_pulse_animation_backgrounds">The colour of the background when it is being pulse animated. For example, searching for items on the dashboard with \'just navigate to the item\'s location\' enabled.</string>
 
     <string name="custom_colour_title_fab_backgrounds">Floating Action Button Backgrounds</string>
     <string name="custom_colour_description_fab_backgrounds">The colour of the floating action button background (usually seen as the + button you tap to make a new note/list/folder).</string>

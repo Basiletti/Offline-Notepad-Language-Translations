@@ -55,6 +55,7 @@
     <string name="untitled_note_brackets">(無題のメモ)</string>
     <string name="untitled_list_brackets">(無題のチェックリスト)</string>
     <string name="untitled_folder_brackets">(名称未設定のフォルダ)</string>
+    <string name="untitled_folder_brackets_path">> (名称未設定のフォルダ)</string>
     <string name="empty_folder_text">このフォルダーには現在中身がありません。\n右下にある＋ボタンをタップして何か追加してみましょう！</string>
     <string name="empty_notes_text">Offline Notepadのご使用ありがとうございます！\n右下にある＋ボタンをタップして何か追加してみましょう！</string>
     <string name="start_searching_text">入力してすべてのメモを検索してください！</string>
@@ -62,6 +63,7 @@
     <string name="notes_text">メモ</string>
     <string name="what_would_you_like_to_name_the_new_folder">新しいフォルダーの名前を指定してください。</string>
     <string name="enter_folder_name">フォルダー名</string>
+    <string name="enter_list_name">チェックリスト名</string>
     <string name="note_title">メモのタイトル</string>
     <string name="note_content">メモの中身</string>
     <string name="list_title">チェックリストのタイトル</string>
@@ -341,10 +343,12 @@
     <string name="general_text_res">一般設定</string>
     <string name="app_customisation">アプリのカスタマイズ</string>
     <string name="save_note_revisions_text">メモとチェックリストを更新した場合、変更履歴を保存する</string>
-    <string name="item_icons">項目のアイコン</string>
+    <string name="dashboard">ダッシュボード</string>
+    <string name="item_icons">ダッシュボード - 項目のアイコン</string>
     <string name="other_text_res">その他</string>
     <string name="folders_show_icon_and_amount_of_items_inside">フォルダー: アイコンと中身の項目数を表示する</string>
     <string name="lists_show_icon_and_progress_overview">チェックリスト: アイコンと進捗を表示する</string>
+    <string name="lists_show_coloured_chips">チェックリスト: パーセンテージの下に色付きの進捗チップを表示する</string>
     <string name="notes_show_icon">メモ: アイコンを表示する</string>
     <string name="item_revisions">項目の変更履歴</string>
     <string name="delete_all_of_my_saved_revisions">保存されている全ての変更履歴を削除する</string>
@@ -352,17 +356,20 @@
     <string name="preview">プレビュー</string>
     <string name="show_item_previews">メモ、チェックリストのタイトルの下に中身の簡易プレビューを表示する</string>
     <string name="show_last_modified_time">アイテムのタイトルの下に最終更新日時を表示する</string>
+    <string name="show_last_modified_time_include_seconds">ダッシュボード上のアイテムの最終更新日時を表示するときに秒も含める</string>
     <string name="language">言語/Language</string>
     <string name="set_to_the_primary_language_on_my_device">デバイスの標準言語を使用する（英語以外の翻訳は正しくない可能性があります）</string>
     <string name="set_to_english">英語を使用する（アプリ開発者は英語話者です）（Set to English）</string>
-    <string name="item_ordering">項目の並び順</string>
+    <string name="item_ordering">ダッシュボード - 項目の並び順</string>
     <string name="order_alphabetically_description">メモ、チェックリスト、フォルダーをアルファベット順に並べる</string>
     <string name="drag_reordering_description">メモ、チェックリスト、フォルダーをドラッグ&amp;ドロップで自由に並べ替えられるようにする</string>
+    <string name="move_checked_item_to_bottom">チェックを入れた項目をリストの一番下に移動する</string>
+    <string name="move_unchecked_item_to_top">チェックを外した項目をリストの一番上に移動する</string>
     <string name="display_progress_bar">リストの進捗表示を項目の上に移動する</string>
-    <string name="fractions_example">分数 - 例: 2/10</string>
-    <string name="percentage_example">パーセンテージ - 例: 20%</string>
-    <string name="both_fraction_first_example">両方 (分数優先) - 例: 2/10 (20%)</string>
-    <string name="both_percentage_first_example">両方 (パーセンテージ優先) - 例: 20% (2/10)</string>
+    <string name="fractions_example">分数 - 例: 7/21</string>
+    <string name="percentage_example">パーセンテージ - 例: 33.33%</string>
+    <string name="both_fraction_first_example">両方 (分数優先) - 例: 7/21 (33.33%)</string>
+    <string name="both_percentage_first_example">両方 (パーセンテージ優先) - 例: 33.33% (7/21)</string>
     <string name="sort_by_dots">並べ替え</string>
     <string name="deletion_time">削除日時順</string>
     <string name="alphabetically">アルファベット順</string>
@@ -371,6 +378,9 @@
     <string name="title_caps_words">タイトル欄のすべての単語を大文字で始める</string>
     <string name="title_caps_sentences">タイトル欄のすべての文を大文字で始める</string>
     <string name="lists_progress_bars">チェックリスト - 進捗バーの種類</string>
+    <string name="sharing_text_title">テキストの共有</string>
+    <string name="split_note_title_sharing">メモやリストを共有する際、共有テキストの本文にタイトルを含める</string>
+    <string name="sharing_set_subject">テキストを共有する際、メールの件名フィールドをメモ/リストのタイトルに設定してみる</string>
     <!-- Settings -->
 
 
@@ -516,6 +526,9 @@
 
     <string name="custom_colour_title_highlighted_backgrounds">ハイライト背景</string>
     <string name="custom_colour_description_highlighted_backgrounds">強調表示されたときの背景色。例：お気に入りマークのノート、未読のニュース・更新情報など。</string>
+
+    <string name="custom_colour_title_pulse_animation_backgrounds">パルスアニメーションの背景色</string>
+    <string name="custom_colour_description_pulse_animation_backgrounds">パルスアニメーション実行中の背景色。例：ダッシュボードで「項目の場所へ移動するのみ」を有効にして項目を検索した際など。</string>
 
     <string name="custom_colour_title_fab_backgrounds">フローティングアクションボタンの背景</string>
     <string name="custom_colour_description_fab_backgrounds">フローティングアクションボタン（通常は新しいノート/リスト/フォルダを作成する + ボタン）の背景色です。</string>

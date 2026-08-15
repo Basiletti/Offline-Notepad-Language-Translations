@@ -64,6 +64,7 @@
     <string name="password_deleted_message">Votre mot de passe a été supprimé</string>
     <string name="incorrect_password_entered">Mot de passe incorrect</string>
     <string name="at_your_request_your_password_has_been_removed">À votre demande, votre mot de passe a été supprimé.</string>
+    <string name="tap_to_fingerprint_authenticate">Appuyez pour vous authentifier avec votre empreinte digitale</string>
     <!-- Password Entry  -->
 
     <!--  Purchases  -->
