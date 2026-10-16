@@ -68,13 +68,15 @@
     <!-- Password Entry  -->
 
     <!--  Purchases  -->
+    <string name="permanent_ad_removal">Rimozione permanente degli annunci</string>
+    <string name="ad_removal_1_month">Rimozione annunci (1 mese)</string>
     <string name="offline_notepad_premium">Offline Notepad Premium</string>
     <string name="buy_me_a_coffee_1_99">Offrimi un caffè: 1,99 €</string>
-    <string name="buy_me_a_beer_3_99">Offrimi una birra: 3,99 €</string>
+    <string name="buy_me_a_drink_3_99">Offrimi un drink: 3,99 €</string>
     <string name="buy_me_a_nice_meal_9_99">Offrimi un bel pasto: 9,99 €</string>
     <string name="help_pay_my_bills_19_99">Aiutami con le bollette: 19,99 €</string>
     <string name="help_pay_my_rent">Aiutami con l’affitto (posso sognare, no?): 299,99 €</string>
-    <string name="premium_feature_description">Questa funzione è accessibile solo con Offline Notepad Premium. Vorresti provarla?</string>
+    <string name="premium_feature_description">Questa funzione e molte altre sono accessibili solo con Offline Notepad Premium. Vorresti provarla?</string>
     <!--  Purchases  -->
 
 
