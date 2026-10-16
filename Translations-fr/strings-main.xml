@@ -40,7 +40,7 @@
 
 
     <!-- App Updates / About This App -->
-    <string name="whats_new_paragraph">Cette application est régulièrement mise à jour à fin d\'améliorer les fonctionnalités existantes ou d\'en ajouter de nouvelles, en fonction de vos commentaires et suggestions. Vous trouverez ci-dessous des détails concernant les dernières mises à jour!\n\nAttention: le contenu de cette page n\'est pas traduit dans d\'autres langues.</string>
+    <string name="whats_new_paragraph">Cette application est régulièrement mise à jour afin d\'améliorer les fonctionnalités existantes ou d\'en ajouter de nouvelles, en fonction de vos commentaires et suggestions.\n\nVous pouvez consulter les détails des dernières mises à jour ici !\n\nAttention : le contenu de cette page ne sera pas traduit dans d\'autres langues.</string>
     <string name="news_and_updates">Nouveautés &amp; Mises à jour</string>
     <string name="about_this_app_title">A propos de cette application</string>
     <string name="about_this_app_explanation_message">Cette application offline notepad a été créée et est maintenue par moi-même, la personne qui a écrit ce message: Gino Basiletti.\n\nA Noël 2018, mon père utilisait l\'une des nombreuses applications bloc-notes disponibles sur Google Play Store, avec laquelle il stockait l\'ensemble de ses notes. Un jour, le serveur sur lequel l\'application sauvegardait les notes a été piraté et mon père a perdu toutes ses notes.\n\nIl est très courant aujourd\'hui que les applications se connectent à un serveur pour sauvegarder vos données et vous permettent ainsi de les récupérer sur divers appareils. Cependant, cette approche a le risque que le développeur de l\'application puisse voir vos notes et, si le serveur sur lequel les notes sont sauvegardées est compromis, que vos notes soient vues par des pirates ce que personne ne souhaite. Ainsi, j\'ai décidé de créer cette application bloc-notes qui fonctionne complètement hors connexion. Aucune synchronisation à un serveur ni de login, il s\'agit juste d\'un bon vieux bloc de papier (façon de parler).\n\nQuoi qu\'il en soit, j\'ai aussi l\'impression qu\'il est important pour vous de pouvoir transférer vos notes sur d\'autres appareils, par exemple si vous changez de téléphone. Pour ce faire, vous pouvez exporter les notes (au sein de cette application) dans un fichier, vous envoyer ce fichier par courrier électronique à vous-même, puis l\'importer à nouveau à partir de votre e-mail sur votre nouvel appareil.\n\nVous avez donc le contrôle complet sur vos notes. Cette application ne stockera jamais vos notes ailleurs que dans votre appareil et j\'ai l\'intention de conserver cette manière de faire. J\'espère que cela vous rassurera!\n\nSi vous avez des suggestions pour améliorer encore cette application  (ou si vous voulez simplement m\'envoyer un \'merci\'), n\'hésitez pas à m\'envoyer un mail ou un tweet ci-dessous…</string>
@@ -48,6 +48,7 @@
     <string name="december_2018">Décembre 2018</string>
     <string name="about_this_app_version">A propos de cette application\n(Version %1$s)</string>
     <string name="write_feedback_using_dots">Écrire des commentaires à l\'aide de…</string>
+    <string name="no_email_client_found">Aucune application de messagerie trouvée sur cet appareil</string>
     <!-- App Updates / About This App -->
 
 
@@ -96,6 +97,7 @@
     <string name="search_note">Rechercher dans la note</string>
     <string name="search_list">Rechercher dans la liste</string>
     <string name="word_count_letter_count">Nombre de mots: %1$d / Nombre de lettres: %2$d</string>
+    <string name="cannot_hide_this_tool">Cet outil ne peut pas être masqué</string>
     <!-- Content Creation - General -->
 
 
@@ -138,6 +140,9 @@
     <string name="return_key_option_new_line">Créer une nouvelle ligne à l\'élément de la liste sélectionné </string>
     <string name="on_when_opening_notes_and_lists">Enclenché à l\'ouverture des notes et des listes</string>
     <string name="off_when_opening_notes_and_lists">Déclenché à l\'ouverture des notes et des listes</string>
+
+    <string name="customise_tool_title">Personnaliser les outils</string>
+    <string name="customise_tool_description">Permet d\'ajuster l\'ordre et l\'apparence de vos outils d\'édition.</string>
 
     <string name="undo_tool_title">Annuler</string>
     <string name="undo_tool_description">Annule la dernière modification si des changements ont été effectués depuis l’ouverture de cet écran.</string>
@@ -234,6 +239,20 @@
     <!-- Content Moving & Deletion -->
 
 
+    <!-- Premium Feature Previews -->
+    <string name="make_your_own_theme">Créez votre propre thème qui vous correspond parfaitement !</string>
+    <string name="customise_over_25_components">Recolorez plus de 25 composants différents</string>
+    <string name="enter_hex_or_use_colour_picker">Choisissez vos couleurs avec le sélecteur de couleurs ou saisissez manuellement les codes hexadécimaux</string>
+
+    <string name="choose_from_fonts">Choisissez parmi plus de 15 polices différentes !</string>
+    <string name="stylise_dashboard_and_input_fields">Stylisez votre tableau de bord et vos champs de saisie avec différentes polices</string>
+
+    <string name="rearrange_your_tools">Ajoutez, supprimez et réorganisez vos outils pour les adapter à vos besoins</string>
+    <string name="colour_your_tools">Attribuez une couleur à chaque outil pour les faire ressortir !</string>
+    <string name="resize_wrap_your_tools">Redimensionnez et organisez vos outils selon vos préférences</string>
+    <!-- Premium Feature Previews -->
+
+
     <!-- Subscriptions/Membership -->
     <string name="premium_version">Version Premium</string>
     <string name="premium">Premium</string>
@@ -243,13 +262,20 @@
     <string name="premium_description_custom_themes">Thèmes personnalisés</string>
     <string name="premium_description_2">Personnalisez Offline Notepad plus que jamais et créez votre propre thème qui vous ressemble - les possibilités sont infinies !</string>
     <string name="premium_description_3">Vous pouvez ajuster les couleurs des arrière-plans, des boutons, des icônes, des widgets de l\'écran d\'accueil et de presque tout ce que vous pouvez imaginer !</string>
-    <string name="premium_description_4">Colorez vos composants en toute simplicité à l\'aide des sélecteurs de couleurs intégrés ou prenez un contrôle granulaire en saisissant vos propres codes hexadécimaux !</string>
+
+    <string name="premium_tool_customisation_title">Personnalisez vos outils</string>
+    <string name="premium_tool_customisation_description">Ajoutez, supprimez et réorganisez vos outils pour donner la priorité à ce qui compte le plus. Recolorez chacun d\'entre eux individuellement comme vous le souhaitez pour les faire ressortir !</string>
+
+    <string name="premium_colour_picker_description">Colorez vos composants en toute simplicité à l\'aide des sélecteurs de couleurs intégrés ou prenez un contrôle granulaire en saisissant vos propres codes hexadécimaux !</string>
 
     <string name="fonts_galore">Polices à gogo !</string>
     <string name="fonts_description">Choisissez parmi plus de 15 polices différentes pour styliser la façon dont vous écrivez vos notes. D\'autres polices seront ajoutées à cette collection à l\'avenir. N\'hésitez pas à me demander votre police préférée !</string>
 
+    <string name="remove_all_ads_premium_title">Supprimer toutes les publicités</string>
+    <string name="remove_all_ads_premium_description">En plus d\'accéder à toutes les fonctionnalités disponibles, vous supprimerez également complètement les publicités dans toute l\'application pour une expérience totalement ininterrompue.</string>
+
     <string name="premium_description_more_coming_soon">D\'autres nouveautés arrivent bientôt !</string>
-    <string name="premium_description_5">Ce n\'est que le début pour Offline Notepad Premium, de nombreuses autres fonctionnalités feront bientôt leur apparition dans l\'application !\n\nAttendez-vous à voir bientôt plus de fonctions premium, notamment une sécurité accrue avec la protection par mot de passe des notes individuelles, une personnalisation encore plus grande avec des outils d\'édition et un accès illimité aux fonctionnalités à venir telles que les étiquettes de catégorie de notes, les alarmes de notes et le support des images !</string>
+    <string name="premium_description_5">Ce n\'est que le début pour Offline Notepad Premium, de nombreuses autres fonctionnalités feront bientôt leur apparition dans l\'application !\n\nAttendez-vous à voir bientôt plus de fonctions premium, notamment une sécurité accrue avec la protection par mot de passe des notes individuelles et un accès illimité aux fonctionnalités à venir telles que les étiquettes de catégorie de notes, les alarmes de notes et le support des images !</string>
 
     <string name="premium_description_support_the_developer">Soutenir le développeur</string>
     <string name="premium_description_6">Offline Notepad est développé et maintenu par un seul développeur depuis sa sortie en 2018.\n\nLorsque vous soutenez cette application, vous aidez à faire une réelle différence pour la personne qui souhaite continuer à rendre cette application aussi performante que possible pour nous tous !\n\nJe vous remercie personnellement pour votre soutien.</string>
@@ -257,10 +283,43 @@
     <string name="premium_price_approx_description">Offline Notepad Premium coûte environ 0,99 £/mois ou l\'équivalent, selon votre devise locale et les taxes.</string>
 
     <string name="welcome_to_premium">Bienvenue sur Offline Notepad Premium !</string>
-    <string name="thanks_for_subscribing">Merci pour votre abonnement !</string>
+    <string name="thanks_for_your_support">Merci pour votre soutien !</string>
     <string name="welcome_to_premium_description">N\'oubliez pas de vous créer un thème personnalisé ! Vous pouvez définir votre thème maintenant ci-dessous (ou à tout autre moment dans Paramètres > Personnalisation de l\'application > Thèmes de couleur de l\'application).</string>
     <string name="enjoy_exclamation">Profitez-en!</string>
+    <string name="monthly">Mensuel</string>
+    <string name="paid_monthly">Facturation mensuelle</string>
+    <string name="lifetime">À vie</string>
+    <string name="one_time_payment">Paiement unique</string>
+    <string name="price_varies_on_country_and_currency">* Le prix peut varier légèrement en fonction de votre devise locale et des taxes.</string>
+
+    <string name="premium_options">Options Premium</string>
+    <string name="premium_price_monthly">£0.99*</string>
+    <string name="premium_price_lifetime">£9.99*</string>
+    <string name="premium_monthly_description">Un mois d\'Offline Notepad Premium.</string>
+    <string name="premium_lifetime_description">Offline Notepad Premium pour toujours !</string>
+    <string name="premium_monthly_extra_description">Une excellente façon de tester Premium !</string>
+    <string name="premium_lifetime_extra_description">Profitez d\'Offline Notepad dans son intégralité - pour toujours !</string>
     <!-- Subscriptions/Membership -->
+
+
+    <!-- Ad Removal -->
+    <string name="ads">Publicités</string>
+    <string name="ad_removal">Suppression des publicités</string>
+    <string name="ad_removal_description_1">Supprimez toutes les publicités pour une expérience totalement ininterrompue tout en soutenant le développement continu de cette application !</string>
+    <string name="ad_removal_description_2">Soutenir le développeur</string>
+    <string name="ad_removal_description_3">Offline Notepad est développé et maintenu par un seul développeur depuis sa sortie en 2018.\n\nLorsque vous soutenez cette application, vous aidez à faire une réelle différence pour la personne qui souhaite continuer à rendre cette application aussi performante que possible pour nous tous !\n\nJe vous remercie personnellement pour votre soutien.</string>
+
+    <string name="ad_removal_description_4">Options de suppression</string>
+    <string name="ad_removal_price_monthly">£0.29*</string>
+    <string name="ad_removal_price_lifetime">£3.99*</string>
+    <string name="ad_removal_monthly_description">Supprimez toutes les publicités pendant un mois.</string>
+    <string name="ad_removal_lifetime_description">Supprimez toutes les publicités pour toujours !</string>
+
+    <string name="remove_ads">Supprimer les publicités</string>
+
+    <string name="welcome_to_ad_free">Bienvenue dans votre expérience sans publicité !</string>
+    <string name="welcome_to_ad_free_description">Un grand merci pour votre soutien à l\'avenir d\'Offline Notepad. J\'espère que vous profiterez pleinement de votre expérience sans publicité et ininterrompue !</string>
+    <!-- Ad Removal -->
 
 
     <!-- Donations -->
@@ -276,7 +335,7 @@
     <string name="thank_you_so_much">Merci beaucoup!</string>
     <string name="your_donation_is_appreciated">Votre don est très apprécié! Désirez-vous aussi m\'envoyer un e-mail au sujet de votre don?</string>
     <string name="billing_setup_error">Erreur de configuration de la facturation</string>
-    <string name="billing_setup_error_message">Désolé, mais une erreur de configuration de la facturation de votre don s\'est produite. Veuillez vérifier que les paiements sur votre compte Google Play Store soient bien configurés.\n\nSi ce problème persiste, envoyez-moi un e-mail pour m\'en avertir!</string>
+    <string name="billing_setup_error_message">Désolé, mais une erreur de configuration de la facturation s\'est produite pour votre achat. Veuillez vérifier que les paiements sur votre compte Google Play Store soient bien configurés.\n\nSi ce problème persiste, envoyez-moi un e-mail pour m\'en avertir!</string>
     <string name="donation_issue_subject">Problème avec votre don - Offline Notepad</string>
     <string name="failed_to_set_up_billing">Impossible de configurer la facturation, veuillez réessayer plus tard</string>
     <!-- Donations -->
@@ -381,6 +440,9 @@
     <string name="sharing_text_title">Partage de texte</string>
     <string name="split_note_title_sharing">Lors du partage d\'une note ou d\'une liste, inclure le titre dans le corps du texte partagé</string>
     <string name="sharing_set_subject">Remplir le champ "objet" de l\'e-mail avec le titre de la note ou de la liste lors du partage de texte</string>
+    <string name="ad_consent">Consentement publicitaire</string>
+    <string name="update_ad_consent">Mettre à jour le consentement publicitaire personnalisé</string>
+    <string name="ad_consent_description">Dans le cadre du respect du RGPD concernant les publicités dans Offline Notepad, vous pouvez mettre à jour votre consentement pour les publicités personnalisées dans cette application.\n\nLes publicités sont toujours affichées (pour les utilisateurs gratuits), mais vous pouvez modifier ci-dessous vos préférences de personnalisation.</string>
     <!-- Settings -->
 
 
@@ -501,6 +563,7 @@
     <string name="text_colours">Couleurs de texte</string>
     <string name="icon_tinting">Teinte des icônes</string>
     <string name="select_colour">Sélectionner la couleur</string>
+    <string name="chosen_colour_with_hex">Couleur choisie :\n%s</string>
     <string name="picker">Sélecteur</string>
     <string name="manual">Manuellement</string>
     <string name="checkboxes">Case à cocher</string>
@@ -628,5 +691,23 @@
     </plurals>
     <!-- General plurals -->
 
+
+    <!-- Tool Customisation -->
+    <string name="customise_tools_title">Personnalisation des outils</string>
+
+    <string name="wrap_tools_description">Permettre à mes icônes d\'outils de passer à la ligne suivante</string>
+
+    <string name="tool_size_title">Taille de l\'icône de l\'outil</string>
+    <string name="tool_size_xsmall">Très petit</string>
+    <string name="tool_size_small">Petit</string>
+    <string name="tool_size_regular_default">Normal (par défaut)</string>
+    <string name="tool_size_large">Grand</string>
+    <string name="tool_size_xlarge">Très grand</string>
+
+    <string name="customise_tools_description">Ci-dessous se trouvent vos outils visibles et masqués. Pour inclure ou masquer un outil, appuyez sur l\'icône + ou - à côté de celui-ci dans la section correspondante.\n\nVous pouvez réorganiser l\'ordre de vos outils visibles en faisant glisser une poignée de déplacement vers le haut ou vers le bas.\n\nVous pouvez changer la couleur d\'un outil en appuyant sur son icône pour faire apparaître le sélecteur de couleurs.</string>
+    <string name="visible_tools">Outils visibles</string>
+    <string name="hidden_tools">Outils masqués</string>
+    <string name="hidden_tools_section_description">Tous les outils que vous choisissez de masquer apparaîtront ici.</string>
+    <!-- Tool Customisation -->
 
 </resources>
